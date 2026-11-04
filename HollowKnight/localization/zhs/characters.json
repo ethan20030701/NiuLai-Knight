@@ -1,0 +1,16 @@
+{
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.title": "小骑士",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.titleObject": "小骑士",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.description": "来自陨落王国的沉默容器。挥动骨钉打击以凝聚灵魂，再释放强大的法术。",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.pronounObject": "它",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.possessiveAdjective": "它的",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.pronounPossessive": "它的",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.pronounSubject": "它",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.goldMonologue": "……",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.eventDeathPrevention": "甲壳碎裂，其中的虚空却拒绝消散。",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.aromaPrinciple": "虚空与旧钢。",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.cardsModifierTitle": "容器",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.cardsModifierDescription": "挥击骨钉，凝聚灵魂。",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.banter.alive.endTurnPing": "……",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.banter.dead.endTurnPing": "……"
+}

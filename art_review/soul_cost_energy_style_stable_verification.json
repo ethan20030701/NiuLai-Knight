@@ -1,0 +1,207 @@
+{
+  "checks": {
+    "badge_registered_on_reload": true,
+    "33_displayed": true,
+    "native_secondary_cost_position": true,
+    "no_overlap_portrait": true,
+    "no_overlap_TitleLabel": true,
+    "no_overlap_TypePlaque": true,
+    "no_overlap_DescriptionLabel": true,
+    "unknown_hides_cost": true,
+    "nail_art_no_soul_badge": true,
+    "modified_cost_24": true,
+    "description_matches_24": true,
+    "insufficient_soul_changes_color": true,
+    "rendered_description_matches_24": true,
+    "AbyssShriek_normal_badge": true,
+    "AbyssShriek_cost": true,
+    "AbyssShriek_upgraded_badge": true,
+    "DeepFocus_normal_badge": true,
+    "DeepFocus_cost": true,
+    "DeepFocus_upgraded_badge": true,
+    "DescendingDark_normal_badge": true,
+    "DescendingDark_cost": true,
+    "DescendingDark_upgraded_badge": true,
+    "DesolateDive_normal_badge": true,
+    "DesolateDive_cost": true,
+    "DesolateDive_upgraded_badge": true,
+    "Flukenest_normal_badge": true,
+    "Flukenest_cost": true,
+    "Flukenest_upgraded_badge": true,
+    "Focus_normal_badge": true,
+    "Focus_cost": true,
+    "Focus_upgraded_badge": true,
+    "GlowingWomb_normal_badge": true,
+    "GlowingWomb_cost": true,
+    "GlowingWomb_upgraded_badge": true,
+    "GrimmRite_normal_badge": true,
+    "GrimmRite_cost": true,
+    "GrimmRite_upgraded_badge": true,
+    "HallownestsEcho_normal_badge": true,
+    "HallownestsEcho_cost": true,
+    "HallownestsEcho_upgraded_badge": true,
+    "HowlingWraiths_normal_badge": true,
+    "HowlingWraiths_cost": true,
+    "HowlingWraiths_upgraded_badge": true,
+    "ShadeSoul_normal_badge": true,
+    "ShadeSoul_cost": true,
+    "ShadeSoul_upgraded_badge": true,
+    "ShapeOfUnn_normal_badge": true,
+    "ShapeOfUnn_cost": true,
+    "ShapeOfUnn_upgraded_badge": true,
+    "SoulAegis_normal_badge": true,
+    "SoulAegis_cost": true,
+    "SoulAegis_upgraded_badge": true,
+    "SoulAegis_no_registered_payment": true,
+    "SoulBolt_normal_badge": true,
+    "SoulBolt_cost": true,
+    "SoulBolt_upgraded_badge": true,
+    "SoulFlow_normal_badge": true,
+    "SoulFlow_cost": true,
+    "SoulFlow_upgraded_badge": true,
+    "SoulHarvest_normal_badge": true,
+    "SoulHarvest_cost": true,
+    "SoulHarvest_upgraded_badge": true,
+    "SoulSurge_normal_badge": true,
+    "SoulSurge_cost": true,
+    "SoulSurge_upgraded_badge": true,
+    "SoulTorrent_normal_badge": true,
+    "SoulTorrent_cost": true,
+    "SoulTorrent_upgraded_badge": true,
+    "SoulTotem_normal_badge": true,
+    "SoulTotem_cost": true,
+    "SoulTotem_upgraded_badge": true,
+    "SoulTotem_no_registered_payment": true,
+    "SoulUnbound_normal_badge": true,
+    "SoulUnbound_cost": true,
+    "SoulUnbound_upgraded_badge": true,
+    "SoulUnbound_no_registered_payment": true,
+    "VengefulSpirit_normal_badge": true,
+    "VengefulSpirit_cost": true,
+    "VengefulSpirit_upgraded_badge": true,
+    "all_21_soul_cards_covered": true,
+    "deck_cost_uses_native_draw_order": true,
+    "inspect_cost_uses_native_draw_order": true,
+    "inspect_has_one_badge": true,
+    "inspect_badge_follows_enlarged_slot": true,
+    "inspect_own_badge_outside_description": true,
+    "repro_background_badge_overlaps_inspect_description": true,
+    "inspect_description_pixels_independent_of_background_cost": true,
+    "inspect_navigation_reuses_single_badge": true,
+    "inspect_upgrade_keeps_badge_in_slot": true,
+    "inspect_non_soul_card_hides_badge": true,
+    "inspect_close_restores_background_card_cost": true,
+    "manual_insufficient_soul_updates_color": true,
+    "manual_soul_recovered_updates_color": true,
+    "pooled_non_soul_card_hides_cost": true,
+    "pooled_null_model_hides_cost": true
+  },
+  "inventory": [
+    {
+      "card": "CARD.HOLLOWKNIGHT-ABYSS_SHRIEK",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-DEEP_FOCUS",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-DESCENDING_DARK",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-DESOLATE_DIVE",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-FLUKENEST",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-FOCUS",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-GLOWING_WOMB",
+      "cost": "8",
+      "upgraded_cost": "8"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-GRIMM_RITE",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-HALLOWNESTS_ECHO",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-HOWLING_WRAITHS",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SHADE_SOUL",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SHAPE_OF_UNN",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SOUL_AEGIS",
+      "cost": "X",
+      "upgraded_cost": "X"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SOUL_BOLT",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SOUL_FLOW",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SOUL_HARVEST",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SOUL_SURGE",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SOUL_TORRENT",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SOUL_TOTEM",
+      "cost": "33",
+      "upgraded_cost": "33"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-SOUL_UNBOUND",
+      "cost": "X",
+      "upgraded_cost": "X"
+    },
+    {
+      "card": "CARD.HOLLOWKNIGHT-VENGEFUL_SPIRIT",
+      "cost": "33",
+      "upgraded_cost": "33"
+    }
+  ],
+  "failed": 0
+}

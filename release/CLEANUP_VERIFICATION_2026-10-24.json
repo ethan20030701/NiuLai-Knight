@@ -1,0 +1,1262 @@
+{
+  "version": "v0.6.7-cleanup.1",
+  "published": false,
+  "installed_locally": false,
+  "active_cards": 101,
+  "reward_cards": 98,
+  "rarities": {
+    "Rare": 29,
+    "Uncommon": 44,
+    "Common": 25,
+    "Basic": 2,
+    "Token": 1
+  },
+  "retired_cards": {
+    "SoulBolt": {
+      "old_entry": "HOLLOWKNIGHT-SOUL_BOLT",
+      "replacement_type": "VengefulSpirit",
+      "replacement_entry": "HOLLOWKNIGHT-VENGEFUL_SPIRIT",
+      "portrait_stem": "soul_bolt",
+      "eng": {
+        "HOLLOWKNIGHT-SOUL_BOLT.title": "Soul Bolt",
+        "HOLLOWKNIGHT-SOUL_BOLT.description": "Spend 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]. Deal {Damage:diff()} damage.",
+        "HOLLOWKNIGHT-SOUL_BOLT.flavor": "SOUL condensed into a single piercing bolt."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-SOUL_BOLT.title": "魂弹",
+        "HOLLOWKNIGHT-SOUL_BOLT.description": "消耗 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]。造成 {Damage:diff()} 点伤害。",
+        "HOLLOWKNIGHT-SOUL_BOLT.flavor": "凝魂为矢，一击贯空。"
+      }
+    },
+    "Hum": {
+      "old_entry": "HOLLOWKNIGHT-HUM",
+      "replacement_type": "QuickSlash",
+      "replacement_entry": "HOLLOWKNIGHT-QUICK_SLASH",
+      "portrait_stem": "hum",
+      "eng": {
+        "HOLLOWKNIGHT-HUM.title": "Hum",
+        "HOLLOWKNIGHT-HUM.description": "Deal {Damage:diff()} damage.",
+        "HOLLOWKNIGHT-HUM.flavor": "The nail hums — one note is enough."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-HUM.title": "铿鸣",
+        "HOLLOWKNIGHT-HUM.description": "造成 {Damage:diff()} 点伤害。",
+        "HOLLOWKNIGHT-HUM.flavor": "骨钉轻鸣，一声足矣。"
+      }
+    },
+    "HallownestsEcho": {
+      "old_entry": "HOLLOWKNIGHT-HALLOWNESTS_ECHO",
+      "replacement_type": "AbyssShriek",
+      "replacement_entry": "HOLLOWKNIGHT-ABYSS_SHRIEK",
+      "portrait_stem": "hallownests_echo",
+      "eng": {
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.title": "Hallownest's Echo",
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.description": "Spend 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]. Deal {Damage:diff()} damage to ALL enemies.",
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.flavor": "The old kingdom still remembers its guardian."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.title": "圣巢回响",
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.description": "消耗 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]。对所有敌人造成 {Damage:diff()} 点伤害。",
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.flavor": "古老的国度，仍记得它的守护者。"
+      }
+    }
+  },
+  "source_baseline": ".build/backups/before-cleanup-20261024.zip",
+  "existing_files_changed_since_baseline": [
+    {
+      "path": "HollowKnightCode/MainFile.cs",
+      "before_sha256": "7c2ed07f7c4b72acf8e4aed9bd8f5904357fe3f709ca11f8bac8fc6a040911ef",
+      "after_sha256": "4f4d47b8e1f5650fdefe21ed053be99738a2195f2da5daafdb5f1cfc8daf0d75"
+    },
+    {
+      "path": "HollowKnightCode/Cards/Grimmchild.cs",
+      "before_sha256": "977569007455a93baf07a0eb6b2421cf2cac24a8649a79bfdc2f1d402b9120f5",
+      "after_sha256": "42875320f09ace1e202b44be1bed2916cdd25e0256511358024224328597ef91"
+    },
+    {
+      "path": "HollowKnightCode/Cards/HallownestsEcho.cs",
+      "status": "archived or removed from active sources"
+    },
+    {
+      "path": "HollowKnightCode/Cards/hum.cs",
+      "status": "archived or removed from active sources"
+    },
+    {
+      "path": "HollowKnightCode/Cards/SoulBolt.cs",
+      "status": "archived or removed from active sources"
+    },
+    {
+      "path": "HollowKnightCode/Cards/SoulFlow.cs",
+      "before_sha256": "3cc8e782672793e319fe25bd37f505d8cba7ab94a1ce8d862f87419e62bb7f00",
+      "after_sha256": "50d5a24bc6dc5f696e0cd800603d8bd7d9533cac6e61faf6f2c954ec123f6a2e"
+    },
+    {
+      "path": "HollowKnightCode/Cards/Weaversong.cs",
+      "before_sha256": "6ecb9d9180cbd560f2be0417066de654979e84951513ffcb7b3cd3ddf1fa7869",
+      "after_sha256": "7031537c2ff08acab1d70067337f94b1c0393b5d616e56f78d783caed1bf1172"
+    },
+    {
+      "path": "HollowKnightCode/Character/HollowKnight.cs",
+      "before_sha256": "daad4333f6f3c22f4dda4d2d9d103ffee202ced4548cc7fd63e2712444a278fa",
+      "after_sha256": "652832ad46d9fb1219ca4b4e1af0d57838b64f9a5dbe0bc64ad9fe6b73f1d77f"
+    },
+    {
+      "path": "HollowKnightCode/Character/KnightHealthBarLayout.cs",
+      "before_sha256": "8aacafde27387fa6aabe13718484347b9de54b5f237af295be30e3d89c22a57c",
+      "after_sha256": "e0b8a7849670dbe2bc5bbc80ce3c02d9534626b7bb608ab1947ef2113a5f807c"
+    },
+    {
+      "path": "HollowKnightCode/Patches/GameOverDeathPatch.cs",
+      "before_sha256": "a799b6268b1a3cd9c5d98b53876602563b1cb0cc6625963996828b6b42180bf6",
+      "after_sha256": "d6be80b85e7849e230b6f819634dbdba2130e034f7bc24dd997fb0e26a20d2fc"
+    },
+    {
+      "path": "HollowKnightCode/Patches/KnightCombatAnimationPatch.cs",
+      "before_sha256": "85b892f34f7d95c3f8c3cbca45407b0973b9c85f9745935e39e55708cfe6724b",
+      "after_sha256": "6160d0d2a53206b11695588c796da51f19f7e98be5121450f7f1f1cb8bb906c9"
+    },
+    {
+      "path": "HollowKnightCode/Patches/KnightInheritedAudioPatch.cs",
+      "before_sha256": "2a7ac7fea33aa7fc7a1c1db0d9ba8aeae2c3ed601595a774074af77a26bc0533",
+      "after_sha256": "c83917feba0c6f34c74ed11c42c459abaaeeb03d236dbc086f34771699ea44b2"
+    },
+    {
+      "path": "HollowKnightCode/Resources/NSoulCostBadge.cs",
+      "before_sha256": "f7c850ff8b0fe641a7bba85599341f4206db5633c2911debd9c1b4722ab2dd03",
+      "after_sha256": "d21048a14fb53e0ae1b95e4abcef5de66a977c1c2886d170c471d1ff0db49069"
+    },
+    {
+      "path": "HollowKnightCode/Resources/NSoulCounter.cs",
+      "before_sha256": "5ac137e4a7c545712c4e384eeca6e03278224c12765996d7c3be8f7c0cebfd69",
+      "after_sha256": "4c5f4c3ca43771bc89f7da68a11409e988c63934f2f799abc6e62104015010ac"
+    },
+    {
+      "path": "HollowKnightCode/Resources/Soul.cs",
+      "before_sha256": "64b4aea323f1274065e7b7f315d67e8fdd20323122942ccf6658d8585ebdde6d",
+      "after_sha256": "608f614d0985a6bc5fd802361c9068fc5b25cc574fcecb7217845e1dcce342e8"
+    },
+    {
+      "path": "HollowKnightCode/Resources/SoulCostText.cs",
+      "before_sha256": "487f5aa6b640b1e21591db1388b63ba94665d37de30d43909135a753d637e271",
+      "after_sha256": "412cfc175e76c1cd74c972f5f3b40a7d147d75d293c9dcf3dc98f47021eb4d3e"
+    },
+    {
+      "path": "HollowKnight/localization/eng/cards.json",
+      "before_sha256": "6f58bd39bd9d31b2068f35af1beea03b427a8aaed0c73efedb2114b9970d5a5b",
+      "after_sha256": "5be47d42cb45ca4990d713a58bc9fc8d64382f507804c6f13b570e2121e5bb9d"
+    },
+    {
+      "path": "HollowKnight/localization/eng/relics.json",
+      "before_sha256": "8b92954992a180f2073ef900296dcd4642a535ffc1697197a183751bde5bf5de",
+      "after_sha256": "a3efcc1df69b7e0ed0750326ba99d9641f613f5afab1d2bb9a8b7bf6708c2c85"
+    },
+    {
+      "path": "HollowKnight/localization/zhs/cards.json",
+      "before_sha256": "9b2512d1091d1970933b32d6124b57362fc0302db2e66f5bd8d1b025f620aa09",
+      "after_sha256": "2207874fbb4ad19911d71b60b34e5456b88a800a47993006f255bea7f4fd852b"
+    },
+    {
+      "path": "HollowKnight/localization/zhs/relics.json",
+      "before_sha256": "9b30296f4e12a7d5780cc48c7e71ddde721b4b16750c4881a399981309e9a9d8",
+      "after_sha256": "748be51daa6964a699b0147e8ce9ef2a337bc615b355ac1f43171c0161aff629"
+    },
+    {
+      "path": "docs/CARD_RELIC_CATALOG.md",
+      "before_sha256": "acf56297d02ca0bea4b409bda96051d469ee4555c9cd86b28e8dcad3d4257d7e",
+      "after_sha256": "f7e158968863548e754b78ffd24ef9dfa9df491ef6c275d4d018363385137710"
+    },
+    {
+      "path": "tools/audit_art.py",
+      "before_sha256": "ecd1c993fb91edb713ee778f662d8908e7e7413d0460d39db3a6901f544b0691",
+      "after_sha256": "205b305f96e5bb15347d19890b543740a20a563d10e05531f3d304c014cd7978"
+    },
+    {
+      "path": "tools/audit_card_values.py",
+      "before_sha256": "04514b8101f61eb18fccc11198bd2216161c005fcca783761be9cccd1e46b330",
+      "after_sha256": "053782e031fec722ccdc538e1eaf5915842480dd4ffc68431d09086f850c0a0f"
+    },
+    {
+      "path": "tools/count_pool.sh",
+      "before_sha256": "b7bce79e301887494b522dd49b752efd4008af1db597e9ca51332b75f4bf8d25",
+      "after_sha256": "9d69ccc934e805a6da667754ecd4a59da159312074c166f91bb5f9bdde3d39bf"
+    },
+    {
+      "path": "tools/export_catalog.py",
+      "before_sha256": "90d2f4035098a3eb15d5ab9db887b7db8e871ca2cdf0f55d2a99c20cae9c96b7",
+      "after_sha256": "7d1991c1acd40f2281effe1dd0e3ac310de2ec21553b1555d78211545f5266ee"
+    },
+    {
+      "path": "tools/verify_summon_package.py",
+      "before_sha256": "b1c1b2782ca713966cfb89292628b7ff9d2dfac16fd8633968632f8a68b0f8f4",
+      "after_sha256": "58d180afe9ecf480d3f47e3c6a883b3c804dc72c6dd97bfea45c82aac9fc9631"
+    },
+    {
+      "path": "tools/verification/CardUiPreview.cs",
+      "before_sha256": "13f81cc9a645350d35fef802f002d4cdb2836fb3e364f9ef40f32fc66076a818",
+      "after_sha256": "53dd201418a904c6d3238f9e38bdbae7354cd580a55f127ecc8e659086455b35"
+    },
+    {
+      "path": "tools/verification/HKAudit.cs",
+      "before_sha256": "a2e15fb67334e5388e0e84d6b5082d18fc36ecf34457d0d1fe44d8034b7ebfa6",
+      "after_sha256": "668efd4e741fb349071e1b71351737003605fc3a28803a4d1b2ded4c42d5d15b"
+    },
+    {
+      "path": "tools/verification/HornetStudyPreview.cs",
+      "before_sha256": "bad39aa39695ff33553decffc92bee47505908112cee1ed90f1e7186872cf887",
+      "after_sha256": "d809f30d66fde865f803b45a0cfac2ba50448c00978dc042d1cc864bfc7ca4f9"
+    },
+    {
+      "path": "tools/verification/run_audit.ps1",
+      "before_sha256": "6e2f8c90f734cbd20c4d774df5d22649d0d905b248d51ae01d2bb25243db8873",
+      "after_sha256": "a6d99c89b00bf6a7752a0340d9bdde5f44dffab751059075a1b9ef51869c260f"
+    },
+    {
+      "path": "tools/verification/core/Program.cs",
+      "before_sha256": "4e0df70f35adbd3fc4f66a3da540be185fbcbb32d690d1d798e6e416ec75b28d",
+      "after_sha256": "64edc3533f1ca2cbaaaee55772055041847ab12340020bcc6de133fc4338b527"
+    },
+    {
+      "path": "tools/verification/core/README.md",
+      "before_sha256": "b301be2a41da515284246f096eda5249a245a4880e335deeb6e73cdaeeb7ff86",
+      "after_sha256": "88ae22d4a72ff9f7d994f0889ce6c98cc32d95bc714f0a5d16234f00b79bed87"
+    },
+    {
+      "path": "HollowKnight.json",
+      "before_sha256": "8ea9eafe1f01145473c149115677d677d36f8a0fc4c7820f30e13b32550e3c47",
+      "after_sha256": "4d02771ecc534e944e910936f494a2eba703c5a73a4f496a16f88a15a437d111"
+    },
+    {
+      "path": "HANDOFF.md",
+      "before_sha256": "2f45b80b2b6a16e1d0e5c42eb3b63180fb780b3d7119aae756cda28ee5c049ae",
+      "after_sha256": "6e0f097024e9a2bedf773cd6682643ec1547d4944a77449247f90a24a49c6de8"
+    },
+    {
+      "path": ".gitignore",
+      "before_sha256": "14e563f6a6a7166e0e906218ca60b27c0ef32db45326b5c8ef4c5769a74812de",
+      "after_sha256": "d063ac801b3b9caa4bbc21b8532c02f246316f91bdaf8261871244be249e9b8c"
+    }
+  ],
+  "new_cleanup_files": [
+    {
+      "path": "HollowKnightCode/Compatibility/RetiredCards.cs",
+      "sha256": "66f53238ac1639c6ac78fd7f04a37c72eac8335268a4cecb1bff12985a803ebd"
+    },
+    {
+      "path": "HollowKnightCode/Compatibility/PatchInstaller.cs",
+      "sha256": "0394beea91f36da93dfae4981c1c05d4dbfe3a1aa51929e9718f12c366699ef7"
+    },
+    {
+      "path": "HollowKnightCode/Patches/RetiredCardSavePatch.cs",
+      "sha256": "c9d3ad37fc043dc13e37f989ee865e2ef81f7ac1e4a5f15cb15032a7407e2095"
+    },
+    {
+      "path": "tools/card_inventory.py",
+      "sha256": "75d1ed3fbd91506b471fed980b88f43710856df755fc50b0ac9eb2912f06c78b"
+    },
+    {
+      "path": "tools/package_cleanup_candidate.py",
+      "sha256": "650c7e64b9437121309485051c0f254bcacce4900057bf68d1771125e7f404b2"
+    },
+    {
+      "path": "tools/verification/PatchInstallerChecks.cs",
+      "sha256": "347e404ae1501b8b03a9745786d2ac46e031be13c9763514e358f19dde8201dd"
+    },
+    {
+      "path": "docs/CLEANUP_2026-10-24.md",
+      "sha256": "4a886feec37628da14bde1ec1b4e96cdd613d55a78569b3e9aad751edf612569"
+    },
+    {
+      "path": "archive/retired_cards_20261024/SoulBolt.cs",
+      "sha256": "a0df9f9e6f85569cc0bf9a0f9a44eb84a5b185a4cfcdb19b1b64c544ba241cb4"
+    },
+    {
+      "path": "archive/retired_cards_20261024/hum.cs",
+      "sha256": "3392129d4cae6c274abd88da136965f16e50232320670668e4be2589b293c049"
+    },
+    {
+      "path": "archive/retired_cards_20261024/HallownestsEcho.cs",
+      "sha256": "653eeed0de769533683ebc9407400a1e4f8c92bcd11378cfbadd4e1c6076d077"
+    },
+    {
+      "path": "archive/retired_cards_20261024/retired_cards.json",
+      "sha256": "9e4ae5953735d21d2748bf6af2742c9d2ba540817baf23faffd4c53489ee208b"
+    }
+  ],
+  "retained_card_sources_unchanged": [
+    "HollowKnightCode/Cards/VengefulSpirit.cs",
+    "HollowKnightCode/Cards/QuickSlash.cs",
+    "HollowKnightCode/Cards/AbyssShriek.cs"
+  ],
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "bytes": 297472,
+      "sha256": "504c7f40a6dc8396bbcd21b2e5ffe51c4e78bb277c05e8e59bbc844d47bc9f42"
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "bytes": 146164,
+      "sha256": "c7737939992c429ced6981763ede2ccba3b9faeb055a672375b8e618123c39f0"
+    },
+    {
+      "name": "HollowKnight.pck",
+      "bytes": 90038312,
+      "sha256": "d98e469b276f4c827fea6628dfe79a17f5755abb1c2369e6ab014c892078a86f"
+    },
+    {
+      "name": "HollowKnight.json",
+      "bytes": 498,
+      "sha256": "4d02771ecc534e944e910936f494a2eba703c5a73a4f496a16f88a15a437d111"
+    }
+  ],
+  "archive": "release/candidates/HollowKnight-v0.6.7-cleanup.1.zip",
+  "archive_sha256": "34453042a1aaa5be3f1cefefbd86a62711fe30f7c20ee10dc9da52f2f50d0c66",
+  "core": {
+    "passed": true,
+    "checkCount": 55,
+    "retainedCoreGroups": 32,
+    "newBalanceGroups": 23,
+    "assertionCount": 282,
+    "failedCount": 0,
+    "assemblyPath": "C:\\Users\\asus\\HollowKnight\\tools\\verification\\core\\bin\\Release\\net9.0\\HollowKnight.dll",
+    "assemblySha256": "504c7f40a6dc8396bbcd21b2e5ffe51c4e78bb277c05e8e59bbc844d47bc9f42",
+    "mode": "Real mod/game/BaseLib DLL methods; synthetic managed state; no game scene or player save",
+    "engineBoundary": "Godot OS/log printing are stubbed for one clamp check. Godot.StringName construction and ModelDb/content registration are bypassed for managed fixtures. AttackCommand.Execute, CardPileCmd.Draw, PowerCmd.Remove, CreatureCmd.GainBlock and PlayerCmd.AddPet scene creation are captured at command execution boundaries; complete damage/block/scene effects are not exercised. CreatureCmd HP commands, resource spending, canonical/upgraded card data and mod formulas are real.",
+    "checks": [
+      {
+        "name": "shade.preview_repeated_is_pure",
+        "passed": true
+      },
+      {
+        "name": "shade.blocked_and_nonhostile_preview_preserve_state",
+        "passed": true
+      },
+      {
+        "name": "shade.actual_modifier_notification_marks_once",
+        "passed": true
+      },
+      {
+        "name": "shrine.preview_matches_real_play",
+        "passed": true
+      },
+      {
+        "name": "shrine.only_owner_powered_spell_damage",
+        "passed": true
+      },
+      {
+        "name": "compat.current_play_isolated_and_order_safe",
+        "passed": true
+      },
+      {
+        "name": "compat.real_game_six_argument_hook_dispatch",
+        "passed": true
+      },
+      {
+        "name": "soul.bounds_turn_carry_and_combat_reset",
+        "passed": true
+      },
+      {
+        "name": "soul.affordability_uses_actual_amount",
+        "passed": true
+      },
+      {
+        "name": "soul.manual_spend_is_per_play_and_combines_base_record",
+        "passed": true
+      },
+      {
+        "name": "nail.hit_classification_excludes_spells_unpowered_and_pets",
+        "passed": true
+      },
+      {
+        "name": "soul.automatic_receipt_consumed_once_and_replay_is_free",
+        "passed": true
+      },
+      {
+        "name": "soul.free_autoplay_ignores_stale_baselib_spend",
+        "passed": true
+      },
+      {
+        "name": "soul.prepaid_autoplay_keeps_real_receipt",
+        "passed": true
+      },
+      {
+        "name": "soul.manual_payment_atomic_and_records_actual_balance",
+        "passed": true
+      },
+      {
+        "name": "soul.totem_insufficient_soul_does_not_grant_energy_or_record_spend",
+        "passed": true
+      },
+      {
+        "name": "soul.unbound_insufficient_replay_does_not_attack_or_spend",
+        "passed": true
+      },
+      {
+        "name": "swarm.guard_priority_skips_dead_companions",
+        "passed": true
+      },
+      {
+        "name": "swarm.guard_excludes_blocked_allied_and_unpowered_damage",
+        "passed": true
+      },
+      {
+        "name": "soul.real_spend_override_records_payment_and_optional_failure",
+        "passed": true
+      },
+      {
+        "name": "soul.real_spend_nonoptional_insufficient_records_actual_amount",
+        "passed": true
+      },
+      {
+        "name": "soul.payment_prefix_binds_before_model_hooks",
+        "passed": true
+      },
+      {
+        "name": "soul.payment_cleanup_clears_success_fault_and_cancellation",
+        "passed": true
+      },
+      {
+        "name": "full_soul_free_replay_does_not_reconstruct_phantom_full_meter",
+        "passed": true
+      },
+      {
+        "name": "full_soul_real_payment_preserves_pre_spend_threshold",
+        "passed": true
+      },
+      {
+        "name": "soul.pending_payment_cannot_cross_combat_states",
+        "passed": true
+      },
+      {
+        "name": "soul.same_card_nested_free_play_cannot_steal_outer_receipt",
+        "passed": true
+      },
+      {
+        "name": "soul.same_card_nested_paid_play_has_own_receipt",
+        "passed": true
+      },
+      {
+        "name": "soul.async_continuation_retains_reserved_scope_after_caller_restore",
+        "passed": true
+      },
+      {
+        "name": "full_soul_payment_snapshot_excludes_soul_generated_by_payment_hooks",
+        "passed": true
+      },
+      {
+        "name": "soul.real_harmony_payment_patch_targets_install",
+        "passed": true
+      },
+      {
+        "name": "soul.wrapper_postfix_and_finalizer_restore_scope_idempotently",
+        "passed": true
+      },
+      {
+        "name": "balance.focus_and_deepfocus_real_constructor_upgrade_data",
+        "passed": true
+      },
+      {
+        "name": "balance.strength_and_cost_changes_use_real_upgrade_methods",
+        "passed": true
+      },
+      {
+        "name": "balance.darkshrine_actual_canonical_and_upgrade_values",
+        "passed": true
+      },
+      {
+        "name": "balance.coiled_adds_one_hit_and_never_creates_zero_hit_attack",
+        "passed": true
+      },
+      {
+        "name": "balance.sharpened_zero_hit_does_not_consume_first_attack_bonus",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_aegis_block_floor_and_card_classification",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_aegis_actual_onplay_converts_half_soul_and_records_full_payment",
+        "passed": true
+      },
+      {
+        "name": "balance.silken_aegis_uses_actual_variables_and_caps_base_block",
+        "passed": true
+      },
+      {
+        "name": "balance.companion_growth_cap_heals_even_when_maxed",
+        "passed": true
+      },
+      {
+        "name": "balance.companion_grow_executes_real_creature_hp_commands",
+        "passed": true
+      },
+      {
+        "name": "balance.initial_summon_clamps_hp_and_repeated_summon_grows_same_pet",
+        "passed": true
+      },
+      {
+        "name": "balance.attack_spell_classification_preserves_resource_skill_identity",
+        "passed": true
+      },
+      {
+        "name": "balance.spellcharge_resource_skills_keep_charges_and_attack_uses_snapshot",
+        "passed": true
+      },
+      {
+        "name": "balance.shrine_survives_resource_skills_and_consumes_attack_spell",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_nourishment_still_rewards_real_skill_resource_payment",
+        "passed": true
+      },
+      {
+        "name": "balance.channelled_nail_real_onplay_costs_two_energy_and_keeps_three_hits",
+        "passed": true
+      },
+      {
+        "name": "balance.mothwing_real_onplay_0_65_66_99_soul_boundary_and_upgrade",
+        "passed": true
+      },
+      {
+        "name": "balance.mothwing_snapshots_soul_before_block_listeners",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_vessel_real_threshold_block_and_owner_turn",
+        "passed": true
+      },
+      {
+        "name": "balance.retired_card_aliases_are_scoped_to_exact_knight_card_ids",
+        "passed": true
+      },
+      {
+        "name": "balance.quickslash_real_onplay_builds_one_hit_4_or_6_damage",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_unbound_actual_preview_and_command_share_charge_formula",
+        "passed": true
+      },
+      {
+        "name": "balance.sharp_assault_actual_preview_and_command_share_hit_threshold",
+        "passed": true
+      }
+    ]
+  },
+  "runtime": {
+    "stable": {
+      "combat": {
+        "failed": 0,
+        "results": [
+          {
+            "name": "OldNail: 6 damage and 11 SOUL",
+            "passed": true
+          },
+          {
+            "name": "ChannelledNail: two energy, three hits, 15/18 damage and 33 SOUL",
+            "passed": true
+          },
+          {
+            "name": "Mothwing Dash: 0/65/66/99 SOUL draw boundary, unchanged by upgrade and no payment",
+            "passed": true
+          },
+          {
+            "name": "Dark Shrine: 22 to 33 SOUL unlocks Vengeful Spirit, blessing pays once and SOUL caps at 99",
+            "passed": true
+          },
+          {
+            "name": "Soul Vessel: real 66 SOUL threshold agrees with Chinese and English descriptions",
+            "passed": true
+          },
+          {
+            "name": "Grimmchild and Weaversong retain the shared swarm rule and their own power tips",
+            "passed": true
+          },
+          {
+            "name": "Weaver growth and three-hit command",
+            "passed": true
+          },
+          {
+            "name": "Hatchling death explosion and resurrection",
+            "passed": true
+          },
+          {
+            "name": "Grimm maturity caps at two",
+            "passed": true
+          },
+          {
+            "name": "Soul spell and card exhaust adapters",
+            "passed": true
+          },
+          {
+            "name": "Nail charge: previews and all hits, no later payout",
+            "passed": true
+          },
+          {
+            "name": "Spell charge: all three waves, then consumed",
+            "passed": true
+          },
+          {
+            "name": "Nailmaster's Glory: preview never consumes first-art bonus",
+            "passed": true
+          },
+          {
+            "name": "Abyss Shriek: single enemy gives no other-enemy bonus",
+            "passed": true
+          },
+          {
+            "name": "SOUL cost is paid and spells never gather nail SOUL",
+            "passed": true
+          },
+          {
+            "name": "Full SOUL: previews and three waves use the pre-payment balance",
+            "passed": true
+          },
+          {
+            "name": "Swarm intercept: block first, overkill reaches owner",
+            "passed": true
+          },
+          {
+            "name": "Shade Cloak: fully blocked hits preserve charge, one dodge and Sharp Shadow",
+            "passed": true
+          },
+          {
+            "name": "Carefree Melody: fatal damage leaves 1 HP and 22 block",
+            "passed": true
+          },
+          {
+            "name": "Remaining companion cards: full brood, commands, healing, sacrifice and burst",
+            "passed": true
+          },
+          {
+            "name": "Soul nourishment: real spell payment grows current and maximum companion HP",
+            "passed": true
+          },
+          {
+            "name": "Swarm starter and common enablers",
+            "passed": true
+          },
+          {
+            "name": "Empty-board Tend Brood blocks and summons; upgrade grows",
+            "passed": true
+          },
+          {
+            "name": "Weaver Volley draws and full command sequence pays off",
+            "passed": true
+          },
+          {
+            "name": "Weaver SOUL synergy is capped, turn-owned and excludes automatic attacks",
+            "passed": true
+          },
+          {
+            "name": "22/8 SOUL payments grow pets only on real cumulative thresholds",
+            "passed": true
+          },
+          {
+            "name": "Mature Grimm retains 11 automatic damage without multiplying commands",
+            "passed": true
+          },
+          {
+            "name": "Sacrifice and retained resurrection form a finite rebuild loop",
+            "passed": true
+          },
+          {
+            "name": "Brood Instinct draws once across all three Chorus summons",
+            "passed": true
+          },
+          {
+            "name": "Low SOUL summons: relic never raises costs; text follows temporary discounts",
+            "passed": true
+          },
+          {
+            "name": "Grimmchild power summons the same entity, no ghost damage after death",
+            "passed": true
+          },
+          {
+            "name": "Weaversong bridges a real companion and its existing exhaust token",
+            "passed": true
+          },
+          {
+            "name": "Retired card IDs migrate through native save loading and preserve upgrade and deck history",
+            "passed": true
+          },
+          {
+            "name": "Native Sharp enchantment survives retired ID migration, upgrade and actual spell damage",
+            "passed": true
+          },
+          {
+            "name": "Only 101 active card models and 98 reward cards remain; retired IDs are absent from pools and library",
+            "passed": true
+          },
+          {
+            "name": "Patch installer: actual Harmony rollback and core/optional failure handling",
+            "passed": true
+          },
+          {
+            "name": "All card models and upgrades load",
+            "passed": true
+          },
+          {
+            "name": "Chinese card descriptions and all relic/power assets",
+            "passed": true
+          }
+        ]
+      },
+      "api": {
+        "assembly": "HollowKnight.dll",
+        "checkedMembers": 315,
+        "missing": []
+      },
+      "dll_sha256": "504c7f40a6dc8396bbcd21b2e5ffe51c4e78bb277c05e8e59bbc844d47bc9f42"
+    },
+    "beta": {
+      "combat": {
+        "failed": 0,
+        "results": [
+          {
+            "name": "OldNail: 6 damage and 11 SOUL",
+            "passed": true
+          },
+          {
+            "name": "ChannelledNail: two energy, three hits, 15/18 damage and 33 SOUL",
+            "passed": true
+          },
+          {
+            "name": "Mothwing Dash: 0/65/66/99 SOUL draw boundary, unchanged by upgrade and no payment",
+            "passed": true
+          },
+          {
+            "name": "Dark Shrine: 22 to 33 SOUL unlocks Vengeful Spirit, blessing pays once and SOUL caps at 99",
+            "passed": true
+          },
+          {
+            "name": "Soul Vessel: real 66 SOUL threshold agrees with Chinese and English descriptions",
+            "passed": true
+          },
+          {
+            "name": "Grimmchild and Weaversong retain the shared swarm rule and their own power tips",
+            "passed": true
+          },
+          {
+            "name": "Weaver growth and three-hit command",
+            "passed": true
+          },
+          {
+            "name": "Hatchling death explosion and resurrection",
+            "passed": true
+          },
+          {
+            "name": "Grimm maturity caps at two",
+            "passed": true
+          },
+          {
+            "name": "Soul spell and card exhaust adapters",
+            "passed": true
+          },
+          {
+            "name": "Nail charge: previews and all hits, no later payout",
+            "passed": true
+          },
+          {
+            "name": "Spell charge: all three waves, then consumed",
+            "passed": true
+          },
+          {
+            "name": "Nailmaster's Glory: preview never consumes first-art bonus",
+            "passed": true
+          },
+          {
+            "name": "Abyss Shriek: single enemy gives no other-enemy bonus",
+            "passed": true
+          },
+          {
+            "name": "SOUL cost is paid and spells never gather nail SOUL",
+            "passed": true
+          },
+          {
+            "name": "Full SOUL: previews and three waves use the pre-payment balance",
+            "passed": true
+          },
+          {
+            "name": "Swarm intercept: block first, overkill reaches owner",
+            "passed": true
+          },
+          {
+            "name": "Shade Cloak: fully blocked hits preserve charge, one dodge and Sharp Shadow",
+            "passed": true
+          },
+          {
+            "name": "Carefree Melody: fatal damage leaves 1 HP and 22 block",
+            "passed": true
+          },
+          {
+            "name": "Remaining companion cards: full brood, commands, healing, sacrifice and burst",
+            "passed": true
+          },
+          {
+            "name": "Soul nourishment: real spell payment grows current and maximum companion HP",
+            "passed": true
+          },
+          {
+            "name": "Swarm starter and common enablers",
+            "passed": true
+          },
+          {
+            "name": "Empty-board Tend Brood blocks and summons; upgrade grows",
+            "passed": true
+          },
+          {
+            "name": "Weaver Volley draws and full command sequence pays off",
+            "passed": true
+          },
+          {
+            "name": "Weaver SOUL synergy is capped, turn-owned and excludes automatic attacks",
+            "passed": true
+          },
+          {
+            "name": "22/8 SOUL payments grow pets only on real cumulative thresholds",
+            "passed": true
+          },
+          {
+            "name": "Mature Grimm retains 11 automatic damage without multiplying commands",
+            "passed": true
+          },
+          {
+            "name": "Sacrifice and retained resurrection form a finite rebuild loop",
+            "passed": true
+          },
+          {
+            "name": "Brood Instinct draws once across all three Chorus summons",
+            "passed": true
+          },
+          {
+            "name": "Low SOUL summons: relic never raises costs; text follows temporary discounts",
+            "passed": true
+          },
+          {
+            "name": "Grimmchild power summons the same entity, no ghost damage after death",
+            "passed": true
+          },
+          {
+            "name": "Weaversong bridges a real companion and its existing exhaust token",
+            "passed": true
+          },
+          {
+            "name": "Retired card IDs migrate through native save loading and preserve upgrade and deck history",
+            "passed": true
+          },
+          {
+            "name": "Native Sharp enchantment survives retired ID migration, upgrade and actual spell damage",
+            "passed": true
+          },
+          {
+            "name": "Only 101 active card models and 98 reward cards remain; retired IDs are absent from pools and library",
+            "passed": true
+          },
+          {
+            "name": "Patch installer: actual Harmony rollback and core/optional failure handling",
+            "passed": true
+          },
+          {
+            "name": "All card models and upgrades load",
+            "passed": true
+          },
+          {
+            "name": "Chinese card descriptions and all relic/power assets",
+            "passed": true
+          }
+        ]
+      },
+      "api": {
+        "assembly": "HollowKnight.dll",
+        "checkedMembers": 315,
+        "missing": []
+      },
+      "dll_sha256": "504c7f40a6dc8396bbcd21b2e5ffe51c4e78bb277c05e8e59bbc844d47bc9f42"
+    }
+  },
+  "native_media_ui": {
+    "failed": 0,
+    "checks": {
+      "HOLLOWKNIGHT-VENGEFUL_SPIRIT.text_fits": true,
+      "HOLLOWKNIGHT-VENGEFUL_SPIRIT.variables_resolved": true,
+      "HOLLOWKNIGHT-VENGEFUL_SPIRIT.soul_cost_33": true,
+      "HOLLOWKNIGHT-QUICK_SLASH.text_fits": true,
+      "HOLLOWKNIGHT-QUICK_SLASH.variables_resolved": true,
+      "HOLLOWKNIGHT-ABYSS_SHRIEK.text_fits": true,
+      "HOLLOWKNIGHT-ABYSS_SHRIEK.variables_resolved": true,
+      "HOLLOWKNIGHT-ABYSS_SHRIEK.soul_cost_33": true,
+      "HOLLOWKNIGHT-CHANNELLED_NAIL.text_fits": true,
+      "HOLLOWKNIGHT-CHANNELLED_NAIL.variables_resolved": true,
+      "HOLLOWKNIGHT-DARK_SHRINE.text_fits": true,
+      "HOLLOWKNIGHT-DARK_SHRINE.variables_resolved": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH.text_fits": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH.variables_resolved": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH.threshold_visible": true,
+      "render.0.image": true,
+      "effects.0.all_freed": true,
+      "HOLLOWKNIGHT-VENGEFUL_SPIRIT+.text_fits": true,
+      "HOLLOWKNIGHT-VENGEFUL_SPIRIT+.variables_resolved": true,
+      "HOLLOWKNIGHT-VENGEFUL_SPIRIT+.soul_cost_33": true,
+      "HOLLOWKNIGHT-QUICK_SLASH+.text_fits": true,
+      "HOLLOWKNIGHT-QUICK_SLASH+.variables_resolved": true,
+      "HOLLOWKNIGHT-ABYSS_SHRIEK+.text_fits": true,
+      "HOLLOWKNIGHT-ABYSS_SHRIEK+.variables_resolved": true,
+      "HOLLOWKNIGHT-ABYSS_SHRIEK+.soul_cost_33": true,
+      "HOLLOWKNIGHT-CHANNELLED_NAIL+.text_fits": true,
+      "HOLLOWKNIGHT-CHANNELLED_NAIL+.variables_resolved": true,
+      "HOLLOWKNIGHT-DARK_SHRINE+.text_fits": true,
+      "HOLLOWKNIGHT-DARK_SHRINE+.variables_resolved": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH+.text_fits": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH+.variables_resolved": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH+.threshold_visible": true,
+      "render.1.image": true,
+      "effects.1.all_freed": true,
+      "audio.nail.decoded": true,
+      "audio.soul.decoded": true,
+      "audio.guard.decoded": true,
+      "audio.focus.decoded": true,
+      "audio.hurt.decoded": true,
+      "audio.void.decoded": true,
+      "audio.power.decoded": true,
+      "audio.test_mode_muted": true,
+      "audio.same_kind_throttled": true,
+      "audio.high_priority_interrupts": true,
+      "audio.expired_priority_window": true,
+      "audio.no_inherited_combat_voices": true,
+      "audio.marker_filtered_on_both_overloads": true,
+      "audio.filter_leaves_other_events": true,
+      "audio.one_player_per_owner": true,
+      "audio.native_playback_uses_sfx": true,
+      "audio.stop_is_owner_scoped": true,
+      "audio.owner_frees_player": true,
+      "death.first_sequence_completes": true,
+      "death.replay_hides_living_body": true,
+      "counter.ui_failure_preserves_real_payment": true,
+      "counter.ui_failure_does_not_break_later_gain": true
+    },
+    "note": "Native rendering/decoding and muted playback lifecycle. Lifecycle fixture forces the settings gate open; actual live volume/focus controls, human listening and network co-op remain untested."
+  },
+  "native_hud": {
+    "checks": {
+      "knight_health_bar_240": true,
+      "selection_bounds_still_140": true,
+      "soul_right_of_energy": true,
+      "soul_aligned_with_energy": true,
+      "soul_follows_energy_position": true,
+      "soul_follows_energy_resize": true
+    },
+    "original_ironclad_bounds_width": 242,
+    "knight_selection_width": 140,
+    "knight_health_bar_width": 240,
+    "failed": 0
+  },
+  "native_card_ui": {
+    "checks": {
+      "badge_registered_on_reload": true,
+      "33_displayed": true,
+      "native_secondary_cost_position": true,
+      "no_overlap_portrait": true,
+      "no_overlap_TitleLabel": true,
+      "no_overlap_TypePlaque": true,
+      "no_overlap_DescriptionLabel": true,
+      "unknown_hides_cost": true,
+      "nail_art_no_soul_badge": true,
+      "modified_cost_24": true,
+      "description_matches_24": true,
+      "insufficient_soul_changes_color": true,
+      "rendered_description_matches_24": true,
+      "active_card_models_match_pool": true,
+      "no_retired_card_models_registered": true,
+      "cleanup_has_19_soul_cards": true,
+      "AbyssShriek_normal_badge": true,
+      "AbyssShriek_cost": true,
+      "AbyssShriek_upgraded_badge": true,
+      "AbyssShriek_covered_once": true,
+      "DeepFocus_normal_badge": true,
+      "DeepFocus_cost": true,
+      "DeepFocus_upgraded_badge": true,
+      "DeepFocus_covered_once": true,
+      "DescendingDark_normal_badge": true,
+      "DescendingDark_cost": true,
+      "DescendingDark_upgraded_badge": true,
+      "DescendingDark_covered_once": true,
+      "DesolateDive_normal_badge": true,
+      "DesolateDive_cost": true,
+      "DesolateDive_upgraded_badge": true,
+      "DesolateDive_covered_once": true,
+      "Flukenest_normal_badge": true,
+      "Flukenest_cost": true,
+      "Flukenest_upgraded_badge": true,
+      "Flukenest_covered_once": true,
+      "Focus_normal_badge": true,
+      "Focus_cost": true,
+      "Focus_upgraded_badge": true,
+      "Focus_covered_once": true,
+      "GlowingWomb_normal_badge": true,
+      "GlowingWomb_cost": true,
+      "GlowingWomb_upgraded_badge": true,
+      "GlowingWomb_covered_once": true,
+      "GrimmRite_normal_badge": true,
+      "GrimmRite_cost": true,
+      "GrimmRite_upgraded_badge": true,
+      "GrimmRite_covered_once": true,
+      "HowlingWraiths_normal_badge": true,
+      "HowlingWraiths_cost": true,
+      "HowlingWraiths_upgraded_badge": true,
+      "HowlingWraiths_covered_once": true,
+      "ShadeSoul_normal_badge": true,
+      "ShadeSoul_cost": true,
+      "ShadeSoul_upgraded_badge": true,
+      "ShadeSoul_covered_once": true,
+      "ShapeOfUnn_normal_badge": true,
+      "ShapeOfUnn_cost": true,
+      "ShapeOfUnn_upgraded_badge": true,
+      "ShapeOfUnn_covered_once": true,
+      "SoulAegis_normal_badge": true,
+      "SoulAegis_cost": true,
+      "SoulAegis_upgraded_badge": true,
+      "SoulAegis_no_registered_payment": true,
+      "SoulAegis_covered_once": true,
+      "SoulFlow_normal_badge": true,
+      "SoulFlow_cost": true,
+      "SoulFlow_upgraded_badge": true,
+      "SoulFlow_covered_once": true,
+      "SoulHarvest_normal_badge": true,
+      "SoulHarvest_cost": true,
+      "SoulHarvest_upgraded_badge": true,
+      "SoulHarvest_covered_once": true,
+      "SoulSurge_normal_badge": true,
+      "SoulSurge_cost": true,
+      "SoulSurge_upgraded_badge": true,
+      "SoulSurge_covered_once": true,
+      "SoulTorrent_normal_badge": true,
+      "SoulTorrent_cost": true,
+      "SoulTorrent_upgraded_badge": true,
+      "SoulTorrent_covered_once": true,
+      "SoulTotem_normal_badge": true,
+      "SoulTotem_cost": true,
+      "SoulTotem_upgraded_badge": true,
+      "SoulTotem_no_registered_payment": true,
+      "SoulTotem_covered_once": true,
+      "SoulUnbound_normal_badge": true,
+      "SoulUnbound_cost": true,
+      "SoulUnbound_upgraded_badge": true,
+      "SoulUnbound_no_registered_payment": true,
+      "SoulUnbound_covered_once": true,
+      "VengefulSpirit_normal_badge": true,
+      "VengefulSpirit_cost": true,
+      "VengefulSpirit_upgraded_badge": true,
+      "VengefulSpirit_covered_once": true,
+      "all_active_soul_cards_covered": true,
+      "deck_cost_uses_native_draw_order": true,
+      "inspect_cost_uses_native_draw_order": true,
+      "inspect_has_one_badge": true,
+      "inspect_badge_follows_enlarged_slot": true,
+      "inspect_own_badge_outside_description": true,
+      "repro_background_badge_overlaps_inspect_description": true,
+      "inspect_description_pixels_independent_of_background_cost": true,
+      "inspect_navigation_reuses_single_badge": true,
+      "inspect_upgrade_keeps_badge_in_slot": true,
+      "inspect_non_soul_card_hides_badge": true,
+      "inspect_close_restores_background_card_cost": true,
+      "manual_insufficient_soul_updates_color": true,
+      "manual_soul_recovered_updates_color": true,
+      "pooled_non_soul_card_hides_cost": true,
+      "pooled_null_model_hides_cost": true
+    },
+    "inventory": [
+      {
+        "card": "CARD.HOLLOWKNIGHT-ABYSS_SHRIEK",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-DEEP_FOCUS",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-DESCENDING_DARK",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-DESOLATE_DIVE",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-FLUKENEST",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-FOCUS",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-GLOWING_WOMB",
+        "cost": "8",
+        "upgraded_cost": "8"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-GRIMM_RITE",
+        "cost": "22",
+        "upgraded_cost": "22"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-HOWLING_WRAITHS",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SHADE_SOUL",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SHAPE_OF_UNN",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SOUL_AEGIS",
+        "cost": "X",
+        "upgraded_cost": "X"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SOUL_FLOW",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SOUL_HARVEST",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SOUL_SURGE",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SOUL_TORRENT",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SOUL_TOTEM",
+        "cost": "33",
+        "upgraded_cost": "33"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-SOUL_UNBOUND",
+        "cost": "X",
+        "upgraded_cost": "X"
+      },
+      {
+        "card": "CARD.HOLLOWKNIGHT-VENGEFUL_SPIRIT",
+        "cost": "33",
+        "upgraded_cost": "33"
+      }
+    ],
+    "expected_soul_cards": [
+      "CARD.HOLLOWKNIGHT-ABYSS_SHRIEK",
+      "CARD.HOLLOWKNIGHT-DEEP_FOCUS",
+      "CARD.HOLLOWKNIGHT-DESCENDING_DARK",
+      "CARD.HOLLOWKNIGHT-DESOLATE_DIVE",
+      "CARD.HOLLOWKNIGHT-FLUKENEST",
+      "CARD.HOLLOWKNIGHT-FOCUS",
+      "CARD.HOLLOWKNIGHT-GLOWING_WOMB",
+      "CARD.HOLLOWKNIGHT-GRIMM_RITE",
+      "CARD.HOLLOWKNIGHT-HOWLING_WRAITHS",
+      "CARD.HOLLOWKNIGHT-SHADE_SOUL",
+      "CARD.HOLLOWKNIGHT-SHAPE_OF_UNN",
+      "CARD.HOLLOWKNIGHT-SOUL_AEGIS",
+      "CARD.HOLLOWKNIGHT-SOUL_FLOW",
+      "CARD.HOLLOWKNIGHT-SOUL_HARVEST",
+      "CARD.HOLLOWKNIGHT-SOUL_SURGE",
+      "CARD.HOLLOWKNIGHT-SOUL_TORRENT",
+      "CARD.HOLLOWKNIGHT-SOUL_TOTEM",
+      "CARD.HOLLOWKNIGHT-SOUL_UNBOUND",
+      "CARD.HOLLOWKNIGHT-VENGEFUL_SPIRIT"
+    ],
+    "active_model_count": 101,
+    "failed": 0
+  },
+  "assets": {
+    "textures": 228,
+    "localization_files": 10,
+    "audio": [
+      {
+        "name": "HollowKnight/audio/knight_nail.wav",
+        "sha256": "89a35af0707ba7fd9c4128a58490a2d383971b5bd29e7d68ee48a3aeec3ccc38",
+        "bytes": 14156
+      },
+      {
+        "name": "HollowKnight/audio/knight_soul.wav",
+        "sha256": "c57bc7ac5983ab598c39a00e7f0cbab4ec4d2ed6f057cface15c5843a633381d",
+        "bytes": 26504
+      },
+      {
+        "name": "HollowKnight/audio/knight_guard.wav",
+        "sha256": "c16d47d8be1060b78884b5e04f3feb870b6dc750ee4075240ba9b26dcd1069a2",
+        "bytes": 15920
+      },
+      {
+        "name": "HollowKnight/audio/knight_focus.wav",
+        "sha256": "bf815760a76640a7be48a7b6a0c997cc64c1266f887fc20c17346bfd2706ab49",
+        "bytes": 42380
+      },
+      {
+        "name": "HollowKnight/audio/knight_hurt.wav",
+        "sha256": "731a5db118eb99c20969d382e74e9181edcc9b4a67cea75a779d27b6453b3065",
+        "bytes": 21212
+      },
+      {
+        "name": "HollowKnight/audio/knight_void.wav",
+        "sha256": "a78a46a1d9c5269d3d183f79fb7855ffcba1ce1c0a42e078363379fc12b2625c",
+        "bytes": 37088
+      },
+      {
+        "name": "HollowKnight/audio/knight_power.wav",
+        "sha256": "036892dc9444671d3a62fb7c7a9dc307ce251a695dc65071c114121465808874",
+        "bytes": 30032
+      }
+    ],
+    "passed": true
+  },
+  "screenshots": [
+    "art_review/cleanup_cards.png",
+    "art_review/cleanup_cards_upgraded.png"
+  ],
+  "review": "Chinese six-card base/upgrade layouts inspected; retained card values, SOUL badges and bank threshold visible.",
+  "limitations": [
+    "No full human run or win-rate measurement",
+    "No actual player saves edited or loaded",
+    "Native serialized-card migration covers upgrades, deck history and one real Sharp enchantment, not every save property/enchantment",
+    "No human listening/live audio settings UI test; muted lifecycle fixture forces settings gate",
+    "No real network multiplayer or mid-combat save migration test"
+  ],
+  "post_package_documentation_updates": [
+    {
+      "path": "HANDOFF.md",
+      "previous_recorded_sha256": "9de2d2ee53ac233c5387f38c95d1c90a3b190ed047742a03fe8f5e10e603b7b3",
+      "current_sha256": "6e0f097024e9a2bedf773cd6682643ec1547d4944a77449247f90a24a49c6de8",
+      "reason": "Post-package handoff completion and 2026-10-25 resumed verification; candidate and packaged documents unchanged"
+    }
+  ],
+  "resumed_verification": {
+    "date": "2026-10-25",
+    "candidate_and_zip_unchanged": true,
+    "four_file_hashes_and_zip_crc_passed": true,
+    "recorded_source_hashes_current": true,
+    "no_business_source_drift": true,
+    "installed_locally": false,
+    "published": false
+  }
+}

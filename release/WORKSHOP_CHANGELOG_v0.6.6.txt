@@ -1,0 +1,1 @@
+v0.6.6：优化小骑士站姿与挥钉动作；魂量数字采用原生能量字体和厚描边，修复放大卡牌角标穿透；灵魂计数移到能量旁、恢复血条宽度；调整深凝卡面与剑技名称，包含此前平衡和付款/重放修正。 / Improved Knight stance/slashes, readable SOUL costs, card-inspector layering, SOUL/health-bar layout, Deep Focus art and Nail Art names; includes balance and SOUL payment/replay fixes.

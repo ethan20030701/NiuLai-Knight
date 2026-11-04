@@ -1,0 +1,72 @@
+{
+  "generator": "tools/generate_knight_audio.py",
+  "source": "Original procedural synthesis; no input recordings.",
+  "sample_rate": 44100,
+  "channels": 1,
+  "bits_per_sample": 16,
+  "files": [
+    {
+      "file": "knight_nail.wav",
+      "seed": 811,
+      "frames": 7056,
+      "duration_seconds": 0.16,
+      "peak": 0.699981689453125,
+      "rms": 0.11616222907193267,
+      "sha256": "89a35af0707ba7fd9c4128a58490a2d383971b5bd29e7d68ee48a3aeec3ccc38"
+    },
+    {
+      "file": "knight_soul.wav",
+      "seed": 829,
+      "frames": 13230,
+      "duration_seconds": 0.3,
+      "peak": 0.699981689453125,
+      "rms": 0.1763099467836203,
+      "sha256": "c57bc7ac5983ab598c39a00e7f0cbab4ec4d2ed6f057cface15c5843a633381d"
+    },
+    {
+      "file": "knight_guard.wav",
+      "seed": 839,
+      "frames": 7938,
+      "duration_seconds": 0.18,
+      "peak": 0.699981689453125,
+      "rms": 0.10187258449774031,
+      "sha256": "c16d47d8be1060b78884b5e04f3feb870b6dc750ee4075240ba9b26dcd1069a2"
+    },
+    {
+      "file": "knight_focus.wav",
+      "seed": 853,
+      "frames": 21168,
+      "duration_seconds": 0.48,
+      "peak": 0.699981689453125,
+      "rms": 0.18819397934199625,
+      "sha256": "bf815760a76640a7be48a7b6a0c997cc64c1266f887fc20c17346bfd2706ab49"
+    },
+    {
+      "file": "knight_hurt.wav",
+      "seed": 857,
+      "frames": 10584,
+      "duration_seconds": 0.24,
+      "peak": 0.699981689453125,
+      "rms": 0.0846163901409378,
+      "sha256": "731a5db118eb99c20969d382e74e9181edcc9b4a67cea75a779d27b6453b3065"
+    },
+    {
+      "file": "knight_void.wav",
+      "seed": 863,
+      "frames": 18522,
+      "duration_seconds": 0.42,
+      "peak": 0.699981689453125,
+      "rms": 0.17958794255067784,
+      "sha256": "a78a46a1d9c5269d3d183f79fb7855ffcba1ce1c0a42e078363379fc12b2625c"
+    },
+    {
+      "file": "knight_power.wav",
+      "seed": 877,
+      "frames": 14994,
+      "duration_seconds": 0.34,
+      "peak": 0.699981689453125,
+      "rms": 0.13456305912585406,
+      "sha256": "036892dc9444671d3a62fb7c7a9dc307ce251a695dc65071c114121465808874"
+    }
+  ]
+}

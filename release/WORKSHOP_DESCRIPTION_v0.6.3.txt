@@ -1,0 +1,48 @@
+The Knight — Hollow Knight Character for Slay the Spire 2
+Current version: v0.6.3
+
+Play as the silent vessel from Hallownest. Strike enemies with your Nail to gather SOUL, then spend it on spells, healing and companions.
+
+Content
+- 104 card types: 101 reward-pool cards, 2 basic cards and the Weaver's Bite token.
+- 25 exclusive relics, including the starter Soul Catcher.
+- English and Simplified Chinese, following the game's language setting.
+- Requires BaseLib v3.4.7 or newer. Please subscribe to the required BaseLib item.
+
+The SOUL loop
+- Nail hits gather 11 SOUL with the starter relic; the base SOUL cap is 99.
+- Most spells cost 33 SOUL in addition to Energy. Spells and companion attacks do not gather Nail SOUL.
+- Build around Nail combos, spell bursts, SOUL banking, Poison, shell defense, injury rewards, or the new companion archetype.
+
+New in v0.6.3: companion summoning
+- 15 new cards and 2 new relics support three companions with independent HP bars.
+- Weaverling attacks at turn end and specializes in multi-hit commands.
+- Grimmchild grows through repeated summons: its flame deals 5, then 8, then 11 damage, with the original stage artwork changing as it matures.
+- A Glowing Womb Hatchling guards first and explodes when it dies or is sacrificed.
+- One living companion of each species. Summoning a living species increases both its current and maximum HP.
+- Companions intercept enemy attacks after your Block. Damage exceeding the guarding companion's HP still hits you.
+- Grow a companion for a health-based attack, chain commands into a four-hit finisher, sacrifice it for Block or resources, and revive the last fallen species.
+- Spend SOUL to feed your companions, protect them with healing, and draw cards from summoning synergies.
+- Companion attacks do not inherit Nail strength or extra Nail hits.
+- Companion sprites, charm icons and the new card scenes use original Hollow Knight assets collected from the Hollow Knight Wiki. Soul Unbound's missing portrait is also restored.
+
+Presentation
+Hallownest card scenes, character selection artwork, Nail draw-and-slash animation, SOUL casting effects, rest-site and shop appearances, and character-specific Ancient dialogue.
+
+简体中文
+用骨钉命中积攒灵魂，再用于法术、聚神或召唤。当前共有 104 种卡牌（101 张奖励池卡、2 张基础卡、1 张衍生牌）和 25 件专属遗物。
+
+v0.6.3 虫群召唤流
+- 新增 15 张卡牌、2 件辅助遗物，以及各有独立血条的织者幼虫、格林之子和孵化小虫。
+- 同种伙伴最多存活一只；重复召唤增加当前和最大生命。格林之子最多成长两次，火焰伤害 5→8→11，并切换原版立绘。
+- 玩家格挡后，伙伴承受敌方攻击；单次攻击超过伙伴生命的伤害仍由玩家承担。孵化小虫优先挡伤，死亡或被牺牲时爆炸。
+- 构筑可围绕血量转伤害、多段指令与追击、牺牲换格挡或资源、复活、灵魂喂养和召唤抽牌展开。
+- 新遗物「编织者之歌」让每次召唤额外增加 3 生命；「蜂群共鸣」在回合开始有至少两只伙伴存活时抽 1 张牌。
+- 召唤物与护符改用 Wiki 收录的《空洞骑士》原版素材，修正小织者形象，补齐「魂裂」卡面。
+
+Recent history
+- v0.6.2: full card balance review, 88 redrawn portraits, new select-screen and Soul Catcher artwork, improved Nail animation, and fixes to SOUL spending and spell kill rewards.
+- v0.6.0: Poison archetype, more card engines, 35 new cards and 8 relics.
+
+Credits
+Hollow Knight and its original artwork belong to Team Cherry. This is a fan-made character mod. Original companion and charm assets are collected from hollowknight.wiki; additional card illustrations and effects are created for this mod.

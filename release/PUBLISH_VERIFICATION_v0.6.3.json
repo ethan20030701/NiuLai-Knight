@@ -1,0 +1,45 @@
+{
+  "version": "v0.6.3",
+  "appid": "2868840",
+  "publishedfileid": "3796063046",
+  "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3796063046",
+  "manifest_id": "999719782849123433",
+  "upload_result": "OK",
+  "uploaded_at": "2026-09-30T14:23:51+08:00",
+  "verified_at": "2026-09-30T14:31:07+08:00",
+  "verification": "SteamCMD downloaded the latest server manifest; four files match the build and release package by SHA256.",
+  "metadata_submitted": [
+    "description",
+    "changenote",
+    "previewfile"
+  ],
+  "description_sha256": "aae24225bfd28836fc1ba0ea20ec1e33902240248159be6782f9ea3212d26641",
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "bytes": 236032,
+      "sha256": "d53c61d2d1b20e5591dd5ba0ebb2f5cd372a31e3b95b61772260579209103248",
+      "build_upload_download_match": true
+    },
+    {
+      "name": "HollowKnight.json",
+      "bytes": 588,
+      "sha256": "09ef5eea9fadc1131e8e861ef23bb72297fd0aa9ef020120e6c2e42c9dd6df63",
+      "build_upload_download_match": true
+    },
+    {
+      "name": "HollowKnight.pck",
+      "bytes": 89813360,
+      "sha256": "81e432c151dfadfd67afb50eec6a3b925e55f35f5fcd0d1a3c900c61733acc22",
+      "build_upload_download_match": true
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "bytes": 98552,
+      "sha256": "0a5267d5e150bc6782ff162712166d4d28b186e41a570c2fe1a9a606f38d6b5b",
+      "build_upload_download_match": true
+    }
+  ],
+  "in_game_tested": false,
+  "local_development_mod_version": "v0.6.2"
+}

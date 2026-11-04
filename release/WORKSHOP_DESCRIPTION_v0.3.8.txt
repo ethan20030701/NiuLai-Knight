@@ -1,0 +1,132 @@
+# 小骑士 Mod（The Knight — Hollow Knight Character）
+# Steam 创意工坊描述 · v0.3.8 · 2026-09-15
+# 说明：纯文本排版，全部使用短横线列表，没有星号和井号，方便直接复制粘贴。
+# 用法：复制「工坊简介正文」部分到创意工坊页面的描述框即可。
+# ==========================================================
+
+工坊简介正文（复制以下全部内容到工坊页描述框）
+
+The Knight — a Hollow Knight character for Slay the Spire 2
+
+Play as the silent vessel from Hallownest. Strike enemies with your Nail to gather SOUL, then unleash it in devastating spells.
+
+The SOUL loop: Nail attacks gather 11 SOUL per hit (max 99). Spells cost 33 SOUL on top of their energy. Nail attacks never return SOUL from spells — choose each turn: bank it, spend it.
+
+43 cards (+ the Weaver's Bite token) across seven build directions:
+
+- Multi-hit Nail arts — Quick Slash, Channelled Nail, Coiled Nail, Sharp Assault: every extra strike gathers more SOUL, and hit count itself pays off
+
+- Sword Arts — Great Slash, Dash Slash, Cyclone Slash, Nail Shockwave + Charged Arts and Pride's Mark: every Skill you play charges your next Sword Art; Pride's Mark doubles the charge and draws on release
+
+- Soul banking — Kingsoul, Soul Vessel, Void Heart and Soul Unbound: hold your SOUL to empower Nail strikes, then unleash everything in one eruption
+
+- Spells — Vengeful Spirit, Abyss Shriek, Desolate Dive, Dark Shrine, Shade Soul, Howling Wraiths, Descending Dark: the Soul Tyrant turns every kill into Energy and cards
+
+- Low-HP fury — Fury of the Fallen, Fragile Strength and Stalwart Shell reward a cracked shell
+
+- Injured — Grubsong's Melody, Lifeblood Cocoon and Carefree Melody: wounds become SOUL, and death itself gets a second chance
+
+- Focus — Focus, Deep Focus, Shape of Unn: the vessel's way to mend
+
+14 relics including the starter Soul Catcher, the banking duo (Soul Vessel, Void Heart), and tempo pieces (Sprintmaster's Gift, Hiveblood, Lifeblood Core).
+
+Every card face uses official game sprites or official art icons; the Knight stands with you in combat, at rest sites, shops — and every Ancient in the spire has something to say to the Knight.
+
+Available in English and Simplified Chinese — follows the game's language setting automatically.
+
+Requires BaseLib (v3.4.7 or newer).
+
+----------------------------------------------------------
+更新日志 / Changelog
+----------------------------------------------------------
+
+v0.3.8（2026-09-15）打磨与修复 / Polish and Fixes
+
+中文：
+- 傲慢印记的升级现在真实生效：打出剑技牌抽 1 张牌，升级后抽 2 张。
+- 国魂重做：你每持有 33 灵魂，骨钉攻击额外 +2 伤害（升级 +3，无上限）——存魂流核心，代价是释放法术会降低加成；不再被不碎之力压制。
+- 无忧旋律平衡调整：基础 1 层安眠（升级后 2 层），触发时不再抽牌，保留 22 格挡。
+- 命中计数图标从能量栏隐藏（内部机制，界面更清爽）。
+- 深凝描述移除重复的「消耗」字样。
+- 钉气冲击卡面重绘：独立冲击波设计，不再与大斩共用图案。
+
+English:
+- Pride's Mark upgrade now works: Sword Arts draw 1 card, or 2 when upgraded.
+- Kingsoul redesigned: Nail attacks deal +2 damage per 33 SOUL held (upgrade +3, uncapped) — the banking payoff, nerfed whenever you cast spells.
+- Carefree Melody balanced: 1 Lullaby base (2 upgraded), triggers no longer draw a card.
+- The hidden hit-counter no longer appears on the power bar.
+- Deep Focus description deduplicated.
+- Nail Shockwave card face redrawn with its own shockwave design.
+
+v0.3.7（2026-09-15）卡牌体系重构 / Structure Update
+
+中文：
+- 新增 7 张卡：傲慢印记（稀有 Power，技能蓄力收益翻倍，打出剑技抽牌）；蓄势待斩（非普通 Power，每张技能让下一张剑技 +3 伤，可叠加）；溢魂斩（稀有攻击，需 33 魂，造成 15 伤 + 每 33 魂额外 15 伤并清空灵魂）；灵魂暴君（稀有 Power，法术击杀敌人时获得 1 能量并抽 1，每回合最多 2 次）；无忧旋律（稀有 Power，安眠：受到致命伤害时保留 1 点生命值、获得 22 格挡）；受难之歌（非普通 Power，每次实际失去生命值获得 3 灵魂）；锋锐突袭（普通攻击，5 伤抽 1，本回合命中 4 次以上改为 9 伤）。
+- 统一剑技产魂规则：所有剑技命中都会获得灵魂（与原作一致）；钉气冲击降为蓝卡（8 伤全体 + 产魂）。
+- 冲刺劈砍加强为 9×2 伤（升级每段 +3）；暗影之魂额外施加 2 层易伤；深渊尖啸改为 18 伤、战场上每有一个其他存活敌人 +4 伤；深凝额外抽 1 张牌并降为蓝卡；萨满石降为蓝卡；暗影神龛重做：10 格挡，本回合下一张法术 +4 伤。
+- 稀有卡池现有 11 张金卡，其中 7 张会改变你的构筑方向。
+
+English:
+- 7 new cards: Pride's Mark (rare Power — Skill charge pays double, Sword Arts draw), Charged Arts (uncommon Power — Skills charge your next Sword Art +3, stacking), Soul Unbound (rare Attack — requires 33 SOUL, deals 15 + 15 per 33 SOUL held, then loses all SOUL), Soul Tyrant (rare Power — spells that kill grant 1 Energy and draw 1, max 2 per turn), Carefree Melody (rare Power — Lullaby: fatal damage leaves you at 1 HP with 22 Block), Grubsong's Melody (uncommon Power — +3 SOUL per HP lost), Sharp Assault (common — 5 damage + draw, or 9 if you landed 4+ hits this turn).
+- Unified Sword Art rule: every Sword Art hit gathers SOUL, as in the original game; Nail Shockwave is now Uncommon (8 AoE damage + SOUL gain).
+- Dash Slash buffed to 9x2; Shade Soul applies 2 Vulnerable; Abyss Shriek deals 18 + 4 per other surviving enemy; Deep Focus draws a card and is now Uncommon; Shaman Stone is now Uncommon; Dark Shrine reworked (10 Block, next Spell +4).
+- The rare pool now holds 11 gold cards, 7 of which redefine your build.
+
+v0.3.6（2026-09-15）数值平衡轮 / Balance Pass
+
+中文：
+- 对标原版角色卡牌数值基准，全面校准：快速劈砍 8 伤 → 3×3 伤（升级每段 +1）；蓄能骨钉 3×3 → 4×3；大斩 16 → 18；旋风斩 5 → 8 全体；钉气冲击由技能牌改为攻击牌，7 → 8 全体；冲刺 6+6 → 7+7；深渊尖啸 20 → 24；暗影之魂 30 → 32；梦之钉 3 → 6。
+
+English:
+- Calibrated against vanilla card benchmarks: Quick Slash 8 → 3x3 (upgrade +1 per hit); Channelled Nail 3x3 → 4x3; Great Slash 16 → 18; Cyclone Slash 5 → 8 AoE; Nail Shockwave Skill → Attack, 7 → 8 AoE; Dash 6/6 → 7/7; Abyss Shriek 20 → 24; Shade Soul 30 → 32; Dream Nail 3 → 6.
+
+v0.3.5（2026-09-14）关键修复 + 卡面升级 / Critical Fix + Card Faces
+
+中文：
+- 重大修复：第二层古代事件（达弗等）可能永久卡死——小骑士现在与全部 8 位原版古代都有专属对话（初见 + 回访）。
+- 12 张卡面换用游戏官方贴图（骨钉系列、灵魂图腾、血胆之茧、巴德尔之壳、蛞蝓之形、磨刀石、稳固之壳、织者之歌、萨满石、国魂）。
+- 新增 3 件遗物：冲刺大师 / 蜂巢之血 / 生命血之心。
+- 嚎叫幽灵、暗影之魂、黑暗降临描述明确写出消耗 33 灵魂；修复深凝、织者之咬「消耗」重复显示。
+
+English:
+- Critical fix: Ancient event soft-lock (Darv etc.) — the Knight now has dialogue with all 8 vanilla Ancients.
+- 12 card faces rebuilt with official game sprites.
+- 3 new relics: Sprintmaster's Gift, Hiveblood, Lifeblood Core.
+- Spell descriptions state the 33 SOUL cost; fixed duplicated Exhaust text.
+
+v0.3.4（2026-09-13）机制校准 / Mechanics
+
+中文：钉气冲击正确吃骨钉加成（它是骨钉剑技）；灵魂图腾重做（1 费 + 33 魂 → 3 能量 + 抽 1）；战斗受击/突进反馈；九张卡面换用官方图标。
+
+English: Nail Shockwave gains nail strength (it is a nail technique); Soul Totem redesigned (1 cost + 33 SOUL → 3 Energy + draw 1); combat feedback; nine official-icon card faces.
+
+v0.3.3 / v0.3.2（2026-09-12）灵魂计数器 / SOUL Counter
+
+中文：灵魂计数器重做（面具球图标、滑入动画、产魂反馈、联机安全）与修复。
+
+English: SOUL counter rework (mask-orb icon, slide-in animation, gain feedback, co-op safe) and fixes.
+
+v0.3.1（2026-09-12）构建修复 / Build Fix
+
+中文：修复工坊版构建（v0.2.1/v0.3.0 对所有玩家是坏的）——改为直接引用游戏内 BaseLib 3.4.7。
+
+English: Fixed workshop builds by compiling against the game's BaseLib 3.4.7 — v0.2.1/v0.3.0 were broken for everyone, v0.3.1 fixes it.
+
+v0.3.0（2026-09-12）设计审计轮 / Design Audit
+
+中文：梦之钉、深凝、堕落之怒、灵魂图腾、织者之歌 + 织者之咬、血胆之茧、虚空之心、苏醒之梦。
+
+English: Dream Nail, Deep Focus, Fury of the Fallen, Soul Totem redesign, Weaversong + Weaver's Bite, Lifeblood Cocoon, Void Heart, Awakened Dream.
+
+v0.2.1（2026-09-12）首次发布 / First Release
+
+中文：26 卡、9 Power、9 遗物，全套美术。
+
+English: First public release: 26 cards, 9 Powers, 9 relics, full art pass.
+
+----------------------------------------------------------
+致谢 / Credits
+----------------------------------------------------------
+
+Mod by the HollowKnight mod team, built with BaseLib.
+Hollow Knight is made by Team Cherry — this mod is a fan work and is not affiliated with or endorsed by Team Cherry. All referenced art remains the property of Team Cherry.

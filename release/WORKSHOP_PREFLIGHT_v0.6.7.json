@@ -1,0 +1,454 @@
+{
+  "version": "v0.6.7",
+  "accepted_version": "v0.6.7-pool.1",
+  "published": false,
+  "appid": "2868840",
+  "publishedfileid": "3796063046",
+  "prepared_at": "2026-11-04T13:14:09.250874+08:00",
+  "backup": ".build/release_backups/before-v0.6.7-20261104-131409",
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "bytes": 278528,
+      "sha256": "82f7ae0d93878cb06fc477811d5bdbe70b20b8fb6b9b976a4ac456c6d1db99c2"
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "bytes": 138704,
+      "sha256": "50cfffd9db90dea9ba1ed6387e17fbe2014a28b1bec6864acc35869f7fb42710"
+    },
+    {
+      "name": "HollowKnight.pck",
+      "bytes": 90029608,
+      "sha256": "95976b73667633b017f2a9e1bc74097d2b96ea8e2d69e4f0776509f1e8a15208"
+    },
+    {
+      "name": "HollowKnight.json",
+      "bytes": 488,
+      "sha256": "d45060f4fde185086a52c776b40573cf719e1d5c61c1ff2d1584c9f182226387"
+    }
+  ],
+  "only_manifest_version_changed": true,
+  "active_cards": 83,
+  "reward_cards": 80,
+  "rarities": {
+    "Rare": 21,
+    "Uncommon": 37,
+    "Common": 22,
+    "Basic": 2,
+    "Token": 1
+  },
+  "retired_cards": {
+    "SoulBolt": {
+      "old_entry": "HOLLOWKNIGHT-SOUL_BOLT",
+      "replacement_type": "VengefulSpirit",
+      "replacement_entry": "HOLLOWKNIGHT-VENGEFUL_SPIRIT",
+      "portrait_stem": "soul_bolt",
+      "eng": {
+        "HOLLOWKNIGHT-SOUL_BOLT.title": "Soul Bolt",
+        "HOLLOWKNIGHT-SOUL_BOLT.description": "Spend 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]. Deal {Damage:diff()} damage.",
+        "HOLLOWKNIGHT-SOUL_BOLT.flavor": "SOUL condensed into a single piercing bolt."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-SOUL_BOLT.title": "魂弹",
+        "HOLLOWKNIGHT-SOUL_BOLT.description": "消耗 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]。造成 {Damage:diff()} 点伤害。",
+        "HOLLOWKNIGHT-SOUL_BOLT.flavor": "凝魂为矢，一击贯空。"
+      }
+    },
+    "Hum": {
+      "old_entry": "HOLLOWKNIGHT-HUM",
+      "replacement_type": "QuickSlash",
+      "replacement_entry": "HOLLOWKNIGHT-QUICK_SLASH",
+      "portrait_stem": "hum",
+      "eng": {
+        "HOLLOWKNIGHT-HUM.title": "Hum",
+        "HOLLOWKNIGHT-HUM.description": "Deal {Damage:diff()} damage.",
+        "HOLLOWKNIGHT-HUM.flavor": "The nail hums — one note is enough."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-HUM.title": "铿鸣",
+        "HOLLOWKNIGHT-HUM.description": "造成 {Damage:diff()} 点伤害。",
+        "HOLLOWKNIGHT-HUM.flavor": "骨钉轻鸣，一声足矣。"
+      }
+    },
+    "HallownestsEcho": {
+      "old_entry": "HOLLOWKNIGHT-HALLOWNESTS_ECHO",
+      "replacement_type": "AbyssShriek",
+      "replacement_entry": "HOLLOWKNIGHT-ABYSS_SHRIEK",
+      "portrait_stem": "hallownests_echo",
+      "eng": {
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.title": "Hallownest's Echo",
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.description": "Spend 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]. Deal {Damage:diff()} damage to ALL enemies.",
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.flavor": "The old kingdom still remembers its guardian."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.title": "圣巢回响",
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.description": "消耗 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]。对所有敌人造成 {Damage:diff()} 点伤害。",
+        "HOLLOWKNIGHT-HALLOWNESTS_ECHO.flavor": "古老的国度，仍记得它的守护者。"
+      }
+    },
+    "BoneBreak": {
+      "old_entry": "HOLLOWKNIGHT-BONE_BREAK",
+      "replacement_type": "HeavyBlow",
+      "replacement_entry": "HOLLOWKNIGHT-HEAVY_BLOW",
+      "portrait_stem": "bone_break",
+      "reason": "重复的伤害加虚弱职责，保留低费入口。",
+      "source_sha256": "84a5fae6a91f941c5f85bca7ee6f2244248217f9cce913b3c398a32263a5b5e3",
+      "eng": {
+        "HOLLOWKNIGHT-BONE_BREAK.title": "Bone Break",
+        "HOLLOWKNIGHT-BONE_BREAK.description": "Deal {Damage:diff()} damage. Apply 2 Weak.",
+        "HOLLOWKNIGHT-BONE_BREAK.flavor": "This swing ends the exchange, not the fight."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-BONE_BREAK.title": "断骨重斩",
+        "HOLLOWKNIGHT-BONE_BREAK.description": "造成 {Damage:diff()} 点伤害，施加 2 层虚弱。",
+        "HOLLOWKNIGHT-BONE_BREAK.flavor": "这一击不为杀敌，只为终结交换。"
+      }
+    },
+    "FragileStrength": {
+      "old_entry": "HOLLOWKNIGHT-FRAGILE_STRENGTH",
+      "replacement_type": "UnbreakableStrength",
+      "replacement_entry": "HOLLOWKNIGHT-UNBREAKABLE_STRENGTH",
+      "portrait_stem": "fragile_strength",
+      "reason": "合并同费同稀有度的常驻骨钉增伤。",
+      "source_sha256": "111f58e1c974df8ff50eac6582f8d6a351b52647c77eb011060a3b2ab5e6c9d8",
+      "eng": {
+        "HOLLOWKNIGHT-FRAGILE_STRENGTH.title": "Fragile Strength",
+        "HOLLOWKNIGHT-FRAGILE_STRENGTH.description": "Nail attacks deal {FragileStrength:diff()} additional damage. Fragile: whenever you lose HP, lose 1 Fragile Strength."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-FRAGILE_STRENGTH.title": "脆弱之力",
+        "HOLLOWKNIGHT-FRAGILE_STRENGTH.description": "骨钉攻击额外造成 {FragileStrength:diff()} 点伤害。脆弱：每当你失去生命值，失去 1 层脆弱之力。"
+      }
+    },
+    "NailFlurry": {
+      "old_entry": "HOLLOWKNIGHT-NAIL_FLURRY",
+      "replacement_type": "NailStorm",
+      "replacement_entry": "HOLLOWKNIGHT-NAIL_STORM",
+      "portrait_stem": "nail_flurry",
+      "reason": "合并 X 费多段骨钉终结技。",
+      "source_sha256": "b74da02d8ae444cd39396fb354f92b2881b09e2662a24a8b8b29ba89718a7539",
+      "eng": {
+        "HOLLOWKNIGHT-NAIL_FLURRY.title": "Nail Flurry",
+        "HOLLOWKNIGHT-NAIL_FLURRY.description": "Deal {Damage:diff()} damage X times (X = energy spent).",
+        "HOLLOWKNIGHT-NAIL_FLURRY.flavor": "Nail-shadow falls like rain, and stops only when spent."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-NAIL_FLURRY.title": "钉乱舞",
+        "HOLLOWKNIGHT-NAIL_FLURRY.description": "造成 {Damage:diff()} 点伤害 X 次（X 为打出的能量）。",
+        "HOLLOWKNIGHT-NAIL_FLURRY.flavor": "钉影如雨，落尽方歇。"
+      }
+    },
+    "SporeBreath": {
+      "old_entry": "HOLLOWKNIGHT-SPORE_BREATH",
+      "replacement_type": "DarkShrine",
+      "replacement_entry": "HOLLOWKNIGHT-DARK_SHRINE",
+      "portrait_stem": "spore_breath",
+      "reason": "移出独立中毒线，保留防御与法术启动。",
+      "source_sha256": "0cb120cc491df906f1270dcd5888cba557bb7fa0ff9ede3c5b742f8ef4741cc2",
+      "eng": {
+        "HOLLOWKNIGHT-SPORE_BREATH.title": "Spore Breath",
+        "HOLLOWKNIGHT-SPORE_BREATH.description": "Gain {Block:diff()} Block. Apply {Poison:diff()} Poison to the target.",
+        "HOLLOWKNIGHT-SPORE_BREATH.flavor": "Even a mushroom in the shell has a temper."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-SPORE_BREATH.title": "孢子吐息",
+        "HOLLOWKNIGHT-SPORE_BREATH.description": "获得 {Block:diff()} 点格挡，对目标施加 {Poison:diff()} 层中毒。",
+        "HOLLOWKNIGHT-SPORE_BREATH.flavor": "甲壳缝隙里的蘑菇，也会有脾气。"
+      }
+    },
+    "Catalyst": {
+      "old_entry": "HOLLOWKNIGHT-CATALYST",
+      "replacement_type": "Whetstone",
+      "replacement_entry": "HOLLOWKNIGHT-WHETSTONE",
+      "portrait_stem": "catalyst",
+      "reason": "移出独立中毒线，增幅工具回到骨钉。",
+      "source_sha256": "04bd674fc478c129c468261b31d3e8ce0a7dc63664e00974468ec8d162cf284b",
+      "eng": {
+        "HOLLOWKNIGHT-CATALYST.title": "Catalyst",
+        "HOLLOWKNIGHT-CATALYST.description": "Multiply the target's Poison by {Catalyst:diff()}.",
+        "HOLLOWKNIGHT-CATALYST.flavor": "One drop in the pot, and the whole pot boils."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-CATALYST.title": "催化毒液",
+        "HOLLOWKNIGHT-CATALYST.description": "使目标的中毒层数变为 {Catalyst:diff()} 倍。",
+        "HOLLOWKNIGHT-CATALYST.flavor": "一滴入锅，满锅沸腾。"
+      }
+    },
+    "DefenderCrest": {
+      "old_entry": "HOLLOWKNIGHT-DEFENDER_CREST",
+      "replacement_type": "ThornsOfAgony",
+      "replacement_entry": "HOLLOWKNIGHT-THORNS_OF_AGONY",
+      "portrait_stem": "defender_crest",
+      "reason": "移出独立中毒线，保留被动反击能力。",
+      "source_sha256": "19d5123a2ffb86b952116fed7d14a66fc230cf4ed3aeaca3ee242efd8d3f16a9",
+      "eng": {
+        "HOLLOWKNIGHT-DEFENDER_CREST.title": "Defender's Crest",
+        "HOLLOWKNIGHT-DEFENDER_CREST.description": "At the end of your turn, apply {DefenderCrest:diff()} Poison to ALL enemies.",
+        "HOLLOWKNIGHT-DEFENDER_CREST.flavor": "The guardian's stench keeps all foes at bay."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-DEFENDER_CREST.title": "守护者纹章",
+        "HOLLOWKNIGHT-DEFENDER_CREST.description": "回合结束时，对所有敌人施加 {DefenderCrest:diff()} 层中毒。",
+        "HOLLOWKNIGHT-DEFENDER_CREST.flavor": "守护者的气息，无人敢近。"
+      }
+    },
+    "VenomBlade": {
+      "old_entry": "HOLLOWKNIGHT-VENOM_BLADE",
+      "replacement_type": "WebSpin",
+      "replacement_entry": "HOLLOWKNIGHT-WEB_SPIN",
+      "portrait_stem": "venom_blade",
+      "reason": "移出独立中毒线，保留减益工具。",
+      "source_sha256": "8d47e4d9f87b1d0864449a00571a7001b5483d0bcf8bbda0cd51d573e071d0aa",
+      "eng": {
+        "HOLLOWKNIGHT-VENOM_BLADE.title": "Venom Blade",
+        "HOLLOWKNIGHT-VENOM_BLADE.description": "Apply {Poison:diff()} Poison to the target.",
+        "HOLLOWKNIGHT-VENOM_BLADE.flavor": "The venom on the edge outlasts the hate."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-VENOM_BLADE.title": "剧毒之刃",
+        "HOLLOWKNIGHT-VENOM_BLADE.description": "对目标施加 {Poison:diff()} 层中毒。",
+        "HOLLOWKNIGHT-VENOM_BLADE.flavor": "刃上的毒，比恨更久。"
+      }
+    },
+    "NailEnvenom": {
+      "old_entry": "HOLLOWKNIGHT-NAIL_ENVENOM",
+      "replacement_type": "CoiledNail",
+      "replacement_entry": "HOLLOWKNIGHT-COILED_NAIL",
+      "portrait_stem": "nail_envenom",
+      "reason": "移出独立中毒线，多段收益回到骨钉自身。",
+      "source_sha256": "15cdcf2eadc2432039745a55d911c8911a92571468749364bdc662f31a017411",
+      "eng": {
+        "HOLLOWKNIGHT-NAIL_ENVENOM.title": "Envenomed Nail",
+        "HOLLOWKNIGHT-NAIL_ENVENOM.description": "Whenever a Nail attack hits, apply {NailEnvenom:diff()} Poison to the target.",
+        "HOLLOWKNIGHT-NAIL_ENVENOM.flavor": "An old venom, refined on the nail's tip."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-NAIL_ENVENOM.title": "淬毒之锋",
+        "HOLLOWKNIGHT-NAIL_ENVENOM.description": "你的骨钉攻击命中时，对目标施加 {NailEnvenom:diff()} 层中毒。",
+        "HOLLOWKNIGHT-NAIL_ENVENOM.flavor": "古老的毒，淬在钉尖。"
+      }
+    },
+    "ShellSlam": {
+      "old_entry": "HOLLOWKNIGHT-SHELL_SLAM",
+      "replacement_type": "Dash",
+      "replacement_entry": "HOLLOWKNIGHT-DASH",
+      "portrait_stem": "shell_slam",
+      "reason": "移出堆格挡转伤害的独立支线，保留攻防一体牌。",
+      "source_sha256": "2bcc4441efa09aa40f7805a6ce97588452767e4c6f4f8fdf5e12a555857b7894",
+      "eng": {
+        "HOLLOWKNIGHT-SHELL_SLAM.title": "Shell Slam",
+        "HOLLOWKNIGHT-SHELL_SLAM.description": "Deal damage equal to your current Block.",
+        "HOLLOWKNIGHT-SHELL_SLAM.flavor": "The hardest part makes the sharpest edge."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-SHELL_SLAM.title": "壳击",
+        "HOLLOWKNIGHT-SHELL_SLAM.description": "造成等同于你当前格挡值的伤害。",
+        "HOLLOWKNIGHT-SHELL_SLAM.flavor": "最坚硬的，往往最锋利。"
+      }
+    },
+    "Impregnable": {
+      "old_entry": "HOLLOWKNIGHT-IMPREGNABLE",
+      "replacement_type": "Dreamshield",
+      "replacement_entry": "HOLLOWKNIGHT-DREAMSHIELD",
+      "portrait_stem": "impregnable",
+      "reason": "移出永久囤积格挡引擎，保留限时持续防御。",
+      "source_sha256": "4e27dfcbe00cf51ee5da59fdb755403c14f5eb76397579909d3be78e90fd1814",
+      "eng": {
+        "HOLLOWKNIGHT-IMPREGNABLE.title": "Impregnable",
+        "HOLLOWKNIGHT-IMPREGNABLE.description": "Gain Barricade: your Block no longer expires at the end of your turn.",
+        "HOLLOWKNIGHT-IMPREGNABLE.flavor": "The shell holds; so does the will."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-IMPREGNABLE.title": "固若金汤",
+        "HOLLOWKNIGHT-IMPREGNABLE.description": "获得壁垒：你的格挡不再于回合结束时消失。",
+        "HOLLOWKNIGHT-IMPREGNABLE.flavor": "壳已不破，心亦不摇。"
+      }
+    },
+    "WispAfterimage": {
+      "old_entry": "HOLLOWKNIGHT-WISP_AFTERIMAGE",
+      "replacement_type": "BrokenShell",
+      "replacement_entry": "HOLLOWKNIGHT-BROKEN_SHELL",
+      "portrait_stem": "wisp_afterimage",
+      "reason": "无条件出牌叠甲收束为与消耗牌相关的防御。",
+      "source_sha256": "0fb5eea264e11da667573e669dcfe8f08b2d9b68791019a941001d89c4535099",
+      "eng": {
+        "HOLLOWKNIGHT-WISP_AFTERIMAGE.title": "After Image",
+        "HOLLOWKNIGHT-WISP_AFTERIMAGE.description": "Whenever you play a card, gain {WispAfterimage:diff()} Block.",
+        "HOLLOWKNIGHT-WISP_AFTERIMAGE.flavor": "A shadow of a shadow, still guarding the vessel."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-WISP_AFTERIMAGE.title": "残像",
+        "HOLLOWKNIGHT-WISP_AFTERIMAGE.description": "每当你打出一张牌，获得 {WispAfterimage:diff()} 点格挡。",
+        "HOLLOWKNIGHT-WISP_AFTERIMAGE.flavor": "影子的影子，仍在守护容器。"
+      }
+    },
+    "WraithForm": {
+      "old_entry": "HOLLOWKNIGHT-WRAITH_FORM",
+      "replacement_type": "ShadeCloak",
+      "replacement_entry": "HOLLOWKNIGHT-SHADE_CLOAK",
+      "portrait_stem": "wraith_form",
+      "reason": "移出通用多回合虚影，保留骑士单次闪避。",
+      "source_sha256": "797b2366509acf75d82d8d071fec8e7ff05647bde37c2cebb5e4c383296ca330",
+      "eng": {
+        "HOLLOWKNIGHT-WRAITH_FORM.title": "Wraith Form",
+        "HOLLOWKNIGHT-WRAITH_FORM.description": "Gain {Wraith:diff()} Wraith: all damage you take is reduced to 1. Lose 1 Wraith at the end of each turn; lose 1 Dexterity at the start of each turn.",
+        "HOLLOWKNIGHT-WRAITH_FORM.flavor": "A shadow does not bleed."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-WRAITH_FORM.title": "虚影形态",
+        "HOLLOWKNIGHT-WRAITH_FORM.description": "获得 {Wraith:diff()} 层虚影：你受到的所有伤害降至 1 点。每回合结束时失去 1 层虚影；每回合开始时失去 1 点敏捷。",
+        "HOLLOWKNIGHT-WRAITH_FORM.flavor": "影子不会受伤。"
+      }
+    },
+    "VoidSurge": {
+      "old_entry": "HOLLOWKNIGHT-VOID_SURGE",
+      "replacement_type": "Kingsoul",
+      "replacement_entry": "HOLLOWKNIGHT-KINGSOUL",
+      "portrait_stem": "void_surge",
+      "reason": "无条件力量成长收束为存魂驱动的骨钉增伤。",
+      "source_sha256": "345344d75e6a89ec78a573cab3fc9e3b056b1b7e3318e78fafd69207bb5eb759",
+      "eng": {
+        "HOLLOWKNIGHT-VOID_SURGE.title": "Void Surge",
+        "HOLLOWKNIGHT-VOID_SURGE.description": "At the start of each of your turns, gain {VoidSurge:diff()} Strength.",
+        "HOLLOWKNIGHT-VOID_SURGE.flavor": "The abyss rises, tide after tide."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-VOID_SURGE.title": "虚空涌动",
+        "HOLLOWKNIGHT-VOID_SURGE.description": "在你的每个回合开始时，获得 {VoidSurge:diff()} 层力量。",
+        "HOLLOWKNIGHT-VOID_SURGE.flavor": "深渊的潮汐，一浪高过一浪。"
+      }
+    },
+    "Refinement": {
+      "old_entry": "HOLLOWKNIGHT-REFINEMENT",
+      "replacement_type": "SoulPact",
+      "replacement_entry": "HOLLOWKNIGHT-SOUL_PACT",
+      "portrait_stem": "refinement",
+      "reason": "移出泛用全牌升级，保留手牌整理工具。",
+      "source_sha256": "5431c03d7eb486bc95dc9beb19b7577fa2ca1a27d8d548e9e41dbc533ab2f36f",
+      "eng": {
+        "HOLLOWKNIGHT-REFINEMENT.title": "Refinement",
+        "HOLLOWKNIGHT-REFINEMENT.description": "Upgrade every card in your deck.",
+        "HOLLOWKNIGHT-REFINEMENT.flavor": "After a hundred forgings, no iron remains common."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-REFINEMENT.title": "百炼升华",
+        "HOLLOWKNIGHT-REFINEMENT.description": "升级你牌组中的所有牌。",
+        "HOLLOWKNIGHT-REFINEMENT.flavor": "百炼之后，无一凡铁。"
+      }
+    },
+    "VoidFeast": {
+      "old_entry": "HOLLOWKNIGHT-VOID_FEAST",
+      "replacement_type": "SoulHarvest",
+      "replacement_entry": "HOLLOWKNIGHT-SOUL_HARVEST",
+      "portrait_stem": "void_feast",
+      "reason": "移出永久生命成长支线，保留法术击杀恢复。",
+      "source_sha256": "2ae5ad574ea8279205ac4dbc9949afd4ef31bf228ad4f519380666f53f1624e1",
+      "eng": {
+        "HOLLOWKNIGHT-VOID_FEAST.title": "Void Feast",
+        "HOLLOWKNIGHT-VOID_FEAST.description": "Deal {Damage:diff()} damage. If this kills, permanently gain {MaxHp:diff()} Max HP.",
+        "HOLLOWKNIGHT-VOID_FEAST.flavor": "The abyss never sleeps, and is never full."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-VOID_FEAST.title": "虚空吞噬",
+        "HOLLOWKNIGHT-VOID_FEAST.description": "造成 {Damage:diff()} 点伤害；若击杀敌人，最大生命值永久 +{MaxHp:diff()}。",
+        "HOLLOWKNIGHT-VOID_FEAST.flavor": "深渊从不安眠，也从不饱足。"
+      }
+    },
+    "RagingNail": {
+      "old_entry": "HOLLOWKNIGHT-RAGING_NAIL",
+      "replacement_type": "QuickSlash",
+      "replacement_entry": "HOLLOWKNIGHT-QUICK_SLASH",
+      "portrait_stem": "raging_nail",
+      "reason": "合并零费骨钉入口，移出自我复制牌。",
+      "source_sha256": "3ba9615f7a7e5568720d7bad28a341d01b521c0b015f4515673d659dcbf2bafa",
+      "eng": {
+        "HOLLOWKNIGHT-RAGING_NAIL.title": "Raging Nail",
+        "HOLLOWKNIGHT-RAGING_NAIL.description": "Deal {Damage:diff()} damage. Add a copy of this card to your discard pile.",
+        "HOLLOWKNIGHT-RAGING_NAIL.flavor": "The fury does not rest; neither does the nail."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-RAGING_NAIL.title": "怒斩",
+        "HOLLOWKNIGHT-RAGING_NAIL.description": "造成 {Damage:diff()} 点伤害；将一张此牌的复制加入你的弃牌堆。",
+        "HOLLOWKNIGHT-RAGING_NAIL.flavor": "怒意不止，钉刃不歇。"
+      }
+    },
+    "SoulRush": {
+      "old_entry": "HOLLOWKNIGHT-SOUL_RUSH",
+      "replacement_type": "SoulFlow",
+      "replacement_entry": "HOLLOWKNIGHT-SOUL_FLOW",
+      "portrait_stem": "soul_rush",
+      "reason": "移出无条件免费加速，资源转换需要灵魂。",
+      "source_sha256": "c97ef38f5a62fcab74927275576328a20d6aadd77dce4d4cb7ec5ef6e58e37e5",
+      "eng": {
+        "HOLLOWKNIGHT-SOUL_RUSH.title": "Soul Rush",
+        "HOLLOWKNIGHT-SOUL_RUSH.description": "Gain {Energy:diff()} Energy and draw {Draw:diff()} card(s).",
+        "HOLLOWKNIGHT-SOUL_RUSH.flavor": "The instant of an overloaded soul."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-SOUL_RUSH.title": "魂能激涌",
+        "HOLLOWKNIGHT-SOUL_RUSH.description": "获得 {Energy:diff()} 点能量，抽 {Draw:diff()} 张牌。",
+        "HOLLOWKNIGHT-SOUL_RUSH.flavor": "灵魂过载的一瞬。"
+      }
+    },
+    "NailShockwave": {
+      "old_entry": "HOLLOWKNIGHT-NAIL_SHOCKWAVE",
+      "replacement_type": "CycloneSlash",
+      "replacement_entry": "HOLLOWKNIGHT-CYCLONE_SLASH",
+      "portrait_stem": "nail_shockwave",
+      "reason": "合并同费同稀有群攻，保留可产魂的剑技。",
+      "source_sha256": "bc87b18b0eab49a8d9b168a8089796630b89c1ea66c23d4a23e2ed35fa465410",
+      "eng": {
+        "HOLLOWKNIGHT-NAIL_SHOCKWAVE.title": "Nail Shockwave",
+        "HOLLOWKNIGHT-NAIL_SHOCKWAVE.description": "Deal {Damage:diff()} damage to ALL enemies. This attack does not gather SOUL."
+      },
+      "zhs": {
+        "HOLLOWKNIGHT-NAIL_SHOCKWAVE.title": "钉气冲击",
+        "HOLLOWKNIGHT-NAIL_SHOCKWAVE.description": "对所有敌人造成 {Damage:diff()} 点伤害。此攻击不产生灵魂。"
+      }
+    }
+  },
+  "retained_concrete_sources_unchanged": 83,
+  "core": {
+    "report": "release/POOL_CORE_2026-10-28.json",
+    "groups": 55,
+    "assertions": 377,
+    "dll_sha256": "82f7ae0d93878cb06fc477811d5bdbe70b20b8fb6b9b976a4ac456c6d1db99c2"
+  },
+  "runtime": {
+    "stable": {
+      "native_report": "release/POOL_RUNTIME_stable_2026-10-28.json",
+      "checks": 38,
+      "api_members": 297,
+      "api_report": "release/POOL_API_stable_2026-10-28.json",
+      "dll_sha256": "82f7ae0d93878cb06fc477811d5bdbe70b20b8fb6b9b976a4ac456c6d1db99c2",
+      "game_sha256": "a1f9e653f1e28e4076558fee1e60d218619cb7e057b887c6417f62c62c6d7a52"
+    },
+    "beta": {
+      "native_report": "release/POOL_RUNTIME_beta_2026-10-28.json",
+      "checks": 38,
+      "api_members": 297,
+      "api_report": "release/POOL_API_beta_2026-10-28.json",
+      "dll_sha256": "82f7ae0d93878cb06fc477811d5bdbe70b20b8fb6b9b976a4ac456c6d1db99c2",
+      "game_sha256": "0861bfa1df347538d932f22d580e75420f08082792eb914e53b4882764acdbe9"
+    }
+  },
+  "ui": {
+    "report": "release/POOL_CARD_UI_2026-11-04.json",
+    "checks": 111,
+    "soul_cards": 19
+  },
+  "assets": {
+    "checked_by": "tools/verify_summon_package.py",
+    "textures": 228,
+    "localization_files": 10
+  },
+  "description_sha256": "980c7b89e5f738b9baec5df0be4c2b99c8946d6461ba6c50731c478bd5bd764d",
+  "upload_vdf_sha256": "f5ad67d1f95a58e0b48d4c89a292baeef51f85e40c24b57c7b11fdc1e5462089",
+  "installed_locally": false,
+  "limitations": [
+    "No full human playthrough or win-rate measurement",
+    "No real multiplayer or mid-combat save test",
+    "Native DTO migration covers 21 IDs, base/upgraded, floor history and one Sharp enchantment; not all enchantments or player saves"
+  ]
+}

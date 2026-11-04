@@ -1,0 +1,234 @@
+{
+  "passed": true,
+  "checkCount": 55,
+  "retainedCoreGroups": 32,
+  "newBalanceGroups": 23,
+  "assertionCount": 377,
+  "failedCount": 0,
+  "assemblyPath": "C:\\Users\\asus\\HollowKnight\\tools\\verification\\core\\bin\\Release\\net9.0\\HollowKnight.dll",
+  "assemblySha256": "82f7ae0d93878cb06fc477811d5bdbe70b20b8fb6b9b976a4ac456c6d1db99c2",
+  "mode": "Real mod/game/BaseLib DLL methods; synthetic managed state; no game scene or player save",
+  "engineBoundary": "Godot OS/log printing are stubbed for one clamp check. Godot.StringName construction and ModelDb/content registration are bypassed for managed fixtures. AttackCommand.Execute, CardPileCmd.Draw, PowerCmd.Remove, CreatureCmd.GainBlock and PlayerCmd.AddPet scene creation are captured at command execution boundaries; complete damage/block/scene effects are not exercised. CreatureCmd HP commands, resource spending, canonical/upgraded card data and mod formulas are real.",
+  "checks": [
+    {
+      "name": "shade.preview_repeated_is_pure",
+      "passed": true
+    },
+    {
+      "name": "shade.blocked_and_nonhostile_preview_preserve_state",
+      "passed": true
+    },
+    {
+      "name": "shade.actual_modifier_notification_marks_once",
+      "passed": true
+    },
+    {
+      "name": "shrine.preview_matches_real_play",
+      "passed": true
+    },
+    {
+      "name": "shrine.only_owner_powered_spell_damage",
+      "passed": true
+    },
+    {
+      "name": "compat.current_play_isolated_and_order_safe",
+      "passed": true
+    },
+    {
+      "name": "compat.real_game_six_argument_hook_dispatch",
+      "passed": true
+    },
+    {
+      "name": "soul.bounds_turn_carry_and_combat_reset",
+      "passed": true
+    },
+    {
+      "name": "soul.affordability_uses_actual_amount",
+      "passed": true
+    },
+    {
+      "name": "soul.manual_spend_is_per_play_and_combines_base_record",
+      "passed": true
+    },
+    {
+      "name": "nail.hit_classification_excludes_spells_unpowered_and_pets",
+      "passed": true
+    },
+    {
+      "name": "soul.automatic_receipt_consumed_once_and_replay_is_free",
+      "passed": true
+    },
+    {
+      "name": "soul.free_autoplay_ignores_stale_baselib_spend",
+      "passed": true
+    },
+    {
+      "name": "soul.prepaid_autoplay_keeps_real_receipt",
+      "passed": true
+    },
+    {
+      "name": "soul.manual_payment_atomic_and_records_actual_balance",
+      "passed": true
+    },
+    {
+      "name": "soul.totem_insufficient_soul_does_not_grant_energy_or_record_spend",
+      "passed": true
+    },
+    {
+      "name": "soul.unbound_insufficient_replay_does_not_attack_or_spend",
+      "passed": true
+    },
+    {
+      "name": "swarm.guard_priority_skips_dead_companions",
+      "passed": true
+    },
+    {
+      "name": "swarm.guard_excludes_blocked_allied_and_unpowered_damage",
+      "passed": true
+    },
+    {
+      "name": "soul.real_spend_override_records_payment_and_optional_failure",
+      "passed": true
+    },
+    {
+      "name": "soul.real_spend_nonoptional_insufficient_records_actual_amount",
+      "passed": true
+    },
+    {
+      "name": "soul.payment_prefix_binds_before_model_hooks",
+      "passed": true
+    },
+    {
+      "name": "soul.payment_cleanup_clears_success_fault_and_cancellation",
+      "passed": true
+    },
+    {
+      "name": "full_soul_free_replay_does_not_reconstruct_phantom_full_meter",
+      "passed": true
+    },
+    {
+      "name": "full_soul_real_payment_preserves_pre_spend_threshold",
+      "passed": true
+    },
+    {
+      "name": "soul.pending_payment_cannot_cross_combat_states",
+      "passed": true
+    },
+    {
+      "name": "soul.same_card_nested_free_play_cannot_steal_outer_receipt",
+      "passed": true
+    },
+    {
+      "name": "soul.same_card_nested_paid_play_has_own_receipt",
+      "passed": true
+    },
+    {
+      "name": "soul.async_continuation_retains_reserved_scope_after_caller_restore",
+      "passed": true
+    },
+    {
+      "name": "full_soul_payment_snapshot_excludes_soul_generated_by_payment_hooks",
+      "passed": true
+    },
+    {
+      "name": "soul.real_harmony_payment_patch_targets_install",
+      "passed": true
+    },
+    {
+      "name": "soul.wrapper_postfix_and_finalizer_restore_scope_idempotently",
+      "passed": true
+    },
+    {
+      "name": "balance.focus_and_deepfocus_real_constructor_upgrade_data",
+      "passed": true
+    },
+    {
+      "name": "balance.strength_and_cost_changes_use_real_upgrade_methods",
+      "passed": true
+    },
+    {
+      "name": "balance.darkshrine_actual_canonical_and_upgrade_values",
+      "passed": true
+    },
+    {
+      "name": "balance.coiled_adds_one_hit_and_never_creates_zero_hit_attack",
+      "passed": true
+    },
+    {
+      "name": "balance.sharpened_zero_hit_does_not_consume_first_attack_bonus",
+      "passed": true
+    },
+    {
+      "name": "balance.soul_aegis_block_floor_and_card_classification",
+      "passed": true
+    },
+    {
+      "name": "balance.soul_aegis_actual_onplay_converts_half_soul_and_records_full_payment",
+      "passed": true
+    },
+    {
+      "name": "balance.silken_aegis_uses_actual_variables_and_caps_base_block",
+      "passed": true
+    },
+    {
+      "name": "balance.companion_growth_cap_heals_even_when_maxed",
+      "passed": true
+    },
+    {
+      "name": "balance.companion_grow_executes_real_creature_hp_commands",
+      "passed": true
+    },
+    {
+      "name": "balance.initial_summon_clamps_hp_and_repeated_summon_grows_same_pet",
+      "passed": true
+    },
+    {
+      "name": "balance.attack_spell_classification_preserves_resource_skill_identity",
+      "passed": true
+    },
+    {
+      "name": "balance.spellcharge_resource_skills_keep_charges_and_attack_uses_snapshot",
+      "passed": true
+    },
+    {
+      "name": "balance.shrine_survives_resource_skills_and_consumes_attack_spell",
+      "passed": true
+    },
+    {
+      "name": "balance.soul_nourishment_still_rewards_real_skill_resource_payment",
+      "passed": true
+    },
+    {
+      "name": "balance.channelled_nail_real_onplay_costs_two_energy_and_keeps_three_hits",
+      "passed": true
+    },
+    {
+      "name": "balance.mothwing_real_onplay_0_65_66_99_soul_boundary_and_upgrade",
+      "passed": true
+    },
+    {
+      "name": "balance.mothwing_snapshots_soul_before_block_listeners",
+      "passed": true
+    },
+    {
+      "name": "balance.soul_vessel_real_threshold_block_and_owner_turn",
+      "passed": true
+    },
+    {
+      "name": "balance.retired_card_aliases_are_scoped_to_exact_knight_card_ids",
+      "passed": true
+    },
+    {
+      "name": "balance.quickslash_real_onplay_builds_one_hit_4_or_6_damage",
+      "passed": true
+    },
+    {
+      "name": "balance.soul_unbound_actual_preview_and_command_share_charge_formula",
+      "passed": true
+    },
+    {
+      "name": "balance.sharp_assault_actual_preview_and_command_share_hit_threshold",
+      "passed": true
+    }
+  ]
+}

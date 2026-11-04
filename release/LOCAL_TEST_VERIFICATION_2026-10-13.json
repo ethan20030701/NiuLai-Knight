@@ -1,0 +1,83 @@
+{
+  "version": "v0.6.6-test.3",
+  "published": false,
+  "installed_locally": true,
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "sha256": "7df05f3db25ab3408d750890f9416d7bdb8624610e0354c481c93e6370cf87d1",
+      "bytes": 267264
+    },
+    {
+      "name": "HollowKnight.json",
+      "sha256": "dc4b4f03331b3d5409d25cd12d5846426446d646524769edd48c78a54760c5f5",
+      "bytes": 495
+    },
+    {
+      "name": "HollowKnight.pck",
+      "sha256": "4753c54ebd9d069839258a1beae27d55775cf76a97f81c86ea0ebd5d01f76b42",
+      "bytes": 89834688
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "sha256": "8d60b1ce7fa9af71e9a53a79d24a3b19565928de8aa6c33755560d89492a3034",
+      "bytes": 123788
+    }
+  ],
+  "runtime": {
+    "stable": {
+      "combat_checks": 19,
+      "ui_checks": 13,
+      "failed": 0,
+      "api_members": 280,
+      "missing": 0,
+      "card_ui": {
+        "badge_registered_on_reload": true,
+        "33_displayed": true,
+        "badge_inside_portrait": true,
+        "no_overlap_EnergyIcon": true,
+        "no_overlap_TitleLabel": true,
+        "no_overlap_TypePlaque": true,
+        "unknown_hides_cost": true,
+        "nail_art_no_soul_badge": true,
+        "modified_cost_24": true,
+        "description_matches_24": true,
+        "insufficient_soul_changes_color": true,
+        "pooled_non_soul_card_hides_cost": true,
+        "pooled_null_model_hides_cost": true
+      }
+    },
+    "beta": {
+      "combat_checks": 19,
+      "ui_checks": 13,
+      "failed": 0,
+      "api_members": 280,
+      "missing": 0,
+      "card_ui": {
+        "badge_registered_on_reload": true,
+        "33_displayed": true,
+        "badge_inside_portrait": true,
+        "no_overlap_EnergyIcon": true,
+        "no_overlap_TitleLabel": true,
+        "no_overlap_TypePlaque": true,
+        "unknown_hides_cost": true,
+        "nail_art_no_soul_badge": true,
+        "modified_cost_24": true,
+        "description_matches_24": true,
+        "insufficient_soul_changes_color": true,
+        "pooled_non_soul_card_hides_cost": true,
+        "pooled_null_model_hides_cost": true
+      }
+    }
+  },
+  "preview": "art_review/soul_card_ui.png",
+  "manual_full_combat_ui_tested": false,
+  "real_multiplayer_tested": false,
+  "installation": {
+    "four_file_hashes_match": true,
+    "timestamp": "2026-10-13T16:16:12.2037953+08:00",
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2\\mods\\HollowKnight",
+    "backup": "C:\\Users\\asus\\HollowKnight\\.build\\local_install_backups\\before-v0.6.2-20261013-161611",
+    "old_version": "v0.6.2"
+  }
+}

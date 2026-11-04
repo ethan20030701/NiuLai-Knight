@@ -1,0 +1,61 @@
+{
+  "version": "v0.6.4",
+  "appid": "2868840",
+  "publishedfileid": "3796063046",
+  "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3796063046",
+  "manifest_id": "4440618924563117307",
+  "upload_result": "OK",
+  "uploaded_at": "2026-10-01T15:49:06+08:00",
+  "recorded_at": "2026-10-01T16:01:55+08:00",
+  "verification": "SteamCMD commit succeeded. Workshop log confirms uploaded manifest and successful completion; subsequent server query detected the new manifest. Local build and submitted package match by SHA256.",
+  "metadata_submitted": [
+    "description",
+    "changenote",
+    "previewfile"
+  ],
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "bytes": 240640,
+      "sha256": "1ba84e0d902d3914a7129d980b52694812ff20ed178c1cd89009bd266d3430b5",
+      "local_build_release_match": true
+    },
+    {
+      "name": "HollowKnight.json",
+      "bytes": 588,
+      "sha256": "372ae33549c5c39c4adb859877d61a97d2e6baedfcdb97d90d96e816a3567075",
+      "local_build_release_match": true
+    },
+    {
+      "name": "HollowKnight.pck",
+      "bytes": 89813488,
+      "sha256": "99f5219471d3ddd1aee348e3c184527c74ad20129c93960fc0549a57d5c6d287",
+      "local_build_release_match": true
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "bytes": 107044,
+      "sha256": "7a8cbdf4f290b7387c2bbb730e0361e545b12f0a2a03b610c2e4ed00c2a58b4a",
+      "local_build_release_match": true
+    }
+  ],
+  "server_download_verified": false,
+  "server_download_limitation": "Steam CDN manifest connections timed out. Downloaded file hashes have not been verified.",
+  "native_engine_regression": {
+    "stable": {
+      "game": "v0.107.1",
+      "checks": 19,
+      "failed": 0
+    },
+    "beta": {
+      "game": "v0.111.0",
+      "checks": 19,
+      "failed": 0
+    },
+    "baselib": "3.4.7",
+    "uses_native_card_payment_and_play_wrapper": true
+  },
+  "manual_visual_tested": false,
+  "real_network_multiplayer_tested": false,
+  "local_development_mod_version": "v0.6.2"
+}

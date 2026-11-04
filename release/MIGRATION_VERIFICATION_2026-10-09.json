@@ -1,0 +1,175 @@
+{
+  "source": "C:\\Users\\asus\\Desktop\\2026-10-03",
+  "source_version": "v0.6.6-balance.1",
+  "original_v064_dll_matches_local": true,
+  "merged_files": {
+    "changed": [
+      "HollowKnightCode/Cards/CoiledNail.cs",
+      "HollowKnightCode/Cards/DarkShrine.cs",
+      "HollowKnightCode/Cards/DeepFocus.cs",
+      "HollowKnightCode/Cards/Focus.cs",
+      "HollowKnightCode/Cards/FragileStrength.cs",
+      "HollowKnightCode/Cards/HatchlingBurst.cs",
+      "HollowKnightCode/Cards/QuickSlash.cs",
+      "HollowKnightCode/Cards/ShadeSoul.cs",
+      "HollowKnightCode/Cards/DescendingDark.cs",
+      "HollowKnightCode/Cards/SoulSiphon.cs",
+      "HollowKnightCode/Cards/SharpAssault.cs",
+      "HollowKnightCode/Cards/SilkenAegis.cs",
+      "HollowKnightCode/Cards/SoulAegis.cs",
+      "HollowKnightCode/Cards/SoulFlow.cs",
+      "HollowKnightCode/Cards/SoulTotem.cs",
+      "HollowKnightCode/Cards/SoulUnbound.cs",
+      "HollowKnightCode/Cards/UnbreakableStrength.cs",
+      "HollowKnightCode/NailRules.cs",
+      "HollowKnightCode/Powers/CoiledNailPower.cs",
+      "HollowKnightCode/Powers/fullsoulpower.cs",
+      "HollowKnightCode/Powers/ShadeCloakPower.cs",
+      "HollowKnightCode/Powers/ShrineBlessingPower.cs",
+      "HollowKnightCode/Powers/SoulTyrantPower.cs",
+      "HollowKnightCode\\Powers\\spellchargepower.cs",
+      "HollowKnightCode/Relics/SharpenedNail.cs",
+      "HollowKnightCode/Resources/Soul.cs",
+      "HollowKnightCode/Resources/SoulSpendTracker.cs",
+      "HollowKnightCode/Patches/SoulPaymentPatch.cs",
+      "HollowKnightCode/Summons/KnightSwarm.cs",
+      "HollowKnight/localization/eng/cards.json",
+      "HollowKnight/localization/eng/powers.json",
+      "HollowKnight/localization/eng/static_hover_tips.json",
+      "HollowKnight/localization/zhs/cards.json",
+      "HollowKnight/localization/zhs/powers.json",
+      "HollowKnight/localization/zhs/static_hover_tips.json",
+      "HollowKnight.json"
+    ],
+    "localization": [
+      {
+        "file": "HollowKnight/localization/eng/cards.json",
+        "keys": [
+          "HOLLOWKNIGHT-QUICK_SLASH.description",
+          "HOLLOWKNIGHT-DARK_SHRINE.description",
+          "HOLLOWKNIGHT-COILED_NAIL.description",
+          "HOLLOWKNIGHT-SOUL_UNBOUND.description",
+          "HOLLOWKNIGHT-SOUL_TYRANT.description",
+          "HOLLOWKNIGHT-SHARP_ASSAULT.description",
+          "HOLLOWKNIGHT-SPELLCHARGE.description",
+          "HOLLOWKNIGHT-SOUL_AEGIS.description",
+          "HOLLOWKNIGHT-SILKEN_AEGIS.description"
+        ]
+      },
+      {
+        "file": "HollowKnight/localization/eng/powers.json",
+        "keys": [
+          "HOLLOWKNIGHT-COILED_NAIL_POWER.description",
+          "HOLLOWKNIGHT-COILED_NAIL_POWER.smartDescription",
+          "HOLLOWKNIGHT-SOUL_TYRANT_POWER.description",
+          "HOLLOWKNIGHT-SOUL_TYRANT_POWER.smartDescription",
+          "HOLLOWKNIGHT-SHRINE_BLESSING_POWER.description",
+          "HOLLOWKNIGHT-SHRINE_BLESSING_POWER.smartDescription",
+          "HOLLOWKNIGHT-SPELLCHARGE_POWER.description",
+          "HOLLOWKNIGHT-SPELLCHARGE_POWER.smartDescription"
+        ]
+      },
+      {
+        "file": "HollowKnight/localization/eng/static_hover_tips.json",
+        "keys": [
+          "HOLLOWKNIGHT-SWARM.description"
+        ]
+      },
+      {
+        "file": "HollowKnight/localization/zhs/cards.json",
+        "keys": [
+          "HOLLOWKNIGHT-QUICK_SLASH.description",
+          "HOLLOWKNIGHT-DARK_SHRINE.description",
+          "HOLLOWKNIGHT-COILED_NAIL.description",
+          "HOLLOWKNIGHT-SOUL_UNBOUND.description",
+          "HOLLOWKNIGHT-SOUL_TYRANT.description",
+          "HOLLOWKNIGHT-SHARP_ASSAULT.description",
+          "HOLLOWKNIGHT-SPELLCHARGE.description",
+          "HOLLOWKNIGHT-SOUL_AEGIS.description",
+          "HOLLOWKNIGHT-SILKEN_AEGIS.description"
+        ]
+      },
+      {
+        "file": "HollowKnight/localization/zhs/powers.json",
+        "keys": [
+          "HOLLOWKNIGHT-COILED_NAIL_POWER.description",
+          "HOLLOWKNIGHT-COILED_NAIL_POWER.smartDescription",
+          "HOLLOWKNIGHT-SOUL_TYRANT_POWER.description",
+          "HOLLOWKNIGHT-SOUL_TYRANT_POWER.smartDescription",
+          "HOLLOWKNIGHT-SHRINE_BLESSING_POWER.description",
+          "HOLLOWKNIGHT-SHRINE_BLESSING_POWER.smartDescription",
+          "HOLLOWKNIGHT-SPELLCHARGE_POWER.description",
+          "HOLLOWKNIGHT-SPELLCHARGE_POWER.smartDescription"
+        ]
+      },
+      {
+        "file": "HollowKnight/localization/zhs/static_hover_tips.json",
+        "keys": [
+          "HOLLOWKNIGHT-SWARM.description"
+        ]
+      }
+    ]
+  },
+  "preserved_original_art": true,
+  "source_images_changed_since_recovery": 0,
+  "build": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "rule_tests": {
+    "groups": 50,
+    "assertions": 219,
+    "passed": true,
+    "sha256": "67ea9b2617f61d7f8b5ca8214498c2f83eb6b0e36670a2f96e9741317603025a"
+  },
+  "api_audit_members": 271,
+  "runtime_tests": {
+    "stable": {
+      "passed": true,
+      "checks": 19
+    },
+    "beta": {
+      "passed": true,
+      "checks": 19
+    }
+  },
+  "pck_entries_md5_verified": 1021,
+  "desktop_backup": {
+    "source": "C:\\Users\\asus\\Desktop\\2026-10-03",
+    "files": 9234,
+    "bytes": 2667265563,
+    "all_sha256_verified": true,
+    "local_backup_files": 210
+  },
+  "distribution": [
+    {
+      "file": "HollowKnight.dll",
+      "bytes": 249344,
+      "sha256": "67ea9b2617f61d7f8b5ca8214498c2f83eb6b0e36670a2f96e9741317603025a"
+    },
+    {
+      "file": "HollowKnight.json",
+      "bytes": 498,
+      "sha256": "91f363691587863f53424eeaab3b9afee54ac57692bd5e2d13a9083a5100b544"
+    },
+    {
+      "file": "HollowKnight.pck",
+      "bytes": 89812816,
+      "sha256": "134b96a36609c9ec58dbac138888faefc52789f88e6722c0810904e5006f3c43"
+    },
+    {
+      "file": "HollowKnight.pdb",
+      "bytes": 109792,
+      "sha256": "417070bfc52772682c7501fd55fb34b6343203ed99877bb90b3898b046a1b59c"
+    }
+  ],
+  "workshop_uploaded": false,
+  "installed_into_live_game": false,
+  "desktop_deleted": false,
+  "remaining_validation": [
+    "manual full run",
+    "save and continue",
+    "network multiplayer",
+    "balance playthrough"
+  ]
+}

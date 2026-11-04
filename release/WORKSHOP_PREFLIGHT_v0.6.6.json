@@ -1,0 +1,47 @@
+{
+  "version": "v0.6.6",
+  "accepted_version": "v0.6.6-test.9",
+  "published": false,
+  "appid": "2868840",
+  "publishedfileid": "3796063046",
+  "prepared_at": "2026-10-13T19:30:28.361899+08:00",
+  "backup": "C:\\Users\\asus\\HollowKnight\\.build\\release_backups\\before-v0.6.6-20261013-193025",
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "bytes": 270848,
+      "sha256": "54c135fdf8b6ed9335d1ad9284c35cda3d2ac74f60901d8a70cf075f3cc080a5",
+      "matches_accepted_test9": true
+    },
+    {
+      "name": "HollowKnight.json",
+      "bytes": 488,
+      "sha256": "483ea6181278799a1f2050c4690213d309b484935a8430a93f8e92ef715158ce",
+      "matches_accepted_test9": false
+    },
+    {
+      "name": "HollowKnight.pck",
+      "bytes": 89846628,
+      "sha256": "e97f412df89147dcdad9735cec17252c736e93cd2f31a2b4ee2e3828706dddb2",
+      "matches_accepted_test9": true
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "bytes": 126140,
+      "sha256": "6952a5a599ee4d1c3576171a5cfefbc597e904f50f61bf409174384480e53107",
+      "matches_accepted_test9": true
+    }
+  ],
+  "only_manifest_version_changed": true,
+  "ui_checks_per_branch": 95,
+  "ui_soul_cards": 21,
+  "combat_hud_baseline": {
+    "version": "v0.6.6-test.7",
+    "report": "LOCAL_READABLE_HUD_VERIFICATION_2026-10-13.json",
+    "combat_checks_per_branch": 19,
+    "hud_checks_per_branch": 6,
+    "reason": "Only cost label font and colors changed; payment and HUD logic unchanged"
+  },
+  "description_bytes": 4364,
+  "description_sha256": "b7104287b4b101889f248354fcecaea78dc98f268dfb3ab516a9dd9104754994"
+}

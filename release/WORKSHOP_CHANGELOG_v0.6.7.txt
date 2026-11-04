@@ -1,0 +1,13 @@
+v0.6.7 — 卡池收束与虫群重做 / Focused card pool and Swarm rework
+
+卡池集中到骨钉、灵魂、虫群召唤三条主线。相对v0.6.6，104种卡牌/101张奖励牌调整为83种/80张奖励牌（22普通、37罕见、21稀有，另有2基础、1衍生），保留25件遗物。本轮退役18张，加上此前去重3张，共21张；中毒及永久囤积格挡转伤害支线退出。
+
+重做17张虫群关联牌的召唤、指令、成长、牺牲和重建配合；初始10张牌包含织者之巢、聚神、复仇之魂。调整蓄能骨钉、暗影祠和蛾翼疾闪，加入原创合成音效和逐次命中特效，并补齐旧卡迁移与提示修正。
+
+旧卡会替换为现役卡，费用和效果可能改变；建议新开一局。需要BaseLib v3.4.7或更新版本。
+
+Focuses builds on Nail, SOUL and Swarm. Compared with v0.6.6, 104 card types / 101 reward cards become 83 types / 80 reward cards (22 Common, 37 Uncommon, 21 Rare, plus 2 basic types and 1 token), with 25 relics. Retires 18 cards in this pass plus 3 earlier duplicates: 21 total, including the Poison and permanent Block-to-damage branches.
+
+Reworks 17 companion-related cards around summoning, commands, growth, sacrifice and recovery. The 10-card starter deck includes Weaver Nest, Focus and Vengeful Spirit. Updates Channelled Nail, Dark Shrine and Mothwing Dash; adds original synthesized audio, hit-timed effects, retired-card migration and tooltip fixes.
+
+Old cards map to current replacements with changed costs and effects. A new run is recommended. Requires BaseLib v3.4.7 or newer.

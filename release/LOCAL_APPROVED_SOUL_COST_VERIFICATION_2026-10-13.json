@@ -1,0 +1,439 @@
+{
+  "version": "v0.6.6-test.6",
+  "published": false,
+  "installed_locally": true,
+  "source_art": {
+    "url": "https://cdn.wikimg.net/en/hkwiki/images/6/63/Soul_Meter.png",
+    "sha256": "21f22eef6ffa51d7c03bf1203b5d90652e99b4199819d5a699f8da7b10158fce",
+    "original_bytes_preserved": true
+  },
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "sha256": "25a0b29cc26f2fce019390abd201130bc96a714d284071fdf8ff3e98d1fcddcd",
+      "bytes": 268288
+    },
+    {
+      "name": "HollowKnight.json",
+      "sha256": "a0773cff188e2a826b9cd507831aad5302def4f1b25807a6c91c0f9aea724183",
+      "bytes": 495
+    },
+    {
+      "name": "HollowKnight.pck",
+      "sha256": "e97f412df89147dcdad9735cec17252c736e93cd2f31a2b4ee2e3828706dddb2",
+      "bytes": 89846628
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "sha256": "208fefab985f9e4234ab2231ac2bcdc3ad73832476d229c9ac2e51f6f694de51",
+      "bytes": 125268
+    }
+  ],
+  "runtime_ui": {
+    "stable": {
+      "checks": {
+        "badge_registered_on_reload": true,
+        "33_displayed": true,
+        "native_secondary_cost_position": true,
+        "no_overlap_portrait": true,
+        "no_overlap_TitleLabel": true,
+        "no_overlap_TypePlaque": true,
+        "no_overlap_DescriptionLabel": true,
+        "unknown_hides_cost": true,
+        "nail_art_no_soul_badge": true,
+        "modified_cost_24": true,
+        "description_matches_24": true,
+        "insufficient_soul_changes_color": true,
+        "AbyssShriek_normal_badge": true,
+        "AbyssShriek_cost": true,
+        "AbyssShriek_upgraded_badge": true,
+        "DeepFocus_normal_badge": true,
+        "DeepFocus_cost": true,
+        "DeepFocus_upgraded_badge": true,
+        "DescendingDark_normal_badge": true,
+        "DescendingDark_cost": true,
+        "DescendingDark_upgraded_badge": true,
+        "DesolateDive_normal_badge": true,
+        "DesolateDive_cost": true,
+        "DesolateDive_upgraded_badge": true,
+        "Flukenest_normal_badge": true,
+        "Flukenest_cost": true,
+        "Flukenest_upgraded_badge": true,
+        "Focus_normal_badge": true,
+        "Focus_cost": true,
+        "Focus_upgraded_badge": true,
+        "GlowingWomb_normal_badge": true,
+        "GlowingWomb_cost": true,
+        "GlowingWomb_upgraded_badge": true,
+        "GrimmRite_normal_badge": true,
+        "GrimmRite_cost": true,
+        "GrimmRite_upgraded_badge": true,
+        "HallownestsEcho_normal_badge": true,
+        "HallownestsEcho_cost": true,
+        "HallownestsEcho_upgraded_badge": true,
+        "HowlingWraiths_normal_badge": true,
+        "HowlingWraiths_cost": true,
+        "HowlingWraiths_upgraded_badge": true,
+        "ShadeSoul_normal_badge": true,
+        "ShadeSoul_cost": true,
+        "ShadeSoul_upgraded_badge": true,
+        "ShapeOfUnn_normal_badge": true,
+        "ShapeOfUnn_cost": true,
+        "ShapeOfUnn_upgraded_badge": true,
+        "SoulAegis_normal_badge": true,
+        "SoulAegis_cost": true,
+        "SoulAegis_upgraded_badge": true,
+        "SoulAegis_no_registered_payment": true,
+        "SoulBolt_normal_badge": true,
+        "SoulBolt_cost": true,
+        "SoulBolt_upgraded_badge": true,
+        "SoulFlow_normal_badge": true,
+        "SoulFlow_cost": true,
+        "SoulFlow_upgraded_badge": true,
+        "SoulHarvest_normal_badge": true,
+        "SoulHarvest_cost": true,
+        "SoulHarvest_upgraded_badge": true,
+        "SoulSurge_normal_badge": true,
+        "SoulSurge_cost": true,
+        "SoulSurge_upgraded_badge": true,
+        "SoulTorrent_normal_badge": true,
+        "SoulTorrent_cost": true,
+        "SoulTorrent_upgraded_badge": true,
+        "SoulTotem_normal_badge": true,
+        "SoulTotem_cost": true,
+        "SoulTotem_upgraded_badge": true,
+        "SoulTotem_no_registered_payment": true,
+        "SoulUnbound_normal_badge": true,
+        "SoulUnbound_cost": true,
+        "SoulUnbound_upgraded_badge": true,
+        "SoulUnbound_no_registered_payment": true,
+        "VengefulSpirit_normal_badge": true,
+        "VengefulSpirit_cost": true,
+        "VengefulSpirit_upgraded_badge": true,
+        "all_21_soul_cards_covered": true,
+        "manual_insufficient_soul_updates_color": true,
+        "manual_soul_recovered_updates_color": true,
+        "pooled_non_soul_card_hides_cost": true,
+        "pooled_null_model_hides_cost": true
+      },
+      "inventory": [
+        {
+          "card": "CARD.HOLLOWKNIGHT-ABYSS_SHRIEK",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-DEEP_FOCUS",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-DESCENDING_DARK",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-DESOLATE_DIVE",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-FLUKENEST",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-FOCUS",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-GLOWING_WOMB",
+          "cost": "8",
+          "upgraded_cost": "8"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-GRIMM_RITE",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-HALLOWNESTS_ECHO",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-HOWLING_WRAITHS",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SHADE_SOUL",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SHAPE_OF_UNN",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_AEGIS",
+          "cost": "X",
+          "upgraded_cost": "X"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_BOLT",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_FLOW",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_HARVEST",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_SURGE",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_TORRENT",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_TOTEM",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_UNBOUND",
+          "cost": "X",
+          "upgraded_cost": "X"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-VENGEFUL_SPIRIT",
+          "cost": "33",
+          "upgraded_cost": "33"
+        }
+      ],
+      "failed": 0,
+      "combat_checks": 19,
+      "api_members": 283
+    },
+    "beta": {
+      "checks": {
+        "badge_registered_on_reload": true,
+        "33_displayed": true,
+        "native_secondary_cost_position": true,
+        "no_overlap_portrait": true,
+        "no_overlap_TitleLabel": true,
+        "no_overlap_TypePlaque": true,
+        "no_overlap_DescriptionLabel": true,
+        "unknown_hides_cost": true,
+        "nail_art_no_soul_badge": true,
+        "modified_cost_24": true,
+        "description_matches_24": true,
+        "insufficient_soul_changes_color": true,
+        "AbyssShriek_normal_badge": true,
+        "AbyssShriek_cost": true,
+        "AbyssShriek_upgraded_badge": true,
+        "DeepFocus_normal_badge": true,
+        "DeepFocus_cost": true,
+        "DeepFocus_upgraded_badge": true,
+        "DescendingDark_normal_badge": true,
+        "DescendingDark_cost": true,
+        "DescendingDark_upgraded_badge": true,
+        "DesolateDive_normal_badge": true,
+        "DesolateDive_cost": true,
+        "DesolateDive_upgraded_badge": true,
+        "Flukenest_normal_badge": true,
+        "Flukenest_cost": true,
+        "Flukenest_upgraded_badge": true,
+        "Focus_normal_badge": true,
+        "Focus_cost": true,
+        "Focus_upgraded_badge": true,
+        "GlowingWomb_normal_badge": true,
+        "GlowingWomb_cost": true,
+        "GlowingWomb_upgraded_badge": true,
+        "GrimmRite_normal_badge": true,
+        "GrimmRite_cost": true,
+        "GrimmRite_upgraded_badge": true,
+        "HallownestsEcho_normal_badge": true,
+        "HallownestsEcho_cost": true,
+        "HallownestsEcho_upgraded_badge": true,
+        "HowlingWraiths_normal_badge": true,
+        "HowlingWraiths_cost": true,
+        "HowlingWraiths_upgraded_badge": true,
+        "ShadeSoul_normal_badge": true,
+        "ShadeSoul_cost": true,
+        "ShadeSoul_upgraded_badge": true,
+        "ShapeOfUnn_normal_badge": true,
+        "ShapeOfUnn_cost": true,
+        "ShapeOfUnn_upgraded_badge": true,
+        "SoulAegis_normal_badge": true,
+        "SoulAegis_cost": true,
+        "SoulAegis_upgraded_badge": true,
+        "SoulAegis_no_registered_payment": true,
+        "SoulBolt_normal_badge": true,
+        "SoulBolt_cost": true,
+        "SoulBolt_upgraded_badge": true,
+        "SoulFlow_normal_badge": true,
+        "SoulFlow_cost": true,
+        "SoulFlow_upgraded_badge": true,
+        "SoulHarvest_normal_badge": true,
+        "SoulHarvest_cost": true,
+        "SoulHarvest_upgraded_badge": true,
+        "SoulSurge_normal_badge": true,
+        "SoulSurge_cost": true,
+        "SoulSurge_upgraded_badge": true,
+        "SoulTorrent_normal_badge": true,
+        "SoulTorrent_cost": true,
+        "SoulTorrent_upgraded_badge": true,
+        "SoulTotem_normal_badge": true,
+        "SoulTotem_cost": true,
+        "SoulTotem_upgraded_badge": true,
+        "SoulTotem_no_registered_payment": true,
+        "SoulUnbound_normal_badge": true,
+        "SoulUnbound_cost": true,
+        "SoulUnbound_upgraded_badge": true,
+        "SoulUnbound_no_registered_payment": true,
+        "VengefulSpirit_normal_badge": true,
+        "VengefulSpirit_cost": true,
+        "VengefulSpirit_upgraded_badge": true,
+        "all_21_soul_cards_covered": true,
+        "manual_insufficient_soul_updates_color": true,
+        "manual_soul_recovered_updates_color": true,
+        "pooled_non_soul_card_hides_cost": true,
+        "pooled_null_model_hides_cost": true
+      },
+      "inventory": [
+        {
+          "card": "CARD.HOLLOWKNIGHT-ABYSS_SHRIEK",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-DEEP_FOCUS",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-DESCENDING_DARK",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-DESOLATE_DIVE",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-FLUKENEST",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-FOCUS",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-GLOWING_WOMB",
+          "cost": "8",
+          "upgraded_cost": "8"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-GRIMM_RITE",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-HALLOWNESTS_ECHO",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-HOWLING_WRAITHS",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SHADE_SOUL",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SHAPE_OF_UNN",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_AEGIS",
+          "cost": "X",
+          "upgraded_cost": "X"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_BOLT",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_FLOW",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_HARVEST",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_SURGE",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_TORRENT",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_TOTEM",
+          "cost": "33",
+          "upgraded_cost": "33"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-SOUL_UNBOUND",
+          "cost": "X",
+          "upgraded_cost": "X"
+        },
+        {
+          "card": "CARD.HOLLOWKNIGHT-VENGEFUL_SPIRIT",
+          "cost": "33",
+          "upgraded_cost": "33"
+        }
+      ],
+      "failed": 0,
+      "combat_checks": 19,
+      "api_members": 283
+    }
+  },
+  "scope": "User-approved translucent centered cost style for all 21 SOUL-spending cards",
+  "combat_baseline": "v0.6.6-test.3 rules; fresh 19-case runtime regression passed in both branches",
+  "preview": "art_review/soul_cost_approved_overview.png",
+  "special_cost_preview": "art_review/soul_cost_approved_special_cards.png",
+  "installation": {
+    "backup": "C:\\Users\\asus\\HollowKnight\\.build\\local_install_backups\\before-v0.6.6-test.5-20261013-175532",
+    "timestamp": "2026-10-13T17:55:33.5046586+08:00",
+    "four_file_hashes_match": true,
+    "old_version": "v0.6.6-test.5",
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2\\mods\\HollowKnight"
+  }
+}

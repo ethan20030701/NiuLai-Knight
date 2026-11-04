@@ -1,0 +1,50 @@
+{
+  "SoulBolt": {
+    "old_entry": "HOLLOWKNIGHT-SOUL_BOLT",
+    "replacement_type": "VengefulSpirit",
+    "replacement_entry": "HOLLOWKNIGHT-VENGEFUL_SPIRIT",
+    "portrait_stem": "soul_bolt",
+    "eng": {
+      "HOLLOWKNIGHT-SOUL_BOLT.title": "Soul Bolt",
+      "HOLLOWKNIGHT-SOUL_BOLT.description": "Spend 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]. Deal {Damage:diff()} damage.",
+      "HOLLOWKNIGHT-SOUL_BOLT.flavor": "SOUL condensed into a single piercing bolt."
+    },
+    "zhs": {
+      "HOLLOWKNIGHT-SOUL_BOLT.title": "魂弹",
+      "HOLLOWKNIGHT-SOUL_BOLT.description": "消耗 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]。造成 {Damage:diff()} 点伤害。",
+      "HOLLOWKNIGHT-SOUL_BOLT.flavor": "凝魂为矢，一击贯空。"
+    }
+  },
+  "Hum": {
+    "old_entry": "HOLLOWKNIGHT-HUM",
+    "replacement_type": "QuickSlash",
+    "replacement_entry": "HOLLOWKNIGHT-QUICK_SLASH",
+    "portrait_stem": "hum",
+    "eng": {
+      "HOLLOWKNIGHT-HUM.title": "Hum",
+      "HOLLOWKNIGHT-HUM.description": "Deal {Damage:diff()} damage.",
+      "HOLLOWKNIGHT-HUM.flavor": "The nail hums — one note is enough."
+    },
+    "zhs": {
+      "HOLLOWKNIGHT-HUM.title": "铿鸣",
+      "HOLLOWKNIGHT-HUM.description": "造成 {Damage:diff()} 点伤害。",
+      "HOLLOWKNIGHT-HUM.flavor": "骨钉轻鸣，一声足矣。"
+    }
+  },
+  "HallownestsEcho": {
+    "old_entry": "HOLLOWKNIGHT-HALLOWNESTS_ECHO",
+    "replacement_type": "AbyssShriek",
+    "replacement_entry": "HOLLOWKNIGHT-ABYSS_SHRIEK",
+    "portrait_stem": "hallownests_echo",
+    "eng": {
+      "HOLLOWKNIGHT-HALLOWNESTS_ECHO.title": "Hallownest's Echo",
+      "HOLLOWKNIGHT-HALLOWNESTS_ECHO.description": "Spend 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]. Deal {Damage:diff()} damage to ALL enemies.",
+      "HOLLOWKNIGHT-HALLOWNESTS_ECHO.flavor": "The old kingdom still remembers its guardian."
+    },
+    "zhs": {
+      "HOLLOWKNIGHT-HALLOWNESTS_ECHO.title": "圣巢回响",
+      "HOLLOWKNIGHT-HALLOWNESTS_ECHO.description": "消耗 33 [img]res://HollowKnight/images/charui/soul_icon_text.png[/img]。对所有敌人造成 {Damage:diff()} 点伤害。",
+      "HOLLOWKNIGHT-HALLOWNESTS_ECHO.flavor": "古老的国度，仍记得它的守护者。"
+    }
+  }
+}

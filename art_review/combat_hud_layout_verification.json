@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "knight_health_bar_240": true,
+    "selection_bounds_still_140": true,
+    "soul_right_of_energy": true,
+    "soul_aligned_with_energy": true,
+    "soul_follows_energy_position": true,
+    "soul_follows_energy_resize": true
+  },
+  "original_ironclad_bounds_width": 242,
+  "knight_selection_width": 140,
+  "knight_health_bar_width": 240,
+  "failed": 0
+}

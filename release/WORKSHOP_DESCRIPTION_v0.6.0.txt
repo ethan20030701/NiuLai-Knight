@@ -1,0 +1,152 @@
+# 小骑士 Mod（The Knight — Hollow Knight Character）
+# Steam 创意工坊描述 · v0.6.0 · 2026-09-25
+# 说明：纯文本排版，全部使用短横线列表，没有星号和井号，方便直接复制粘贴。
+# 用法：复制「工坊简介正文」部分到创意工坊页面的描述框即可。
+# ==========================================================
+
+工坊简介正文（复制以下全部内容到工坊页描述框）
+
+The Knight — a Hollow Knight character for Slay the Spire 2
+
+Play as the silent vessel from Hallownest. Strike enemies with your Nail to gather SOUL, then unleash it in devastating spells.
+
+The SOUL loop: Nail attacks gather 11 SOUL per hit (max 99). Spells cost 33 SOUL on top of their energy. Nail attacks never return SOUL from spells — choose each turn: bank it, spend it.
+
+86 cards (+ the Weaver's Bite token) across build directions — v0.5.0 + v0.6.0 added a full Poison line, new card engines, and filled every rarity tier to parity with the vanilla cast:
+
+- Poison (new) — Spore Breath seeds it, Venom Blade loads a heavy dose, Defender's Crest seeps it onto ALL enemies every turn, Envenomed Nail carries it on every nail strike, and Catalyst multiplies it ×2/×3: a full damage-over-time line
+
+- Companions & echoes — Dreamshield guards your next three turn-starts; Grimmchild spits embers at a random enemy every turn-end; After Image gains Block for every card played; Raging Nail copies itself into the discard pile
+
+- Spell school — Spellcharge, Soulbell, Full Soul, Soul Torrent, Vengeful Spirit, Abyss Shriek, Shade Soul, Howling Wraiths, Descending Dark, Hallownest's Echo (a flat 22-damage wave) and the Soul Tyrant kill-loop
+
+- Nail school — Hum, Quick Slash, Nail Flurry, Nail Storm (X-cost, hits EVERY enemy, gathers SOUL per hit), Broken Vessel, Ricochet Nail, Twin Slash, alongside Charged Arts, Pride's Mark and the Sword Arts
+
+- Soul banking — Kingsoul, Full Soul, Soul Vessel, Void Heart, Soul Unbound, Soul Aegis (Block equal to your SOUL), Soul Battery and Salubra's Blessing: hold your SOUL, get paid for it
+
+- Shell & defense — Impregnable (Block no longer expires), Shell Slam (damage = your Block), Second Wind (exhaust your hand into Block), Void Feast (kills permanently grow your Max HP), Carefree Melody (survive death itself)
+
+- Injured & Focus — Grubsong's Melody, Lifeblood Cocoon, Fury of the Fallen, Pain Brand (wounds become Strength), Focus, Deep Focus, Shape of Unn
+
+23 exclusive relics — from the starter Soul Catcher and the banking duo (Soul Vessel, Void Heart) to Gathering Swarm (+25% gold), Quick Focus (Focus costs 22 SOUL), Soul Candle, Void Brand and Hallownest Seal — plus every shared relic the spire offers.
+
+Every card face uses official game sprites or official art icons; the Knight stands with you in combat, at rest sites, shops — and every Ancient in the spire has something to say to the Knight.
+
+Available in English and Simplified Chinese — follows the game's language setting automatically.
+
+Requires BaseLib (v3.4.7 or newer).
+
+----------------------------------------------------------
+更新日志 / Changelog
+----------------------------------------------------------
+
+v0.6.0（2026-09-25）中毒、引擎与金卡扩容（含 v0.5.0 全部内容） / Poison, Engines and the Gold Expansion (includes all of v0.5.0)
+
+中文：
+- 新增 35 张卡牌与 8 件遗物，卡池达到 86 张，白/蓝/金三档与原版角色持平（21/38/27）。
+- 全新中毒体系：孢子吐息（白技：4 挡 + 2 中毒）；剧毒之刃（蓝技：6/9 中毒）；守护者纹章（蓝 Power：回合结束对全体施加 2/3 层中毒）；淬毒之锋（金 Power：骨钉命中施加 1/2 层中毒）；催化毒液（蓝技：目标中毒层数 ×2/×3）。
+- 新引擎卡：痛楚烙印（受伤获得力量）；残像（每打出一张牌 +1 挡）；吐纳（消耗手牌所有非攻击牌，每张 +5 挡）；魂之回响（每次耗魂抽 1）；蓄魂之池（回合开始 +2 魂）；怒斩（0 费 6 伤，复制进弃牌堆）；百炼升华（固有+消耗：升级全牌组）。
+- 金卡补齐：骨钉风暴（X 费全体、每段产魂）；固若金汤（壁垒：格挡不再消失）；魂壳涌现（格挡=当前灵魂并清空）；圣巢回响（22/26 全体法术）；虚空吞噬（击杀永久 +3 最大生命）；焚魂契约（消耗 1 张手牌抽 2）；魂能激涌（消耗：+1 能量抽 2）；虚影形态（受伤降至 1，持续 2/3 回合）；灵魂收割（16 全体 + 每击杀回 5 血）；壳击（伤害=当前格挡）；幼虫优雅（满血钉 +3）；跳蚤之巢（33 魂随机 3 连击）。
+- 新增遗物：聚虫漩涡（金币 +25%）；捕梦网（休息 +15 回血）；不碎之心（+10 最大生命）；快速聚神（聚神/深凝魂耗 33→22）；萨鲁布拉的祝福（满血回合开始 +3 魂）；引魂烛（战斗开始 +11 魂）；虚空印记（战斗开始 +2 力量）；圣巢徽章（钉击 +3 伤）。
+- 其余新卡：重击（8 伤+虚弱）；断骨重斩（14 伤+2 虚弱）；蛾翼疾闪（6 挡抽 1）；魂弹（33 魂 16 伤）；双钉连斩（5×2）；余魂（0 费 +4 魂）；魂能流转（33 魂→1 能量抽 1）；织网（全体虚弱）；回旋钉（随机 2 连击）；灵魂虹吸（伤害 + 6 魂）。
+- 修复：锋锐突袭「抽 1 张牌」自 v0.3.7 起从未生效，现已实现；神龛祝福改为打出的下一张法术后消耗，悬停提示显示实际数值。
+
+English:
+- 35 new cards and 8 new relics; the pool now holds 86 cards with all three rarity tiers at parity with the vanilla cast (21/38/27).
+- A full POISON line: Spore Breath (4 Block + 2 Poison); Venom Blade (6/9 Poison); Defender's Crest (end-of-turn AoE poison 2/3); Envenomed Nail (nail hits apply 1/2 Poison); Catalyst (multiply target's Poison x2/x3).
+- New engines: Pain Brand (wounds grant Strength); After Image (+1 Block per card played); Second Wind (exhaust all non-Attacks in hand for +5 Block each); Soul Echo (draw 1 whenever you spend SOUL); Soul Battery (+2 SOUL per turn); Raging Nail (0-cost, copies itself into the discard pile); Refinement (Innate, Exhaust — upgrade your ENTIRE deck).
+- Gold tier filled: Nail Storm (X-cost AoE, every hit gathers SOUL); Impregnable (Barricade — Block never expires); Soul Aegis (gain Block equal to your SOUL, then lose it all); Hallownest's Echo (flat 22 AoE spell); Void Feast (kills permanently grant +3 Max HP); Soul Pact (exhaust a card from hand, draw 2); Soul Rush (Exhaust: +1 Energy, draw 2); Wraith Form (all damage taken reduced to 1 for 2/3 turns); Soul Harvest (16 AoE + 5 HP per kill); Shell Slam (damage = current Block); Grubberfly's Elegance (+3 nail damage at full HP); Flukenest (33 SOUL, 3 random strikes).
+- New relics: Gathering Swarm (+25% gold); Dreamcatcher (+15 rest healing); Unbreakable Heart (+10 Max HP on pickup); Quick Focus (Focus family costs 22 SOUL); Salubra's Blessing (full HP grants 3 SOUL per turn); Soul Candle (+11 SOUL per combat); Void Brand (+2 Strength per combat); Hallownest Seal (+3 nail damage).
+- More new cards: Heavy Blow (8 damage + Weak); Bone Break (14 damage + 2 Weak); Mothwing Dash (6 Block, draw 1); Soul Bolt (33 SOUL, 16 damage); Twin Slash (5x2, both hits gather SOUL); Residual Soul (free +4 SOUL); Soul Flow (33 SOUL -> 1 Energy, draw 1); Web Spin (AoE Weak); Ricochet Nail (2 random strikes); Soul Siphon (damage + 6 SOUL); Grimmchild (embers at a random enemy each turn-end); Dreamshield (6 Block on each of the next 3 turn-starts).
+- Fixed: Sharp Assault's "draw 1 card" had never actually fired since v0.3.7 — now it does; Shrine Blessing is consumed by the next Spell played and its tooltip shows the real amount.
+
+v0.4.0（2026-09-25）同行者与回响 / Companions and Echoes
+
+中文：
+- 新增 3 张卡牌：梦之盾（稀有技能，无魂耗，消耗：在接下来的 3 回合内，每回合开始时获得 6 点格挡，升级后 8）；魂涌（普通法术：消耗 33 灵魂，造成 12 点伤害并抽 1 张牌，升级后 15）；格林之子（非普通 Power：回合结束时对随机敌人造成 4 点伤害，升级后 6）。
+- 修复：锋锐突袭的「抽 1 张牌」自此版本实现；神龛祝福现在于打出的下一张法术后消耗（与卡面文案一致），其悬停提示改为显示实际数值（此前固定显示 +4）。
+- 平衡：冲刺 7 伤/7 挡 → 8/8；深渊尖啸基础 18 → 20，每个其他存活敌人的回响加成 +4 → +5；受难之歌升级 +1 → +2（3 → 5）。
+
+English:
+- 3 new cards: Dreamshield (rare no-SOUL Skill, exhaust — 6 Block on each of the next 3 turn-starts, 8 upgraded); Soul Surge (common spell — 12 damage and draw 1, 15 upgraded); Grimmchild (uncommon Power — 4 damage to a random enemy at end of turn, 6 upgraded).
+- Fixed: Sharp Assault's card draw; Shrine Blessing consumption and tooltip.
+- Balance: Dash 8/8; Abyss Shriek 20 base and +5 per other enemy; Grubsong's Melody upgrade +2.
+
+v0.3.9（2026-09-17）流派分化 / School Split
+
+中文：
+- 新增 8 张卡牌，法术与骨钉两条流派成型。
+- 法术系：咒文蓄势（非普通 Power：本回合每打出一张技能牌，下一张法术伤害 +3，可叠加，打出法术后清空；升级后每张 +5）；魂铃（非普通 Power：每回合打出的第一张法术牌额外抽 1 张牌，升级后抽 2）；盈满之魂（稀有 Power：持有至少 66 灵魂时，法术额外 +7 伤害，升级 +10）；魂之奔流（稀有法术：消耗 33 灵魂，X 费对所有敌人造成 X×10 点伤害，升级每段 12）。
+- 骨钉系：铿鸣（非普通攻击：0 费 5 伤，升级 7）；崩壳痛击（非普通攻击：失去 3 点生命值，造成 13 点伤害，升级 18）；钉乱舞（稀有攻击：X 费造成 X×6 点伤害，每一段都产魂，升级每段 8）；甲壳回响（非普通 Power：每当你的一张牌被消耗，获得 4 点格挡，升级 6）。
+- 新增遗物受难蚀魂（非普通）：每当你的一张牌被消耗，获得 3 点灵魂——消耗系反哺存魂系。
+- 修复：蓄势待斩的升级此前不生效，现在为每技能 +3、升级后 +5；修复蓄力结算后残留至后续回合的问题；锋锐突袭的强化现在同时提升连斩奖励段；蓄能骨钉升级增加第 4 次打击。
+- 平衡：快速劈砍 1 费 → 0 费；磨刀石 2 → 3；暗影祠祝福 4 → 5（升级 +2）；蜂巢之血稀有 → 非普通；灵魂容器与钉师之耀 6 → 8。
+
+English:
+- 8 new cards; the Spell and Nail schools take shape.
+- Spells: Spellcharge, Soulbell, Full Soul, Soul Torrent.
+- Nails: Hum, Broken Vessel, Nail Flurry, Broken Shell.
+- New relic Grubsong Eater.
+- Fixed Charged Arts dead upgrade and a charge leak; Sharp Assault upgrade boosts combo; Channelled Nail adds a 4th strike.
+- Balance: Quick Slash 1→0 cost; Whetstone 2→3; Dark Shrine 4→5; Hiveblood Rare→Uncommon; Soul Vessel and Nailmaster's Glory 6→8.
+
+v0.3.8（2026-09-15）打磨与修复 / Polish and Fixes
+
+中文：傲慢印记升级真实生效（剑技抽 1/2）；国魂重做（每 33 魂钉 +2/3）；无忧旋律平衡（1/2 层安眠）；命中计数隐藏；深凝描述去重；钉气冲击卡面重绘。
+
+English: Pride's Mark upgrade works; Kingsoul redesigned; Carefree Melody balanced; hit-counter hidden; Deep Focus dedupe; Nail Shockwave face redrawn.
+
+v0.3.7（2026-09-15）卡牌体系重构 / Structure Update
+
+中文：新增 7 张卡（傲慢印记/蓄势待斩/溢魂斩/灵魂暴君/无忧旋律/受难之歌/锋锐突袭）；统一剑技产魂规则；冲刺劈砍 9×2；暗影之魂 +2 易伤；深渊尖啸 18+4/敌；深凝 +抽牌降蓝；萨满石降蓝；暗影神龛重做。
+
+English: 7 new cards; unified Sword Art SOUL rule; Dash Slash 9x2; Shade Soul +2 Vulnerable; Abyss Shriek 18+4/enemy; Deep Focus draws, now Uncommon; Shaman Stone Uncommon; Dark Shrine reworked.
+
+v0.3.6（2026-09-15）数值平衡轮 / Balance Pass
+
+中文：全面对标原版数值校准（快速劈砍 3×3；蓄能骨钉 4×3；大斩 18；旋风斩 8 全体；钉气冲击改攻击牌 8 全体；冲刺 7+7；深渊尖啸 24；暗影之魂 32；梦之钉 6）。
+
+English: Calibrated against vanilla benchmarks across the pool.
+
+v0.3.5（2026-09-14）关键修复 + 卡面升级 / Critical Fix + Card Faces
+
+中文：修复古代事件卡死（8 位古代全部有专属对话）；12 张卡面换官方贴图；新增 3 遗物（冲刺大师/蜂巢之血/生命血之心）；描述补 33 魂耗。
+
+English: Ancient soft-lock fix; 12 official-sprite card faces; 3 new relics; SOUL-cost text.
+
+v0.3.4（2026-09-13）机制校准 / Mechanics
+
+中文：钉气冲击正确吃骨钉加成；灵魂图腾重做；战斗反馈；九张卡面换官方图标。
+
+English: Nail Shockwave nail-strength; Soul Totem redesign; combat feedback; official icons.
+
+v0.3.3 / v0.3.2（2026-09-12）灵魂计数器 / SOUL Counter
+
+中文：灵魂计数器重做与修复。
+
+English: SOUL counter rework and fixes.
+
+v0.3.1（2026-09-12）构建修复 / Build Fix
+
+中文：修复工坊版构建（v0.2.1/v0.3.0 对所有玩家是坏的）。
+
+English: Fixed workshop builds (v0.2.1/v0.3.0 were broken for everyone).
+
+v0.3.0（2026-09-12）设计审计轮 / Design Audit
+
+中文：梦之钉、深凝、堕落之怒、灵魂图腾、织者之歌 + 织者之咬、血胆之茧、虚空之心、苏醒之梦。
+
+English: Dream Nail, Deep Focus, Fury of the Fallen, Soul Totem, Weaversong + Weaver's Bite, Lifeblood Cocoon, Void Heart, Awakened Dream.
+
+v0.2.1（2026-09-12）首次发布 / First Release
+
+中文：26 卡、9 Power、9 遗物，全套美术。
+
+English: First public release: 26 cards, 9 Powers, 9 relics, full art pass.
+
+----------------------------------------------------------
+致谢 / Credits
+----------------------------------------------------------
+
+Mod by the HollowKnight mod team, built with BaseLib.
+Hollow Knight is made by Team Cherry — this mod is a fan work and is not affiliated with or endorsed by Team Cherry. All referenced art remains the property of Team Cherry.

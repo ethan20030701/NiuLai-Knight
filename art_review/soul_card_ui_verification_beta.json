@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "badge_registered_on_reload": true,
+    "33_displayed": true,
+    "badge_inside_portrait": true,
+    "no_overlap_EnergyIcon": true,
+    "no_overlap_TitleLabel": true,
+    "no_overlap_TypePlaque": true,
+    "unknown_hides_cost": true,
+    "nail_art_no_soul_badge": true,
+    "modified_cost_24": true,
+    "description_matches_24": true,
+    "insufficient_soul_changes_color": true,
+    "pooled_non_soul_card_hides_cost": true,
+    "pooled_null_model_hides_cost": true
+  },
+  "failed": 0
+}

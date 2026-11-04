@@ -1,0 +1,10 @@
+{
+  "card": "CARD.HOLLOWKNIGHT-VENGEFUL_SPIRIT",
+  "soul_cost": 33,
+  "icon_opacity": 0.6,
+  "centered_number": true,
+  "opaque_number": true,
+  "preview_only": true,
+  "shared_mod_ui_modified": false,
+  "installed": false
+}

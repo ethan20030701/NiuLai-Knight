@@ -1,0 +1,82 @@
+{
+  "version": "v0.6.6-test.5",
+  "published": false,
+  "installed_locally": true,
+  "source_art": {
+    "url": "https://cdn.wikimg.net/en/hkwiki/images/6/63/Soul_Meter.png",
+    "sha256": "21f22eef6ffa51d7c03bf1203b5d90652e99b4199819d5a699f8da7b10158fce",
+    "original_bytes_preserved": true
+  },
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "sha256": "6b817f515e2c51aeb8e87f2f30602240770bf4cc75e255641fcb430c065184b0",
+      "bytes": 267264
+    },
+    {
+      "name": "HollowKnight.json",
+      "sha256": "cf0b91f796860f5f8bb59865b62e1b0aeb4712773d0c22c2478df545df3665cf",
+      "bytes": 495
+    },
+    {
+      "name": "HollowKnight.pck",
+      "sha256": "e97f412df89147dcdad9735cec17252c736e93cd2f31a2b4ee2e3828706dddb2",
+      "bytes": 89846628
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "sha256": "c4a91d92f95e4ac003fc03e854f25a1a0730e576b98ebb825ee54b131f0dcc23",
+      "bytes": 123892
+    }
+  ],
+  "runtime_ui": {
+    "stable": {
+      "checks": {
+        "badge_registered_on_reload": true,
+        "33_displayed": true,
+        "native_secondary_cost_position": true,
+        "no_overlap_portrait": true,
+        "no_overlap_TitleLabel": true,
+        "no_overlap_TypePlaque": true,
+        "no_overlap_DescriptionLabel": true,
+        "unknown_hides_cost": true,
+        "nail_art_no_soul_badge": true,
+        "modified_cost_24": true,
+        "description_matches_24": true,
+        "insufficient_soul_changes_color": true,
+        "pooled_non_soul_card_hides_cost": true,
+        "pooled_null_model_hides_cost": true
+      },
+      "failed": 0
+    },
+    "beta": {
+      "checks": {
+        "badge_registered_on_reload": true,
+        "33_displayed": true,
+        "native_secondary_cost_position": true,
+        "no_overlap_portrait": true,
+        "no_overlap_TitleLabel": true,
+        "no_overlap_TypePlaque": true,
+        "no_overlap_DescriptionLabel": true,
+        "unknown_hides_cost": true,
+        "nail_art_no_soul_badge": true,
+        "modified_cost_24": true,
+        "description_matches_24": true,
+        "insufficient_soul_changes_color": true,
+        "pooled_non_soul_card_hides_cost": true,
+        "pooled_null_model_hides_cost": true
+      },
+      "failed": 0
+    }
+  },
+  "scope": "Original main SOUL meter icon and readable normal/insufficient colors",
+  "combat_baseline": "v0.6.6-test.3; combat rules unchanged; no fresh combat suite for this UI-only change",
+  "preview": "art_review/soul_card_ui_meter_cost.png",
+  "installation": {
+    "backup": "C:\\Users\\asus\\HollowKnight\\.build\\local_install_backups\\before-v0.6.6-test.4-20261013-171403",
+    "four_file_hashes_match": true,
+    "old_version": "v0.6.6-test.4",
+    "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2\\mods\\HollowKnight",
+    "timestamp": "2026-10-13T17:14:04.5199216+08:00"
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "file": "Soul_Meter.png",
+    "asset": "Original main SOUL HUD meter from Hollow Knight",
+    "url": "https://cdn.wikimg.net/en/hkwiki/images/6/63/Soul_Meter.png",
+    "source_page": "https://hollowknight.wiki/w/Soul",
+    "author": "Team Cherry",
+    "sha256": "21f22eef6ffa51d7c03bf1203b5d90652e99b4199819d5a699f8da7b10158fce",
+    "usage": "Unmodified file copied to HollowKnight/images/charui/soul_meter.png for card SOUL costs"
+  }
+]

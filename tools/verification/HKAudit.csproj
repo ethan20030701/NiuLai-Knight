@@ -1,0 +1,12 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup><TargetFramework>net9.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles><EnableDynamicLoading>true</EnableDynamicLoading></PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="obj/**;bin/**;core/**" />
+    <Reference Include="sts2"><HintPath>../../.build/runtime-stable/data_sts2_windows_x86_64/sts2.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="GodotSharp"><HintPath>../../.build/runtime-stable/data_sts2_windows_x86_64/GodotSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>../../.build/runtime-stable/data_sts2_windows_x86_64/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BaseLib"><HintPath>../../.build/mods/BaseLib/BaseLib.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="HollowKnight"><HintPath>../../.build/mods/HollowKnight/HollowKnight.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
+

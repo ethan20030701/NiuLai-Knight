@@ -1,0 +1,16 @@
+{
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.title": "The Knight",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.titleObject": "the Knight",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.description": "A silent vessel from a fallen kingdom. Strike with your Nail to gather SOUL, then unleash powerful spells.",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.pronounObject": "it",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.possessiveAdjective": "its",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.pronounPossessive": "its",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.pronounSubject": "it",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.goldMonologue": "...",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.eventDeathPrevention": "The shell shatters, but the void within refuses to fade.",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.aromaPrinciple": "Void and old steel.",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.cardsModifierTitle": "Vessel",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.cardsModifierDescription": "Strike to gather SOUL.",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.banter.alive.endTurnPing": "...",
+    "HOLLOWKNIGHT-HOLLOW_KNIGHT.banter.dead.endTurnPing": "..."
+}

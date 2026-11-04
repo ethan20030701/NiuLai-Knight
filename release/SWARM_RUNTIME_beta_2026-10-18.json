@@ -1,0 +1,125 @@
+{
+  "failed": 0,
+  "results": [
+    {
+      "name": "OldNail: 6 damage and 11 SOUL",
+      "passed": true
+    },
+    {
+      "name": "ChannelledNail: three hits and 33 SOUL",
+      "passed": true
+    },
+    {
+      "name": "Weaver growth and three-hit command",
+      "passed": true
+    },
+    {
+      "name": "Hatchling death explosion and resurrection",
+      "passed": true
+    },
+    {
+      "name": "Grimm maturity caps at two",
+      "passed": true
+    },
+    {
+      "name": "Soul spell and card exhaust adapters",
+      "passed": true
+    },
+    {
+      "name": "Nail charge: previews and all hits, no later payout",
+      "passed": true
+    },
+    {
+      "name": "Spell charge: all three waves, then consumed",
+      "passed": true
+    },
+    {
+      "name": "Nailmaster\u0027s Glory: preview never consumes first-art bonus",
+      "passed": true
+    },
+    {
+      "name": "Abyss Shriek: single enemy gives no other-enemy bonus",
+      "passed": true
+    },
+    {
+      "name": "SOUL cost is paid and spells never gather nail SOUL",
+      "passed": true
+    },
+    {
+      "name": "Full SOUL: previews and three waves use the pre-payment balance",
+      "passed": true
+    },
+    {
+      "name": "Swarm intercept: block first, overkill reaches owner",
+      "passed": true
+    },
+    {
+      "name": "Shade Cloak: fully blocked hits preserve charge, one dodge and Sharp Shadow",
+      "passed": true
+    },
+    {
+      "name": "Carefree Melody: fatal damage leaves 1 HP and 22 block",
+      "passed": true
+    },
+    {
+      "name": "Remaining companion cards: full brood, commands, healing, sacrifice and burst",
+      "passed": true
+    },
+    {
+      "name": "Soul nourishment: real spell payment grows current and maximum companion HP",
+      "passed": true
+    },
+    {
+      "name": "Swarm starter and common enablers",
+      "passed": true
+    },
+    {
+      "name": "Empty-board Tend Brood blocks and summons; upgrade grows",
+      "passed": true
+    },
+    {
+      "name": "Weaver Volley draws and full command sequence pays off",
+      "passed": true
+    },
+    {
+      "name": "Weaver SOUL synergy is capped, turn-owned and excludes automatic attacks",
+      "passed": true
+    },
+    {
+      "name": "22/8 SOUL payments grow pets only on real cumulative thresholds",
+      "passed": true
+    },
+    {
+      "name": "Mature Grimm retains 11 automatic damage without multiplying commands",
+      "passed": true
+    },
+    {
+      "name": "Sacrifice and retained resurrection form a finite rebuild loop",
+      "passed": true
+    },
+    {
+      "name": "Brood Instinct draws once across all three Chorus summons",
+      "passed": true
+    },
+    {
+      "name": "Low SOUL summons: relic never raises costs; text follows temporary discounts",
+      "passed": true
+    },
+    {
+      "name": "Grimmchild power summons the same entity, no ghost damage after death",
+      "passed": true
+    },
+    {
+      "name": "Weaversong bridges a real companion and its existing exhaust token",
+      "passed": true
+    },
+    {
+      "name": "All card models and upgrades load",
+      "passed": true
+    },
+    {
+      "name": "Chinese card descriptions and all relic/power assets",
+      "passed": true
+    }
+  ]
+}

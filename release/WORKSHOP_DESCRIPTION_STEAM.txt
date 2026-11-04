@@ -1,0 +1,70 @@
+The Knight — Hollow Knight Character for Slay the Spire 2
+Version: v0.6.7
+
+Play as the silent vessel from Hallownest. Strike with your Nail to gather SOUL, spend it on spells and healing, and raise companions to fight beside you.
+
+Content
+- 83 card types: 80 reward cards, 2 basic types and the Weaver's Bite token.
+- Reward pool: 22 Common, 37 Uncommon and 21 Rare cards.
+- 25 exclusive relics, including the starter Soul Catcher.
+- English and Simplified Chinese, following the game's language setting.
+- Requires BaseLib v3.4.7 or newer. Subscribe to the required BaseLib item.
+
+Three connected build paths
+- Nail: multi-hit attacks, Nail strength and charged Nail Arts generate SOUL and deliver damage.
+- SOUL: bank resources for bonuses or spend them on spell bursts, healing, card draw and Energy conversion.
+- Swarm: summon companions, chain commands, grow their HP, sacrifice them for immediate rewards and rebuild.
+Defense, Exhaust and low-HP rewards support these paths. The separate Poison and permanent Block-to-damage branches have been retired.
+
+The SOUL loop
+- The starter relic grants 11 SOUL per valid Nail hit. The base SOUL cap is 99, and SOUL carries between turns.
+- Most spells cost 33 SOUL in addition to Energy. Spells and companion attacks do not trigger Nail SOUL generation.
+- Soul Nourishment separately grants limited SOUL from damaging Weaverling commands and turns actual SOUL spending into companion growth.
+
+Companion summoning
+- Weaverling, Grimmchild and Glowing Womb Hatchling have independent HP bars. Each species can have one living companion, with a 24-HP cap.
+- Repeated summoning heals and increases maximum HP. Grimmchild's base end-of-turn flame matures from 5 to 8 to 11 damage; maturity does not strengthen commands.
+- Weaverling supports multi-hit commands. Hatchlings intercept attacks first and explode on death or sacrifice.
+- Your Block absorbs attacks first; one companion then intercepts a hit, with overflow still reaching you.
+- Command sequences, HP-based attacks, sacrifice, recovery and SOUL feeding connect the 17 companion-related cards. Grimmchild and Weaversong also summon real companions.
+
+New in v0.6.7
+- Refines the published v0.6.6 pool from 104 card types / 101 reward cards to 83 types / 80 rewards. The 18-card structure pass and 3 earlier duplicate removals retire 21 cards in total.
+- Reworks companion synergies and gives new runs a 10-card deck: 4 Old Nails, 3 Shells, Weaver Nest, Focus and Vengeful Spirit.
+- Gives Channelled Nail a distinct 2-Energy charging role, lets Dark Shrine supply SOUL while defending, and rewards holding at least 66 SOUL with an extra Mothwing Dash draw.
+- Adds seven original synthesized combat sounds and hit-timed Nail, SOUL, dive and Void effects, plus Focus and guard feedback. Sound follows the game's volume controls.
+- Includes card migration, companion tooltip, SOUL-threshold text and optional audiovisual reliability fixes.
+
+Existing saves
+Retired card IDs map to current replacements, which use their own costs and effects. Soul Rush becomes Soul Flow and Void Feast becomes Soul Harvest, both with a base 33-SOUL payment. Redesigned cards also use their new effects. A new run is recommended, especially for old Poison or Barricade builds. Full balance and every old combat-save state have not been exhaustively tested.
+
+简体中文
+小骑士 — 空洞骑士角色模组，版本v0.6.7
+
+扮演来自圣巢的小骑士，用骨钉命中积攒灵魂，再用于法术、聚神与伙伴召唤。现有83种卡牌：80张奖励牌（22普通、37罕见、21稀有）、2种基础牌、1种织者之咬衍生牌，以及25件专属遗物。支持简体中文和英文。需要BaseLib v3.4.7或更新版本。
+
+三条构筑主线
+- 骨钉：利用多段命中、骨钉增伤和蓄力剑技输出并积攒灵魂。
+- 灵魂：在存魂收益与法术爆发之间取舍，用于输出、治疗、抽牌和能量转换。
+- 虫群：召唤伙伴、衔接指令、培养生命，再通过攻击、牺牲和复活兑现投入。
+防御、消耗和低血收益连接三条主线；独立中毒和永久囤积格挡转伤害路线已退出卡池。
+
+灵魂循环
+初始遗物使每次有效骨钉命中获得11灵魂，多数法术额外消耗33灵魂，基础上限99，灵魂可跨回合保留。法术和伙伴攻击不触发骨钉产魂；魂丝哺育另行提供有限的织者指令回魂，并将实际灵魂支付转化为伙伴成长。
+
+虫群召唤
+织者幼虫、格林之子和孵化小虫各有独立血条，同种最多存活一只，生命上限24。重复召唤治疗并增加最大生命；格林之子的基础回合末火焰逐步由5提升至8、11，成熟不增强指令。织者擅长多段指令，小虫优先承伤并在阵亡或牺牲时爆炸。玩家先以格挡吸收攻击，再由一只伙伴承伤，溢出伤害仍由玩家承担。17张关联牌覆盖指令、生命转输出、牺牲、回收和灵魂喂养；格林之子、织者之歌也会召唤真实伙伴。
+
+v0.6.7更新
+- 相对已发布v0.6.6，从104种卡牌/101张奖励牌收束至83种/80张奖励牌；本轮退役18张，加上此前去重3张，共21张。
+- 重做虫群配合；新开局为4旧骨钉、3甲壳、织者之巢、聚神、复仇之魂，共10张。
+- 蓄能骨钉承担2能量完整充魂的定位，暗影祠兼顾防御与补魂，蛾翼疾闪奖励持有至少66灵魂时额外抽牌。
+- 加入七种原创合成短音效及骨钉、灵魂、俯冲、虚空命中特效，补充聚神和防御反馈，音效跟随游戏音量设置。
+- 包含退役卡迁移、虫群提示、灵魂阈值文字及可选音画功能的稳定性修正。
+
+旧存档说明
+退役卡会映射为现役替代卡，并采用替代卡的费用和效果。例如魂能激涌改为魂能流转、虚空吞噬改为灵魂收割，均引入基础33灵魂付款；重做卡也会使用新效果。建议新开一局体验，尤其是原中毒、壁垒构筑。完整强度与所有旧战斗存档恢复尚未穷尽验证。
+
+Credits / 致谢
+Hollow Knight and its original artwork belong to Team Cherry. This is a fan-made character mod. Original companion, charm and SOUL assets were collected from hollowknight.wiki; additional card art, procedural combat sounds and effects were created for this mod. The Hornet mod informed study of build structure and combat feedback; its code and media are not included.
+《空洞骑士》及其原作美术归Team Cherry所有。本作是同人角色模组。伙伴、护符与灵魂原作素材来自hollowknight.wiki；其他卡图、程序合成音效和特效为本模组制作。构筑与战斗反馈参考了对大黄蜂模组的研究，未打包其代码或媒体。

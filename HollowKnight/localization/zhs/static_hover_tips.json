@@ -1,0 +1,10 @@
+{
+  "HOLLOWKNIGHT-NAIL_ART.title": "剑技（骨钉技艺）",
+  "HOLLOWKNIGHT-NAIL_ART.description": "强力劈砍、旋风劈砍与冲刺劈砍，是原作的三种蓄力骨钉技艺。本模组中打出即可释放；受到蓄势待斩、傲慢印记与骨钉大师的荣耀的加成。",
+  "HOLLOWKNIGHT-SOUL.title": "灵魂",
+  "HOLLOWKNIGHT-SOUL.description": "通过骨钉命中与损失生命聚集；法术与聚神消耗灵魂。每场战斗开始时清空。",
+  "HOLLOWKNIGHT-SWARM.title": "虫群召唤",
+  "HOLLOWKNIGHT-SWARM.description": "每种伙伴最多一只，生命上限 24。重复召唤增加当前与最大生命，封顶后仍能回血。伙伴替你承受未格挡的敌方攻击，单次溢出由你承受。伙伴不继承骨钉力量或自动产魂；魂丝哺育可让织者指令有限回魂。格林成长只增强回合末火焰。",
+  "HOLLOWKNIGHT-SWARM_COMMAND.title": "伙伴指令",
+  "HOLLOWKNIGHT-SWARM_COMMAND.description": "每次指令攻击计一次连击，多段逐段计数，群体攻击只计一次。回合末自动攻击不计入指令；连击数在你的回合开始时重置。"
+}

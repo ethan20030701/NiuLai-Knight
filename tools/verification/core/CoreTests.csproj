@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../Local.props" Condition="Exists('../Local.props')" />
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <GameDir Condition="'$(GameDir)' == ''">$(MSBuildProgramFiles32)\Steam\steamapps\common\Slay the Spire 2</GameDir>
+    <GameDataDir>$(GameDir)\data_sts2_windows_x86_64</GameDataDir>
+    <BaseLibPath Condition="'$(BaseLibPath)' == ''">$(GameDir)\..\..\workshop\content\2868840\3737335127\BaseLib\BaseLib.dll</BaseLibPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HollowKnight"><HintPath>../../../.build/mods/HollowKnight/HollowKnight.dll</HintPath></Reference>
+    <Reference Include="sts2"><HintPath>$(GameDataDir)\sts2.dll</HintPath></Reference>
+    <Reference Include="GodotSharp"><HintPath>$(GameDataDir)\GodotSharp.dll</HintPath></Reference>
+    <Reference Include="BaseLib"><HintPath>$(BaseLibPath)</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameDataDir)\0Harmony.dll</HintPath></Reference>
+    <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+      <_Parameter1>GameDataDir</_Parameter1><_Parameter2>$(GameDataDir)</_Parameter2>
+    </AssemblyAttribute>
+  </ItemGroup>
+</Project>

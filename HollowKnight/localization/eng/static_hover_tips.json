@@ -1,0 +1,10 @@
+{
+  "HOLLOWKNIGHT-NAIL_ART.title": "Nail Art",
+  "HOLLOWKNIGHT-NAIL_ART.description": "Great Slash, Cyclone Slash and Dash Slash are the three charged Nail techniques. Playing one releases it immediately. Charged Arts, Pride's Mark and Nailmaster's Glory enhance Nail Arts.",
+  "HOLLOWKNIGHT-SOUL.title": "SOUL",
+  "HOLLOWKNIGHT-SOUL.description": "Gathered by Nail strikes and by losing HP. Spells and Focus spend it. The vessel empties between battles.",
+  "HOLLOWKNIGHT-SWARM.title": "Companion Summons",
+  "HOLLOWKNIGHT-SWARM.description": "One living companion of each species, up to 24 HP each. Repeated summons add current and maximum HP; at the cap they still heal. Companions intercept unblocked enemy attacks; overflow hits you. They do not inherit nail strength or naturally gain SOUL. Soul Nourishment enables capped Weaverling command SOUL gain. Maturity only boosts the end-of-turn flame.",
+  "HOLLOWKNIGHT-SWARM_COMMAND.title": "Companion Commands",
+  "HOLLOWKNIGHT-SWARM_COMMAND.description": "Each directed strike counts once for command combos. Multi-hit commands count each strike; area commands count once. Automatic turn-end attacks do not count. The count resets at the start of your turn."
+}

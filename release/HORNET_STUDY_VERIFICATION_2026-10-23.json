@@ -1,0 +1,710 @@
+{
+  "version": "v0.6.7-hornet-study.1",
+  "published": false,
+  "installed_locally": false,
+  "source_baseline": ".build/backups/before-hornet-study-20261023.zip",
+  "scope": "10-card starter, three reward-card revisions, seven original SFX, six procedural VFX styles; retains prior swarm candidate",
+  "files": [
+    {
+      "name": "HollowKnight.dll",
+      "bytes": 285696,
+      "sha256": "cd1c8bc3193615cf933f6c29f6c9660346d537518670d06446312a0e8ccb81db"
+    },
+    {
+      "name": "HollowKnight.pdb",
+      "bytes": 140536,
+      "sha256": "89d67696b87bbabb4ce582052f5893f5b862bbf6234f9f77ffba66f990aa5198"
+    },
+    {
+      "name": "HollowKnight.pck",
+      "bytes": 90039848,
+      "sha256": "3e4f42841e04071e9cdaafe0586399864313013daa2c455f0dcd665b1fd43efd"
+    },
+    {
+      "name": "HollowKnight.json",
+      "bytes": 503,
+      "sha256": "8ea9eafe1f01145473c149115677d677d36f8a0fc4c7820f30e13b32550e3c47"
+    }
+  ],
+  "archive": "release/candidates/HollowKnight-v0.6.7-hornet-study.1.zip",
+  "archive_sha256": "5ed68c491c95a6e71d571cf126e081d4c42a1e884c9080a9f845216e3b21e6cb",
+  "runtime": {
+    "stable": {
+      "combat": {
+        "failed": 0,
+        "results": [
+          {
+            "name": "OldNail: 6 damage and 11 SOUL",
+            "passed": true
+          },
+          {
+            "name": "ChannelledNail: two energy, three hits, 15/18 damage and 33 SOUL",
+            "passed": true
+          },
+          {
+            "name": "Mothwing Dash: 0/65/66/99 SOUL draw boundary, unchanged by upgrade and no payment",
+            "passed": true
+          },
+          {
+            "name": "Dark Shrine: 22 to 33 SOUL unlocks Soul Bolt, blessing pays once and SOUL caps at 99",
+            "passed": true
+          },
+          {
+            "name": "Weaver growth and three-hit command",
+            "passed": true
+          },
+          {
+            "name": "Hatchling death explosion and resurrection",
+            "passed": true
+          },
+          {
+            "name": "Grimm maturity caps at two",
+            "passed": true
+          },
+          {
+            "name": "Soul spell and card exhaust adapters",
+            "passed": true
+          },
+          {
+            "name": "Nail charge: previews and all hits, no later payout",
+            "passed": true
+          },
+          {
+            "name": "Spell charge: all three waves, then consumed",
+            "passed": true
+          },
+          {
+            "name": "Nailmaster's Glory: preview never consumes first-art bonus",
+            "passed": true
+          },
+          {
+            "name": "Abyss Shriek: single enemy gives no other-enemy bonus",
+            "passed": true
+          },
+          {
+            "name": "SOUL cost is paid and spells never gather nail SOUL",
+            "passed": true
+          },
+          {
+            "name": "Full SOUL: previews and three waves use the pre-payment balance",
+            "passed": true
+          },
+          {
+            "name": "Swarm intercept: block first, overkill reaches owner",
+            "passed": true
+          },
+          {
+            "name": "Shade Cloak: fully blocked hits preserve charge, one dodge and Sharp Shadow",
+            "passed": true
+          },
+          {
+            "name": "Carefree Melody: fatal damage leaves 1 HP and 22 block",
+            "passed": true
+          },
+          {
+            "name": "Remaining companion cards: full brood, commands, healing, sacrifice and burst",
+            "passed": true
+          },
+          {
+            "name": "Soul nourishment: real spell payment grows current and maximum companion HP",
+            "passed": true
+          },
+          {
+            "name": "Swarm starter and common enablers",
+            "passed": true
+          },
+          {
+            "name": "Empty-board Tend Brood blocks and summons; upgrade grows",
+            "passed": true
+          },
+          {
+            "name": "Weaver Volley draws and full command sequence pays off",
+            "passed": true
+          },
+          {
+            "name": "Weaver SOUL synergy is capped, turn-owned and excludes automatic attacks",
+            "passed": true
+          },
+          {
+            "name": "22/8 SOUL payments grow pets only on real cumulative thresholds",
+            "passed": true
+          },
+          {
+            "name": "Mature Grimm retains 11 automatic damage without multiplying commands",
+            "passed": true
+          },
+          {
+            "name": "Sacrifice and retained resurrection form a finite rebuild loop",
+            "passed": true
+          },
+          {
+            "name": "Brood Instinct draws once across all three Chorus summons",
+            "passed": true
+          },
+          {
+            "name": "Low SOUL summons: relic never raises costs; text follows temporary discounts",
+            "passed": true
+          },
+          {
+            "name": "Grimmchild power summons the same entity, no ghost damage after death",
+            "passed": true
+          },
+          {
+            "name": "Weaversong bridges a real companion and its existing exhaust token",
+            "passed": true
+          },
+          {
+            "name": "All card models and upgrades load",
+            "passed": true
+          },
+          {
+            "name": "Chinese card descriptions and all relic/power assets",
+            "passed": true
+          }
+        ]
+      },
+      "api": {
+        "assembly": "HollowKnight.dll",
+        "checkedMembers": 308,
+        "missing": []
+      },
+      "dll_sha256": "cd1c8bc3193615cf933f6c29f6c9660346d537518670d06446312a0e8ccb81db"
+    },
+    "beta": {
+      "combat": {
+        "failed": 0,
+        "results": [
+          {
+            "name": "OldNail: 6 damage and 11 SOUL",
+            "passed": true
+          },
+          {
+            "name": "ChannelledNail: two energy, three hits, 15/18 damage and 33 SOUL",
+            "passed": true
+          },
+          {
+            "name": "Mothwing Dash: 0/65/66/99 SOUL draw boundary, unchanged by upgrade and no payment",
+            "passed": true
+          },
+          {
+            "name": "Dark Shrine: 22 to 33 SOUL unlocks Soul Bolt, blessing pays once and SOUL caps at 99",
+            "passed": true
+          },
+          {
+            "name": "Weaver growth and three-hit command",
+            "passed": true
+          },
+          {
+            "name": "Hatchling death explosion and resurrection",
+            "passed": true
+          },
+          {
+            "name": "Grimm maturity caps at two",
+            "passed": true
+          },
+          {
+            "name": "Soul spell and card exhaust adapters",
+            "passed": true
+          },
+          {
+            "name": "Nail charge: previews and all hits, no later payout",
+            "passed": true
+          },
+          {
+            "name": "Spell charge: all three waves, then consumed",
+            "passed": true
+          },
+          {
+            "name": "Nailmaster's Glory: preview never consumes first-art bonus",
+            "passed": true
+          },
+          {
+            "name": "Abyss Shriek: single enemy gives no other-enemy bonus",
+            "passed": true
+          },
+          {
+            "name": "SOUL cost is paid and spells never gather nail SOUL",
+            "passed": true
+          },
+          {
+            "name": "Full SOUL: previews and three waves use the pre-payment balance",
+            "passed": true
+          },
+          {
+            "name": "Swarm intercept: block first, overkill reaches owner",
+            "passed": true
+          },
+          {
+            "name": "Shade Cloak: fully blocked hits preserve charge, one dodge and Sharp Shadow",
+            "passed": true
+          },
+          {
+            "name": "Carefree Melody: fatal damage leaves 1 HP and 22 block",
+            "passed": true
+          },
+          {
+            "name": "Remaining companion cards: full brood, commands, healing, sacrifice and burst",
+            "passed": true
+          },
+          {
+            "name": "Soul nourishment: real spell payment grows current and maximum companion HP",
+            "passed": true
+          },
+          {
+            "name": "Swarm starter and common enablers",
+            "passed": true
+          },
+          {
+            "name": "Empty-board Tend Brood blocks and summons; upgrade grows",
+            "passed": true
+          },
+          {
+            "name": "Weaver Volley draws and full command sequence pays off",
+            "passed": true
+          },
+          {
+            "name": "Weaver SOUL synergy is capped, turn-owned and excludes automatic attacks",
+            "passed": true
+          },
+          {
+            "name": "22/8 SOUL payments grow pets only on real cumulative thresholds",
+            "passed": true
+          },
+          {
+            "name": "Mature Grimm retains 11 automatic damage without multiplying commands",
+            "passed": true
+          },
+          {
+            "name": "Sacrifice and retained resurrection form a finite rebuild loop",
+            "passed": true
+          },
+          {
+            "name": "Brood Instinct draws once across all three Chorus summons",
+            "passed": true
+          },
+          {
+            "name": "Low SOUL summons: relic never raises costs; text follows temporary discounts",
+            "passed": true
+          },
+          {
+            "name": "Grimmchild power summons the same entity, no ghost damage after death",
+            "passed": true
+          },
+          {
+            "name": "Weaversong bridges a real companion and its existing exhaust token",
+            "passed": true
+          },
+          {
+            "name": "All card models and upgrades load",
+            "passed": true
+          },
+          {
+            "name": "Chinese card descriptions and all relic/power assets",
+            "passed": true
+          }
+        ]
+      },
+      "api": {
+        "assembly": "HollowKnight.dll",
+        "checkedMembers": 308,
+        "missing": []
+      },
+      "dll_sha256": "cd1c8bc3193615cf933f6c29f6c9660346d537518670d06446312a0e8ccb81db"
+    }
+  },
+  "core": {
+    "passed": true,
+    "checkCount": 53,
+    "retainedCoreGroups": 32,
+    "newBalanceGroups": 21,
+    "assertionCount": 261,
+    "failedCount": 0,
+    "assemblyPath": "C:\\Users\\asus\\HollowKnight\\tools\\verification\\core\\bin\\Release\\net9.0\\HollowKnight.dll",
+    "assemblySha256": "cd1c8bc3193615cf933f6c29f6c9660346d537518670d06446312a0e8ccb81db",
+    "mode": "Real mod/game/BaseLib DLL methods; synthetic managed state; no game scene or player save",
+    "engineBoundary": "Godot OS/log printing are stubbed for one clamp check. Godot.StringName construction and ModelDb/content registration are bypassed for managed fixtures. AttackCommand.Execute, CardPileCmd.Draw, PowerCmd.Remove, CreatureCmd.GainBlock and PlayerCmd.AddPet scene creation are captured at command execution boundaries; complete damage/block/scene effects are not exercised. CreatureCmd HP commands, resource spending, canonical/upgraded card data and mod formulas are real.",
+    "checks": [
+      {
+        "name": "shade.preview_repeated_is_pure",
+        "passed": true
+      },
+      {
+        "name": "shade.blocked_and_nonhostile_preview_preserve_state",
+        "passed": true
+      },
+      {
+        "name": "shade.actual_modifier_notification_marks_once",
+        "passed": true
+      },
+      {
+        "name": "shrine.preview_matches_real_play",
+        "passed": true
+      },
+      {
+        "name": "shrine.only_owner_powered_spell_damage",
+        "passed": true
+      },
+      {
+        "name": "compat.current_play_isolated_and_order_safe",
+        "passed": true
+      },
+      {
+        "name": "compat.real_game_six_argument_hook_dispatch",
+        "passed": true
+      },
+      {
+        "name": "soul.bounds_turn_carry_and_combat_reset",
+        "passed": true
+      },
+      {
+        "name": "soul.affordability_uses_actual_amount",
+        "passed": true
+      },
+      {
+        "name": "soul.manual_spend_is_per_play_and_combines_base_record",
+        "passed": true
+      },
+      {
+        "name": "nail.hit_classification_excludes_spells_unpowered_and_pets",
+        "passed": true
+      },
+      {
+        "name": "soul.automatic_receipt_consumed_once_and_replay_is_free",
+        "passed": true
+      },
+      {
+        "name": "soul.free_autoplay_ignores_stale_baselib_spend",
+        "passed": true
+      },
+      {
+        "name": "soul.prepaid_autoplay_keeps_real_receipt",
+        "passed": true
+      },
+      {
+        "name": "soul.manual_payment_atomic_and_records_actual_balance",
+        "passed": true
+      },
+      {
+        "name": "soul.totem_insufficient_soul_does_not_grant_energy_or_record_spend",
+        "passed": true
+      },
+      {
+        "name": "soul.unbound_insufficient_replay_does_not_attack_or_spend",
+        "passed": true
+      },
+      {
+        "name": "swarm.guard_priority_skips_dead_companions",
+        "passed": true
+      },
+      {
+        "name": "swarm.guard_excludes_blocked_allied_and_unpowered_damage",
+        "passed": true
+      },
+      {
+        "name": "soul.real_spend_override_records_payment_and_optional_failure",
+        "passed": true
+      },
+      {
+        "name": "soul.real_spend_nonoptional_insufficient_records_actual_amount",
+        "passed": true
+      },
+      {
+        "name": "soul.payment_prefix_binds_before_model_hooks",
+        "passed": true
+      },
+      {
+        "name": "soul.payment_cleanup_clears_success_fault_and_cancellation",
+        "passed": true
+      },
+      {
+        "name": "full_soul_free_replay_does_not_reconstruct_phantom_full_meter",
+        "passed": true
+      },
+      {
+        "name": "full_soul_real_payment_preserves_pre_spend_threshold",
+        "passed": true
+      },
+      {
+        "name": "soul.pending_payment_cannot_cross_combat_states",
+        "passed": true
+      },
+      {
+        "name": "soul.same_card_nested_free_play_cannot_steal_outer_receipt",
+        "passed": true
+      },
+      {
+        "name": "soul.same_card_nested_paid_play_has_own_receipt",
+        "passed": true
+      },
+      {
+        "name": "soul.async_continuation_retains_reserved_scope_after_caller_restore",
+        "passed": true
+      },
+      {
+        "name": "full_soul_payment_snapshot_excludes_soul_generated_by_payment_hooks",
+        "passed": true
+      },
+      {
+        "name": "soul.real_harmony_payment_patch_targets_install",
+        "passed": true
+      },
+      {
+        "name": "soul.wrapper_postfix_and_finalizer_restore_scope_idempotently",
+        "passed": true
+      },
+      {
+        "name": "balance.focus_and_deepfocus_real_constructor_upgrade_data",
+        "passed": true
+      },
+      {
+        "name": "balance.strength_and_cost_changes_use_real_upgrade_methods",
+        "passed": true
+      },
+      {
+        "name": "balance.darkshrine_actual_canonical_and_upgrade_values",
+        "passed": true
+      },
+      {
+        "name": "balance.coiled_adds_one_hit_and_never_creates_zero_hit_attack",
+        "passed": true
+      },
+      {
+        "name": "balance.sharpened_zero_hit_does_not_consume_first_attack_bonus",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_aegis_block_floor_and_card_classification",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_aegis_actual_onplay_converts_half_soul_and_records_full_payment",
+        "passed": true
+      },
+      {
+        "name": "balance.silken_aegis_uses_actual_variables_and_caps_base_block",
+        "passed": true
+      },
+      {
+        "name": "balance.companion_growth_cap_heals_even_when_maxed",
+        "passed": true
+      },
+      {
+        "name": "balance.companion_grow_executes_real_creature_hp_commands",
+        "passed": true
+      },
+      {
+        "name": "balance.initial_summon_clamps_hp_and_repeated_summon_grows_same_pet",
+        "passed": true
+      },
+      {
+        "name": "balance.attack_spell_classification_preserves_resource_skill_identity",
+        "passed": true
+      },
+      {
+        "name": "balance.spellcharge_resource_skills_keep_charges_and_attack_uses_snapshot",
+        "passed": true
+      },
+      {
+        "name": "balance.shrine_survives_resource_skills_and_consumes_attack_spell",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_nourishment_still_rewards_real_skill_resource_payment",
+        "passed": true
+      },
+      {
+        "name": "balance.channelled_nail_real_onplay_costs_two_energy_and_keeps_three_hits",
+        "passed": true
+      },
+      {
+        "name": "balance.mothwing_real_onplay_0_65_66_99_soul_boundary_and_upgrade",
+        "passed": true
+      },
+      {
+        "name": "balance.mothwing_snapshots_soul_before_block_listeners",
+        "passed": true
+      },
+      {
+        "name": "balance.quickslash_real_onplay_builds_one_hit_4_or_6_damage",
+        "passed": true
+      },
+      {
+        "name": "balance.soul_unbound_actual_preview_and_command_share_charge_formula",
+        "passed": true
+      },
+      {
+        "name": "balance.sharp_assault_actual_preview_and_command_share_hit_threshold",
+        "passed": true
+      }
+    ]
+  },
+  "native_media_ui": {
+    "failed": 0,
+    "checks": {
+      "HOLLOWKNIGHT-SOUL_BOLT.text_fits": true,
+      "HOLLOWKNIGHT-SOUL_BOLT.variables_resolved": true,
+      "HOLLOWKNIGHT-SOUL_BOLT.soul_cost_33": true,
+      "HOLLOWKNIGHT-CHANNELLED_NAIL.text_fits": true,
+      "HOLLOWKNIGHT-CHANNELLED_NAIL.variables_resolved": true,
+      "HOLLOWKNIGHT-DARK_SHRINE.text_fits": true,
+      "HOLLOWKNIGHT-DARK_SHRINE.variables_resolved": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH.text_fits": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH.variables_resolved": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH.threshold_visible": true,
+      "render.0.image": true,
+      "effects.0.all_freed": true,
+      "HOLLOWKNIGHT-SOUL_BOLT+.text_fits": true,
+      "HOLLOWKNIGHT-SOUL_BOLT+.variables_resolved": true,
+      "HOLLOWKNIGHT-SOUL_BOLT+.soul_cost_33": true,
+      "HOLLOWKNIGHT-CHANNELLED_NAIL+.text_fits": true,
+      "HOLLOWKNIGHT-CHANNELLED_NAIL+.variables_resolved": true,
+      "HOLLOWKNIGHT-DARK_SHRINE+.text_fits": true,
+      "HOLLOWKNIGHT-DARK_SHRINE+.variables_resolved": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH+.text_fits": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH+.variables_resolved": true,
+      "HOLLOWKNIGHT-MOTHWING_DASH+.threshold_visible": true,
+      "render.1.image": true,
+      "effects.1.all_freed": true,
+      "audio.nail.decoded": true,
+      "audio.soul.decoded": true,
+      "audio.guard.decoded": true,
+      "audio.focus.decoded": true,
+      "audio.hurt.decoded": true,
+      "audio.void.decoded": true,
+      "audio.power.decoded": true,
+      "audio.test_mode_muted": true,
+      "audio.same_kind_throttled": true,
+      "audio.high_priority_interrupts": true,
+      "audio.expired_priority_window": true,
+      "audio.no_inherited_combat_voices": true,
+      "audio.marker_filtered_on_both_overloads": true,
+      "audio.filter_leaves_other_events": true,
+      "audio.one_player_per_owner": true,
+      "audio.native_playback_uses_sfx": true,
+      "audio.stop_is_owner_scoped": true,
+      "audio.owner_frees_player": true,
+      "death.first_sequence_completes": true,
+      "death.replay_hides_living_body": true
+    },
+    "note": "Native rendering/decoding and muted playback lifecycle. Lifecycle fixture forces the settings gate open; actual live volume/focus controls, human listening and network co-op remain untested."
+  },
+  "assets": {
+    "decoded_texture_checks": 228,
+    "localization_files": 10,
+    "audio": [
+      {
+        "file": "knight_nail.wav",
+        "bytes": 14156,
+        "sha256": "89a35af0707ba7fd9c4128a58490a2d383971b5bd29e7d68ee48a3aeec3ccc38"
+      },
+      {
+        "file": "knight_soul.wav",
+        "bytes": 26504,
+        "sha256": "c57bc7ac5983ab598c39a00e7f0cbab4ec4d2ed6f057cface15c5843a633381d"
+      },
+      {
+        "file": "knight_guard.wav",
+        "bytes": 15920,
+        "sha256": "c16d47d8be1060b78884b5e04f3feb870b6dc750ee4075240ba9b26dcd1069a2"
+      },
+      {
+        "file": "knight_focus.wav",
+        "bytes": 42380,
+        "sha256": "bf815760a76640a7be48a7b6a0c997cc64c1266f887fc20c17346bfd2706ab49"
+      },
+      {
+        "file": "knight_hurt.wav",
+        "bytes": 21212,
+        "sha256": "731a5db118eb99c20969d382e74e9181edcc9b4a67cea75a779d27b6453b3065"
+      },
+      {
+        "file": "knight_void.wav",
+        "bytes": 37088,
+        "sha256": "a78a46a1d9c5269d3d183f79fb7855ffcba1ce1c0a42e078363379fc12b2625c"
+      },
+      {
+        "file": "knight_power.wav",
+        "bytes": 30032,
+        "sha256": "036892dc9444671d3a62fb7c7a9dc307ce251a695dc65071c114121465808874"
+      }
+    ],
+    "passed": true
+  },
+  "screenshots": [
+    "art_review/hornet_study.png",
+    "art_review/hornet_study_upgraded.png"
+  ],
+  "manual_visual_review": "Native Chinese normal and upgraded cards inspected; descriptions fit, 33-SOUL badge and 66-SOUL condition legible.",
+  "limitations": [
+    "No full human run/win-rate measurement",
+    "No human listening or live volume/focus UI test",
+    "No real network multiplayer or mid-combat save migration test",
+    "Muted audio lifecycle fixture forces the settings gate open; does not prove live settings behavior"
+  ],
+  "changes_since_turn_start": [
+    {
+      "path": "HollowKnight.json",
+      "before_sha256": "169c40a7231c23a4abc04956ca9a14ca6ca2d788f3e240e7cdb4209a120289ac",
+      "after_sha256": "8ea9eafe1f01145473c149115677d677d36f8a0fc4c7820f30e13b32550e3c47"
+    },
+    {
+      "path": "HollowKnight/localization/eng/cards.json",
+      "before_sha256": "17b49dbeb6f954eb3fd5f0fca732d9c045134f52e17a9c5fb5872d8319251c1a",
+      "after_sha256": "6f58bd39bd9d31b2068f35af1beea03b427a8aaed0c73efedb2114b9970d5a5b"
+    },
+    {
+      "path": "HollowKnight/localization/zhs/cards.json",
+      "before_sha256": "361b6c548a1a56c56cf6e97000d7784442d8afb522dd4011bc7a4a5382a2456d",
+      "after_sha256": "9b2512d1091d1970933b32d6124b57362fc0302db2e66f5bd8d1b025f620aa09"
+    },
+    {
+      "path": "HollowKnightCode/Cards/ChannelledNail.cs",
+      "before_sha256": "b924f62beec0cdd24fd06e6e46717029fb727a03e7796428f1a4ff6829f02793",
+      "after_sha256": "a46e6fb42ead2a9b68ace95a7ffaccb91bef1a92f3aeff00bfa9023255813a18"
+    },
+    {
+      "path": "HollowKnightCode/Cards/DarkShrine.cs",
+      "before_sha256": "4243c04e978124961c5790cde6000259f0715c8b6c775b22fe878ee16559a802",
+      "after_sha256": "ee5cdf72300f04d8280080cf0be2bfb110a613ccdef511fc7a303e6fc1c1b3f7"
+    },
+    {
+      "path": "HollowKnightCode/Cards/HollowKnightCard.cs",
+      "before_sha256": "3b2794d29e1a320fd3e50c39ee569873b9914b71b827a3ef719b585767802845",
+      "after_sha256": "823aff9774ff9014ba629553553b7c0e4b2881b57bf66aa13eb71a84c25e43cb"
+    },
+    {
+      "path": "HollowKnightCode/Cards/MothwingDash.cs",
+      "before_sha256": "38ffbff306348e416c229f91ec89953e418a6b9af54e4621236eefc418ed9e85",
+      "after_sha256": "f4081c6f8eb9d010643cb18115aa5d0dae5bffc71392903da9004cfd0918f0ae"
+    },
+    {
+      "path": "HollowKnightCode/Character/HollowKnight.cs",
+      "before_sha256": "73c0a54d4b7828c5229755fa55ebd8842bd932696d2d843de8a24f8fb8ea124c",
+      "after_sha256": "daad4333f6f3c22f4dda4d2d9d103ffee202ced4548cc7fd63e2712444a278fa"
+    },
+    {
+      "path": "HollowKnightCode/Character/KnightFeedback.cs",
+      "before_sha256": "83da6d49f9585b1b6937ce98d3740b9c9e13a9833bed24a3942c0ca65e93fe4b",
+      "after_sha256": "d017a74e780adf495c2aadccf78333e8b71b388292d906cfb69b10bf133276dc"
+    },
+    {
+      "path": "HollowKnightCode/Patches/KnightCombatAnimationPatch.cs",
+      "before_sha256": "e31b9c68d7820e4cf9e8aa2b1b4956fb5f98989dda6dd7de3913d8dfd348c4ea",
+      "after_sha256": "85b892f34f7d95c3f8c3cbca45407b0973b9c85f9745935e39e55708cfe6724b"
+    }
+  ],
+  "added_business_files": [
+    "HollowKnightCode/Character/KnightAudio.cs",
+    "HollowKnightCode/Character/KnightImpact.cs",
+    "HollowKnightCode/Patches/KnightInheritedAudioPatch.cs",
+    "HollowKnight/audio/knight_focus.wav",
+    "HollowKnight/audio/knight_guard.wav",
+    "HollowKnight/audio/knight_hurt.wav",
+    "HollowKnight/audio/knight_nail.wav",
+    "HollowKnight/audio/knight_power.wav",
+    "HollowKnight/audio/knight_soul.wav",
+    "HollowKnight/audio/knight_void.wav",
+    "HollowKnight/audio/manifest.json",
+    "HollowKnight/audio/SOURCES.md"
+  ]
+}

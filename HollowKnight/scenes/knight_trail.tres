@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://src/Core/Nodes/Vfx/NCardTrailVfx.cs" id="1_trail"]
+
+[sub_resource type="Gradient" id="Gradient_trail"]
+offsets = PackedFloat32Array(0, 0.55, 1)
+colors = PackedColorArray(0.92, 0.96, 1, 0.9, 0.75, 0.86, 1, 0.45, 0.75, 0.86, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradTex_trail"]
+gradient = SubResource("Gradient_trail")
+width = 32
+height = 32
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.5, 0)
+
+[node name="KnightCardTrail" type="Node2D"]
+script = ExtResource("1_trail")
+
+[node name="Sprites" type="Node2D" parent="."]
+
+[node name="Wisps" type="CPUParticles2D" parent="Sprites"]
+emitting = true
+amount = 26
+lifetime = 0.7
+texture = SubResource("GradTex_trail")
+emission_shape = 1
+sphere_radius = 8.0
+direction = Vector2(0, -1)
+spread = 80.0
+gravity = Vector2(0, 0)
+initial_velocity_min = 6.0
+initial_velocity_max = 26.0
+scale_amount_min = 0.25
+scale_amount_max = 0.75
+color = Color(0.85, 0.92, 1, 0.8)
